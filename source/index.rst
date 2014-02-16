@@ -34,7 +34,13 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 Autores
 =======
 
-* ...
+* |alediator|
+* |jsanz|
+* |jsitjar|
+* |delawen|
+* |moiarcsan|
+* |rantolin|
+* |shiguera|
 
 Índices y cuadros
 ==================

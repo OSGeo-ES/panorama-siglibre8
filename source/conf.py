@@ -283,3 +283,22 @@ epub_copyright = u'2014, OSGeo-es'
 
 # Allow duplicate toc entries.
 #epub_tocdup = True
+
+
+rst_prolog = u"""
+.. |delawen|   replace:: María Arias `@delawen`_
+.. |jsanz|     replace:: Jorge Sanz `@xurxosanz`_
+.. |moiarcsan| replace:: Moisés Arcos `@moiarcsan`_
+.. |alediator| replace:: Alejandro Díaz `@alediator`_
+.. |rantolin|  replace:: Roberto Antolín `@Tolanss`_
+.. |shiguera|  replace:: Santiago Higuera `@santiagohiguera`_
+.. |jsitjar|   replace:: Josep Sitjar `@JosepSitjar`_
+
+.. _@delawen:   http://twitter.com/delawen
+.. _@xurxosanz: http://twitter.com/xurxosanz
+.. _@moiarcsan: http://twitter.com/moiarcsan
+.. _@alediator: http://twitter.com/alediator
+.. _@Tolanss:   http://twitter.com/Tolanss>
+.. _@santiagohiguera: http://twitter.com/santiagohiguera
+.. _@JosepSitjar: http://twitter.com/JosepSitjar
+"""
