@@ -12,7 +12,7 @@ Aunque a día de hoy existen bases de datos NoSQL que también empiezan a soport
 Puntos calientes
 ------------------
 
-El Open Geospatial Consortium (OGC) creó la especificación de características simples y establece normas para la adición de la funcionalidad espacial a los sistemas de bases de datos. También llamada norma ISO 19125, se presenta en dos partes: 
+El Open Geospatial Consortium (OGC) ha desarrollado el estándar Simple Feature y establece normas para las funcionalidades espaciales de los sistemas de bases de datos. También llamada norma ISO 19125, se presenta en dos partes: 
 
 La primera parte, la norma ISO 19125-1 (SFA-CA para la "arquitectura común"), define un modelo de características simples de dos dimensiones, con interpolación lineal entre vértices. El modelo de datos definido en SFA-CA es una jerarquía de clases. Esta parte también define la representación utilizando WKT (well known text) y WKB (well known binary). Este tipo de datos contiene no sólo las coordenadas del objeto a representar, sino que también contiene referencias a la proyección utilizada y otras características que pudieran resultar de interés a la hora de operar con dichas geometrías.
 
