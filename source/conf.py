@@ -25,7 +25,7 @@ import sys, os
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.todo', 'sphinx.ext.ifconfig']
+extensions = ['sphinx.ext.todo', 'sphinx.ext.ifconfig','sphinx.ext.extlinks']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -302,3 +302,11 @@ rst_prolog = u"""
 .. _@santiagohiguera: http://twitter.com/santiagohiguera
 .. _@JosepSitjar: http://twitter.com/JosepSitjar
 """
+
+# - Define external links shortcuts
+extlinks = {
+  'issue': ('https://github.com/OSGeo-ES/panorama-siglibre8/issues/%s', 'issue ')
+  }
+
+
+todo_include_todos=True

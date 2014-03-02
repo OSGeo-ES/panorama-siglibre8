@@ -9,7 +9,7 @@ Panorama del SIG Libre
 Contenidos:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    introduccion.rst
    servidores/index.rst
@@ -23,6 +23,8 @@ Contenidos:
 
 Acerca de este documento
 ========================
+
+.. todo:: Escribir una introducción, explicando la motivación y metodología :issue:`11`
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -47,4 +49,9 @@ Autores
 
 * :ref:`genindex`
 * :ref:`search`
+
+Cosas pendientes
+=====================
+
+.. todolist::
 
