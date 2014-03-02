@@ -24,7 +24,7 @@ Contenidos:
 Acerca de este documento
 ========================
 
-.. todo:: Escribir una introducción, explicando la motivación y metodología :issue:`11`
+.. todo:: Escribir una introducción, explicando el contexto de las jornadas, experiencias anteriores y la motivación :issue:`11`
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

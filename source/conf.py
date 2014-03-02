@@ -294,6 +294,10 @@ rst_prolog = u"""
 .. |shiguera|  replace:: Santiago Higuera `@santiagohiguera`_
 .. |jsitjar|   replace:: Josep Sitjar `@JosepSitjar`_
 
+.. |IG|     replace:: Información Geográfica
+.. |sl|     replace:: *Software* Libre
+
+
 .. _@delawen:   http://twitter.com/delawen
 .. _@xurxosanz: http://twitter.com/xurxosanz
 .. _@moiarcsan: http://twitter.com/moiarcsan
@@ -301,6 +305,11 @@ rst_prolog = u"""
 .. _@Tolanss:   http://twitter.com/Tolanss>
 .. _@santiagohiguera: http://twitter.com/santiagohiguera
 .. _@JosepSitjar: http://twitter.com/JosepSitjar
+
+.. _OSGeo: http://osgeo.org
+.. _OSGeo Live: http://live.osgeo.org
+
+
 """
 
 # - Define external links shortcuts
