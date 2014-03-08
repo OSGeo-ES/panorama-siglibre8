@@ -13,6 +13,10 @@ Los SIG de escritorio siguen manteniendo su posición como aplicaciones fundamen
 Por otra parte, las herramientas de escritorio son soluciones en general completas que cubren la totalidad de necesidades que se presentan en el desarrollo de proyectos SIG, y por ello constituyen las herramientas primordiales para llevar estos a cabo. 
 Ofrecen un gran numero de herramientas para gran diversidad de usuarios en diversidad de campos. 
 
+
+- **Entrada y salida de datos**: Todas las aplicaciones SIG de escritorio deben obligatoriamente implmentar capacidades para leer datos y, opcionalmente, guardarlos._
+
+
 (Fuente: Olaya, V. 2012. Libro Libre SIG.)
 
 Los clientes de escritorio ofrecen un amplio rango de aplicaciones, desde simples visualizadores a software de creación de mapas y análisis y tecnología punta en sistemas de edición y análisis profesional. 
