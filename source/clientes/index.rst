@@ -2,6 +2,10 @@
 Clientes
 ********
 
+
+Introducción
+---------------
+
 Entendemos por Clientes al conjunto de aplicaciones SIG de Escritorio, es decir, aplicaciones en las que se implementan herramientas para llevar a cabo las tareas básicas del trabajo con datos geográficos:
 creación o edición, manejo y análisis. Con esta filosofía fueron desarrollados los primeros programas SIG, especialmente para el tratamiento y análisis de datos geográficos, y posteriormente, para dotar a estos de mayor versatilidad, incorporando otras funciones adicionales que facilitaran el trabajo con esos mismos datos. 
 
@@ -11,9 +15,6 @@ Por otra parte, las herramientas de escritorio son soluciones en general complet
 (Fuente: Olaya, V. 2012. Libro Libre SIG.)
 
 
-
-Introducción
----------------
 
 Breve descripción de la sección con retrospectiva y evolución incluyendo la tabla de la sección.
 
