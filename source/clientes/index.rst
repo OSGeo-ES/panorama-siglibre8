@@ -30,7 +30,19 @@ Veamos con un poco más de detalle las principales funcionalidades de los SIG de
 
 Los clientes de escritorio ofrecen un amplio rango de aplicaciones, desde simples visualizadores a software de creación de mapas y análisis y tecnología punta en sistemas de edición y análisis profesional. 
 
+En la siguiente tabla se presentan las características principales de los productos revisados en el contexto de este trabajo. 
 
+.. figure:: img/clientes1.png
+   :align: center
+   :alt: Información general sobre las tecnologías
+
+   Información general sobre tecnologías
+
+.. figure:: img/clientes2.png
+   :align: center
+   :alt: Implementación de estándares OGC
+
+   Implementación de estándares OGC
 
 Breve descripción de la sección con retrospectiva y evolución incluyendo la tabla de la sección.
 
