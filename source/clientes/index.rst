@@ -11,7 +11,7 @@ creación o edición, manejo y análisis. Con esta filosofía fueron desarrollad
 
 Los SIG de escritorio siguen manteniendo su posición como aplicaciones fundamentales, y hablar genéricamente de un SIG implica por lo general hacerlo de una aplicación de escritorio antes que de otros tipos de aplicaciones. 
 Por otra parte, las herramientas de escritorio son soluciones en general completas que cubren la totalidad de necesidades que se presentan en el desarrollo de proyectos SIG, y por ello constituyen las herramientas primordiales para llevar estos a cabo. 
-Ofreen un gran numero de herramientas para gran diversidad de usuarios en diversidad de campos. 
+Ofrecen un gran numero de herramientas para gran diversidad de usuarios en diversidad de campos. 
 
 (Fuente: Olaya, V. 2012. Libro Libre SIG.)
 
