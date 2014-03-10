@@ -57,6 +57,63 @@ En la siguiente tabla se presentan las características principales de los produ
 .. _Servidores: http://wiki.osgeo.org/wiki/Panorama_SIG_Libre_2014/Servidores
 
 
+
+Software
+----------
+
+.. note:: Aquí explicaría en qué campos se suele mover cada elemento sofware. Por ejemplo, Geoserver permite CSW, pero generalmente su uso es más WMS/WFS...
+
+
+En esta sección se describirá brevemente cada uno de los productos evaluados en esta comparativa. El orden de aparición es cronológico, empezando por los proyectos más veteranos.
+
+MapServer_:
+  Probablemente el servidor de mapas más usado en el mundo sigue desarrollándose sin pausa, incorporando en los últimos años nuevos subproyectos como `MapCache`_ y `TinyOWS`_. Su configuración sigue siendo mediante ficheros de texto aunque aparecen nuevas interfaces para facilitar su edición como `MapManager`_. Sigue destacando de este servidor su ligereza y facilidad de despliegue (si no se necesita soporte para formatos privativos).
+
+  .. _MapCache: http://www.mapserver.org/trunk/mapcache/index.html
+  .. _TinyOWS: http://mapserver.org/trunk/tinyows/
+  .. _MapManager: http://www.gisinternals.com/MapManager/
+deegree_:
+  Este servidor de mapas con una comunidad principalmente alemana soporta una gran cantidad de estándares. Este servidor se caracterizó durante mucho tiempo por su ardua configuración, cosa que está cambiando gracias al esfuerzo puesto en desarrollar una consola *web* para los servicios y una documentación mucho más detallada.
+GeoServer_:
+  GeoServer es un proyecto ejemplar por su activa comunidad, frecuentes actualizaciones e innovaciones más allá de la implementación de gran parte de los estándares OGC existentes. Sus extensiones al estándar SLD, el soporte de estilos CSS, el buen soporte para multitud de orígenes de datos y su amigable interfaz lo convierten en un servidor de mapas ampliamente utilizado en todo tipo de contextos, especialmente en grandes instalaciones.
+GeoNetwork_:
+  El servidor de metadatos más utilizado en el sector sigue ofreciendo actualizaciones y mejoras constantes gracias al apoyo tanto de las empresas que lo desarrollan como de las administraciones públicas que lo utilizan, haciendo de este servidor la primera opción a la hora e implementar un nodo de una Infraestructura de Datos Espaciales, con múltiples referencias y casos de éxito.
+`52ºnorth SOS`_:
+  Probablemente la implementación más relevante del principal estándar OGC sobre sensores. No dispone de una interfaz de usuario salvo una sencilla consola para ejecutar consultas de ejemplo. La última versión (4.0) implementa la versión más reciente del estándar SOS, la 2.0.
+`MapGuide`_:
+  El servidor liberado por AutoDesk siempre se ha vinculado a entornos Windows (aunque aparentemente puede funcionar en Linux) y su falta de soporte para estándares OGC parece que le ha dejado atrás en el panorama de |sl|. Pese a todo, es el único servidor de mapas que integra completos visores y se puede considerar una solución completa, aunque en general se prefieran entornos desacoplados donde el uso de estándares facilite desarrollar clientes personalizados.
+PyWPS_:
+  Este pequeño servidor WPS se ha reescrito durante el último año y pretende ofrecer una interfaz ligera en la que desarrollar geoprocesos en el popular lenguaje de programación Python. La creciente comunidad geoespacial alrededor de este lenguaje de programación y por lo tanto, una cada vez mayor oferta de componentes que ofrecen funcionalidad pueden hacer este producto interesante.
+GeoWebCache_:
+  GeoWebCache nació como un proyecto dentro del programa de becas de verano de Google para estudiantes (*Google Summer of Code*). El objetivo era cubrir la necesidad en GeoServer_ de un servidor de teselas que permita pregenerar y acelerar la cartografía servida por este producto. Con el tiempo ha ido creciendo en funcionalidad y se puede considerar un producto independiente, aunque en general se utilice conjuntamente con GeoServer. Al igual que GeoServer, destaca por su cómoda interfaz de usuario, capacidad para limitar en disco las *caches*, generación y borrado de las mismas, etc.
+TileCache_:
+  Durante mucho tiempo TileCache_ fue la implementación de referencia del estándar *de facto* TMS. El proyecto lleva ya bastante tiempo estancado sin practicamente actividad por lo que se puede considerar en periodo de *senectud* y no sería aconsejable instalarlo en nuevos proyectos.
+`52ºnorth WPS`_:
+  Este servidor de procesos dispone de una sencilla interfaz y conectores para implementar geoprocesos en el lenguaje de programación `R`_, usar procesos del GIS de escritorio GRASS_, o de SEXTANTE_.
+
+  .. _R: http://www.r-project.org/
+  .. _GRASS: http://grass.osgeo.org/
+  .. _SEXTANTE: http://www.sextantegis.com/
+
+MapProxy_:
+  MapProxy es un servidor de teselas que dispone de algunas características interesantes. Al igual que GeoWebCache_ permite responder a cualquier petición WMS, no solo a las correspondientes con teselas de las *caches* definidas. Además dispone de varios mecanismos de almacenamiento de teselas más allá del uso del sistema de ficheros. Además puede usarse como un servidor de mapas estándar para ficheros de configuración de la biblioteca de renderización Mapnik_. Su configuración mediante sencillos ficheros de texto y las herramientas de ayuda a configuración y despliegue de las mismas lo convierten en un producto ciertamente versátil.
+
+  .. _Mapnik: http://mapnik.org/
+PyCSW_:
+  bla
+`QGis Server`_:
+  bla
+TileStache_:
+  bla
+`ZOO Project`_:
+  bla
+EOxServer_:
+  bla
+TileStream_:
+  bla
+
+
+
 Puntos calientes
 --------------------
 
@@ -64,26 +121,15 @@ Este área del |sl| geoespacial está en continua evolución, pese a que la comp
 
 En el área de los servidores de mapas la mejora del rendimiento y en especial de las capacidades de simbolización han facilitado la aplicación de estos productos en proyectos cada vez más complejos, como en el caso del uso de GeoServer_ en el Instituto Geográfico Francés [GeoServerIGN]_. La innovación de aplicar a cartografía un lenguaje de definición de simbologías análogo a las hojas de estilo de las páginas *web* va a facilitar a los especialistas diseñar y mantener los estilos de sus mapas de una forma mucho más sencilla y a la vez expresiva.
 
-.. _GeoServer: http://geoserver.org
 
-En cuanto a los servidores de geoprocesamiento, la capacidad para definir procesos de análisis geográfico utilizando lenguajes de programación de alto nivel como Python o JavaScript entre otros va a facilitar la inevitable transición de este tipo de proyectos desde los clientes de escritorio a los servidores. Así, proyectos como `Zoo Project`_ o el uso de `GeoScript`_ en `GeoServer`_ ponen a disposición de los analistas un entorno de trabajo que soporta varios lenguajes con un rendimiento elevado.
+En cuanto a los servidores de geoprocesamiento, la capacidad para definir procesos de análisis geográfico utilizando lenguajes de programación de alto nivel como Python o JavaScript entre otros va a facilitar la inevitable transición de este tipo de proyectos desde los clientes de escritorio a los servidores. Así, proyectos como `ZOO Project`_ o el uso de `GeoScript`_ en `GeoServer`_ ponen a disposición de los analistas un entorno de trabajo que soporta varios lenguajes con un rendimiento elevado.
 
 .. _GeoScript: http://geoscript.org/
-.. _Zoo Project: http://zoo-project.org/
 
 Los servidores de teselas siguen siendo de momento un *mal necesario* para ofrecer un rendimiento adecuado en proyectos con cartografía que no sufre actualizaciones frecuentes o necesitan estilos dinámicos. Esta situación en cualquier caso se percibe como transitoria ya que están empezando a aparecer productos y servicios que optimizan la presentación de cartografía sirviéndola en un formato vectorial junto con los estilos, siendo responsabilidad del cliente la renderización de la cartografía. Esta variante permite ofrecer cartografía mucho más dinámica tanto en su componente temporal como en la de la simbolización.
 
 Finalmente en el área de los servicios de descubrimiento el desarrollo de GeoNetwork_, el principal servidor de metadatos libre, sigue activo y van apareciendo nuevas alternativas y variantes como el soporte del protocolo CSW por parte de GeoServer, así como la actividad del proyecto PyCSW_.
 
-.. _GeoNetwork: http://geonetwork-opensource.org/
-.. _PyCSW: http://pycsw.org/
-
-Software
-----------
-
-.. note:: Aquí explicaría en qué campos se suele mover cada elemento sofware. Por ejemplo, Geoserver permite CSW, pero generalmente su uso es más WMS/WFS...
-
-.. todo:: Breve descripción y principal uso de cada |sl| ¿no tiene más sentido esto antes del tema de los puntos calientes?
 
 
 Curva de aprendizaje y conocimientos previos
@@ -103,3 +149,24 @@ Referencias
 
 
 .. [GeoServerIGN] `Using GeoServer at IGN (the French National Mapping Agency) to create new digital maps <http://blog.geoserver.org/2014/01/07/using-geoserver-at-ign-the-french-national-mapping-agency-to-create-new-digital-maps/>`_
+
+
+.. Enlaces a webs de  proyectos
+
+.. _MapServer: http://mapserver.org
+.. _deegree: http://deegree.org/
+.. _GeoServer: http://geoserver.org
+.. _GeoNetwork: http://geonetwork-opensource.org/
+.. _52ºnorth SOS: http://52north.org/communities/sensorweb/
+.. _MapGuide: http://mapguide.osgeo.org/
+.. _PyWPS: http://pywps.wald.intevation.org/
+.. _GeoWebCache: http://geowebcache.org/
+.. _TileCache: http://tilecache.org/
+.. _52ºnorth WPS: http://52north.org/communities/geoprocessing/wps/index.html
+.. _MapProxy: http://mapproxy.org/
+.. _PyCSW: http://pycsw.org/
+.. _QGis Server: http://docs.qgis.org/2.0/en/docs/user_manual/working_with_ogc/ogc_server_support.html
+.. _TileStache: http://tilestache.org/
+.. _ZOO Project: http://zoo-project.org/
+.. _EOxServer: https://github.com/EOxServer/eoxserver
+.. _TileStream: https://github.com/mapbox/tilestream
