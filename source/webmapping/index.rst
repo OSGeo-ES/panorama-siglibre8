@@ -42,16 +42,33 @@ En la siguiente tabla se presentan las características principales de los produ
 .. _Webmapping: http://wiki.osgeo.org/wiki/Panorama_SIG_Libre_2014/WebMapping
 
 
+Software
+----------
+
+En esta sección se describirá brevemente cada uno de los productos evaluados en esta comparativa. El orden de aparición es cronológico, empezando por los proyectos más veteranos.
+
+Mapbender_:
+
+Cliente Web-GIS construido con Javascript, que ofrece un interfaz de usuario configurable no dependiente de ningún servidor de mapas concreto. Su orientación es la de un geoportal cliente de servicios OGC. Incluye un soporte bastante completo de usuarios, grupos y servicios OGC (OWS). Una característica diferenciadora de Mapbender es la capacidad de edición en cliente sobre navegador, utilizando WFS-T.
+MapBender es un proyecto graduado de OSGeo.
+
+OpenLayers_:
+
+OpenLayers es un cliente Web-GIS ligero construido con clases Javascript, sin dependencia de servidores de mapas concretos. Ofrece una interfaz de usuario simplificada que ataca a servicios WMS y WFS de forma transparente para el usuario y desarrollador. Las características a destacar de este producto es la cantidad de herramientas ya implementadas, que hacen que el desarrollar con esta librearía sea mucho más fácil para funcionalidades más complejas.
+Actualmente es uno de los proyectos de SIG libre cuya comunidad es de las más activas que existen, a pesar de contar con un grupo de desarrolladores no muy numeroso.
+OpenLayers es un proyecto graduado de OSGeo.
+Destaca la integración de OpenLayers con otros proyectos como GeoExt o Mapstore.
+
+GeoExtGXP_:
+GeoMoose_:
+Leaflet_:
+Mapstore_:
+Cartaro_:
+
 Puntos calientes
 -------------------
 
 .. note:: Dentro de la sección, hacia donde se está moviendo la comunidad.
-
-Software
-----------
-
-Existen diferentes tecnologías para mostrar información geospacial en la web, de las que destacamos las que se aprecian en la siguiente tabla.
-
 
 
 Curva de aprendizaje y conocimientos previos
