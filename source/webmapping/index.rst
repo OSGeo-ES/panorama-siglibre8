@@ -39,9 +39,6 @@ En la siguiente tabla se presentan las características principales de los produ
 
 .. important:: Se puede consultar la versión más reciente, así como los enlaces asociados y anotaciones en la sección de `Webmapping`_ del wiki de OSGeo.
 
-.. _Webmapping: http://wiki.osgeo.org/wiki/Panorama_SIG_Libre_2014/WebMapping
-
-
 Software
 ----------
 
@@ -59,11 +56,25 @@ Actualmente es uno de los proyectos de SIG libre cuya comunidad es de las más a
 OpenLayers es un proyecto graduado de OSGeo.
 Destaca la integración de OpenLayers con otros proyectos como GeoExt o Mapstore.
 
-GeoExtGXP_:
+`GeoExt GXP`_:
+
+bla
+
 GeoMoose_:
+
+bla
+
 Leaflet_:
+
+bla
+
 Mapstore_:
+
+bla
+
 Cartaro_:
+
+bla
 
 Puntos calientes
 -------------------
@@ -81,3 +92,16 @@ Documentación
 
 .. note:: Enlace al wiki y quizás alguna sugerencia particular en alguna sección.
 
+Referencias
+---------------
+
+.. Enlaces a webs de  proyectos
+
+.. _Webmapping: http://wiki.osgeo.org/wiki/Panorama_SIG_Libre_2014/WebMapping
+.. _Mapbender: http://www.mapbender.org/Mapbender_Wiki
+.. _OpenLayers: http://openlayers.org/
+.. _GeoExt GXP: http://geoext.org/
+.. _GeoMoose: http://www.geomoose.org/
+.. _Leaflet: http://leafletjs.com/
+.. _Mapstore: http://mapstore.geo-solutions.it/mapstore/
+.. _Cartaro: http://cartaro.org/
