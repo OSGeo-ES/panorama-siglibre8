@@ -59,6 +59,28 @@ Software
 En esta sección se describirá brevemente cada uno de los productos evaluados en esta comparativa. 
 
 
+gvSIG_:
+
+
+QGis_:
+
+GRASS_:
+
+UDig_:
+
+OpenJUMP_:
+
+SAGA GIS_:
+
+OPTICKS_:
+
+GEODA_:
+
+TILEMILL_:
+
+
+
+
 
 Puntos calientes
 ------------------
