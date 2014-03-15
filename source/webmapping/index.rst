@@ -114,13 +114,33 @@ Documentación
 
 Toda la documentación necesaria para comenzar a usar cualquiera de las tecnologías que aquí se encuentran, la puedes encontrar en las guías de inicio rápido que se adjuntan:
 
-Mapbender_: http://live.osgeo.org/es/quickstart/mapbender_quickstart.html
-OpenLayers_: http://live.osgeo.org/es/quickstart/openlayers_quickstart.html
-`GeoExt GXP`_: http://geoext.org/tutorials/quickstart.html
-GeoMoose_: http://live.osgeo.org/es/quickstart/geomoose_quickstart.html
-Leaflet_: http://leafletjs.com/examples/quick-start.html
-Mapstore_: https://github.com/geosolutions-it/mapstore/wiki/Quick-Start-Guide
-Cartaro_: http://live.osgeo.org/es/quickstart/cartaro_quickstart.html
+Mapbender_: 
+
+http://live.osgeo.org/es/quickstart/mapbender_quickstart.html
+
+OpenLayers_: 
+
+http://live.osgeo.org/es/quickstart/openlayers_quickstart.html
+
+`GeoExt GXP`_: 
+
+http://geoext.org/tutorials/quickstart.html
+
+GeoMoose_: 
+
+http://live.osgeo.org/es/quickstart/geomoose_quickstart.html
+
+Leaflet_: 
+
+http://leafletjs.com/examples/quick-start.html
+
+Mapstore_: 
+
+https://github.com/geosolutions-it/mapstore/wiki/Quick-Start-Guide
+
+Cartaro_: 
+
+http://live.osgeo.org/es/quickstart/cartaro_quickstart.html
 
 Referencias
 ---------------
