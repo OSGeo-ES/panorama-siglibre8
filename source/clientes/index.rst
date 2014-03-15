@@ -61,6 +61,10 @@ En esta sección se describirá brevemente cada uno de los productos evaluados e
 
 gvSIG_:
 
+GvSIG es un proyecto de desarrollo de Sistemas de Información Geográfica en software libre,1 que incluye principalmente las aplicaciones gvSIG Desktop y gvSIG Mobile. 
+La aplicación gvSIG Desktop fue la primera que se desarrolló dentro del proyecto gvSIG, por lo que también se conoce abreviadamente como gvSIG. 
+Este proyecto fue desarrollado por el gobierno local de la Comunidad Valenciana (Generalidad Valenciana) de España, con el objetivo inicial de realizar la gestión de datos geográficos de esa colectividad; precisamente la sigla gvSIG abrevia la denominación Generalitat Valenciana Sistema de Información Geográfica.
+
 
 QGis_:
 
