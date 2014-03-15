@@ -64,6 +64,10 @@ gvSIG_:
 
 QGis_:
 
+Es un Sistema de Información Geográfica que nació en mayo de 2002 y se estableció como proyecto en SourceForge en junio del mismo año. Fue además uno de los ocho primeros proyectos de la fundación OSGeo.
+Se trata de una aplicación de escritorio que pretende ofrecer a usuarios con necesidades básicas un entorno sencillo y agradable. 
+
+
 GRASS_:
 
 Pryoecto ya muy veterano, anterior al nacimiento del FOSS ya que surgió como un proyecto del ejercito norteamericano, más concretamente del Construction Engineering Research Laboratory (CERL) que comenzó el proyecto ante la necesidad de gestionar la gran cantidad de recursos naturales a cargo del ejército en los Estados Unidos.
@@ -76,6 +80,10 @@ UDig_:
 OpenJUMP_:
 
 SAGA GIS_:
+
+Esta herramienta se ha desarrollado sobre todo en Gottingen, Alemania. Se trata de un GIS de escritorio para Windows con una clara separación entre su interfaz de programación (API) y su interfaz de usuario. De hecho la primera tiene una licencia LGPL y la segunda es GPL. Esto permite realizar módulos “cerrados” sin incumplir ninguna licencia. 
+Este software destaca por su orientación a la realización de análisis de imágenes y modelos digitales del terreno especialmente.
+
 
 OPTICKS_:
 
