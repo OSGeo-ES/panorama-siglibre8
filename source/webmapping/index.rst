@@ -145,12 +145,17 @@ http://live.osgeo.org/es/quickstart/cartaro_quickstart.html
 Referencias
 ---------------
 
+- Panorama SIG Libre, M. Montesinos y J. Sanz `Artículo v2`_, `Diapos v4`_, `Wiki Prodevelop`_
+
 .. _Webmapping: http://wiki.osgeo.org/wiki/Panorama_SIG_Libre_2014/WebMapping
 .. _Vladimir Agafonkin: http://agafonkin.com/en/
 .. _Mapbox: https://www.mapbox.com
 .. _CartoDB: http://cartodb.com/
 .. _WebGL Earth: http://www.webglearth.com/
 .. _F4 Map: http://demo.f4map.com/
+.. _Artículo v2: http://dugi-doc.udg.edu/bitstream/handle/10256/1109/Montesinos_Art.pdf?sequence=18
+.. _Diapos v4: http://www.slideshare.net/migmontesinos/panorama-del-ecosistema-de-software-libre-gis-2009
+.. _Wiki Prodevelop: https://confluence.prodevelop.es/display/pan/Panorama+FOSS4G
 
 .. Enlaces a webs de proyectos
 .. _Mapbender: http://www.mapbender.org/Mapbender_Wiki
