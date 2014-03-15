@@ -2,6 +2,12 @@
 Clientes
 ********
 
+Autores
+----------
+
+- |jsitjar|
+- |rantolin|
+
 
 Introducción
 ---------------
@@ -46,6 +52,14 @@ En la siguiente tabla se presentan las características principales de los produ
 
 Breve descripción de la sección con retrospectiva y evolución incluyendo la tabla de la sección.
 
+
+Software
+----------
+
+En esta sección se describirá brevemente cada uno de los productos evaluados en esta comparativa. 
+
+
+
 Puntos calientes
 ------------------
 
@@ -54,10 +68,7 @@ Durante los últimos años el software SIG de escritorio ha dominado, pero se pr
 
 Dentro de la sección, hacia donde se está moviendo la comunidad.
 
-Software
-----------
 
-Aquí explicaría en qué campos se suele mover cada elemento sofware. Por ejemplo, Geoserver permite CSW, pero generalmente su uso es más WMS/WFS...
 
 Curva de aprendizaje y conocimientos previos
 ------------------------------------------------
@@ -70,8 +81,4 @@ Documentación
 Enlace al wiki y quizás alguna sugerencia particular en alguna sección.
 
 
-Autores
-----------
 
-- |jsitjar|
-- |rantolin|
