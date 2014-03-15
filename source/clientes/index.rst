@@ -66,6 +66,11 @@ QGis_:
 
 GRASS_:
 
+Pryoecto ya muy veterano, anterior al nacimiento del FOSS ya que surgió como un proyecto del ejercito norteamericano, más concretamente del Construction Engineering Research Laboratory (CERL) que comenzó el proyecto ante la necesidad de gestionar la gran cantidad de recursos naturales a cargo del ejército en los Estados Unidos.
+Actualmente, la infraestructura principal se gestiona entre el Instituto de Cultura de Trento y el Geselleschaft für Datenanalyse und Fernerkundung (GDF) de Hannover. 
+La principal característica de GRASS es su gran número de funcionalidades, derivadas de todos los años de desarrollo y de la estructura modular del programa, que favorece que los desarrolladores aporten al proyecto contribuciones individuales. Por otro lado, el mayor problema de cara a su difusión y adopción es su complejidad y su empinada curva de aprendizaje. Aun siendo un software muy potente, carece de una interfaz amigable.
+
+
 UDig_:
 
 OpenJUMP_:
