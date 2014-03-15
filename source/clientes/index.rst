@@ -83,10 +83,23 @@ UDig_:
 
 OpenJUMP_:
 
+JUMP (Java Unified Mapping Platform) fue uno de los primeros proyectos de cliente GIS de escritorio en el lenguaje Java. Destaca por hacer uso de la biblioteca JTS para poder realizar algunas operaciones de análisis espacial, así como el soporte del formato GML y el protocolo WMS desde sus aparición.
+Este proyecto fue liderado por Vivid Solutions1 pero dada la política de aceptación de contribuciones externas por parte de la empresa motivó la aparición de un nuevo proyecto derivado (llamado fork  en el ámbito FOSS) conocido como The JUMP Pilot Project (JPP) que pretende coordinar de forma más democrática las contribuciones de diferentes equipos de desarrollo para evitar duplicidad de esfuerzos.
+
 SAGA GIS_:
 
 Esta herramienta se ha desarrollado sobre todo en Gottingen, Alemania. Se trata de un GIS de escritorio para Windows con una clara separación entre su interfaz de programación (API) y su interfaz de usuario. De hecho la primera tiene una licencia LGPL y la segunda es GPL. Esto permite realizar módulos “cerrados” sin incumplir ninguna licencia. 
 Este software destaca por su orientación a la realización de análisis de imágenes y modelos digitales del terreno especialmente.
+
+Esto último es especialmente importante, ya que es destacable la cantidad de proyectos derivados que han surgido a partir de él1:
+Open JUMP
+Open JUMP Viatoris
+DeeJUMP
+SkyJUMP
+PirolJUMP
+Kosmo
+
+En España destaca el proyecto Kosmo, desarrollado por la empresa SAGE, que pretende incorporar a la plataforma JUMP otros desarrollos de interés realizados en otros proyectos.
 
 
 OPTICKS_:
