@@ -79,7 +79,8 @@ Actualmente, la infraestructura principal se gestiona entre el Instituto de Cult
 La principal característica de GRASS es su gran número de funcionalidades, derivadas de todos los años de desarrollo y de la estructura modular del programa, que favorece que los desarrolladores aporten al proyecto contribuciones individuales. Por otro lado, el mayor problema de cara a su difusión y adopción es su complejidad y su empinada curva de aprendizaje. Aun siendo un software muy potente, carece de una interfaz amigable.
 
 
-UDig_:
+UDig_: es un proyecto desarrollado por la empresa canadiense Refractions Research Inc. Tiene como principal objetivo ofrecer un cliente de escritorio que soporte el mayor número de fuentes de datos tanto locales como remotas, y especialmente las basadas en protocolos OGC.
+Aunque presenta únicamente capacidades de análisis y edición vectorial, el proyecto JGrass añade capacidades ráster adaptadas desde GRASS (con especial énfasis en las relacionadas con análisis del terreno y similares).
 
 OpenJUMP_:
 
