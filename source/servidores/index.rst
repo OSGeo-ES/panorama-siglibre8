@@ -2,9 +2,6 @@
 Servidores
 **********
 
-.. todo:: Sección por completar. Discusión del contenido en la :issue:`2`
-
-
 Autores
 ---------------
 
@@ -20,10 +17,10 @@ En esta sección se va a abordar el amplio conjunto de proyectos correspondiente
 
 ¿Qué tipos de servicios actualmente se ofrecen relacionados con la |IG|? Una agrupación funcional podría agruparlos en las siguientes categorías:
 
-- **Servidores de mapas**: Encargados de renderizar datos tanto vectoriales como *raster* en diferentes estilos y proyecciones cartográficas, en general cmupliondo el estándar `WMS de OGC`_
+- **Servidores de mapas**: Encargados de renderizar datos tanto vectoriales como *raster* en diferentes estilos y proyecciones cartográficas, en general cumpliendo el estándar `WMS de OGC`_
 - **Servidores de teselas**: Una variante del anterior es aquellos servidores que ofrecen la cartografía renderizada únicamente en juegos de teselas con un número limitado de resoluciones, casi siempre además empleando sistemas de almacenamiento intermedio (*caches*). En este caso hay dos estándares en el sector, el estándar `TMS`_ y el `WMTS de OGC`_
 - **Servidores de datos brutos**: Al contrario que las categorías anteriores, estos servidores ofrecen la cartografía vectorial o *raster* en formatos que deben luego ser procesados por los clientes para la tarea para la que estén desarrollados, tanto si es para su análisis como su visualización. Los estándares de comunicación son `WFS`_ y `WCS`_ respectivamente para datos vectoriales y *raster*. En esta categoría se podrían incluir  también a los servidores relacionados con la publicación de datos de sensores, en todo el abanico de estándares OGC englobados en lo que se conoce como `Sensor Web Enablement`_
-- **Servidores de metadatos**: Estos servidores implementan estándares de descubrimiento de datos como `CSW`_. Mediante estos servidores usuarios y otros componentes pueden encontrar juegosde datos y otros servicios mediante protocolos estandarizados. Estos servidores son el corazón de las Infraestructuras de Datos Espaciales.
+- **Servidores de metadatos**: Estos servidores implementan estándares de descubrimiento de datos como `CSW`_. Mediante estos servidores usuarios y otros componentes pueden encontrar juegos de datos y otros servicios mediante protocolos estandarizados. Estos servidores son el corazón de las Infraestructuras de Datos Espaciales.
 - **Servidores de geoprocesos**: Estos servidores exponen operaciones de análisis, que pueden partir de datos directamente disponibles en el servidor o bien acceder a otros servidores de datos brutos para encadenar servicios que realicen flujos de geoprocesamiento de todo tipo. El estándar de OGC para geoprocesamiento es el `WPS`_.
 
 .. _WMS de OGC: http://www.opengeospatial.org/standards/wms
@@ -61,9 +58,6 @@ En la siguiente tabla se presentan las características principales de los produ
 Software
 ----------
 
-.. note:: Aquí explicaría en qué campos se suele mover cada elemento sofware. Por ejemplo, Geoserver permite CSW, pero generalmente su uso es más WMS/WFS...
-
-
 En esta sección se describirá brevemente cada uno de los productos evaluados en esta comparativa. El orden de aparición es cronológico, empezando por los proyectos más veteranos.
 
 MapServer_:
@@ -87,7 +81,7 @@ PyWPS_:
 GeoWebCache_:
   GeoWebCache nació como un proyecto dentro del programa de becas de verano de Google para estudiantes (*Google Summer of Code*). El objetivo era cubrir la necesidad en GeoServer_ de un servidor de teselas que permita pregenerar y acelerar la cartografía servida por este producto. Con el tiempo ha ido creciendo en funcionalidad y se puede considerar un producto independiente, aunque en general se utilice conjuntamente con GeoServer. Al igual que GeoServer, destaca por su cómoda interfaz de usuario, capacidad para limitar en disco las *caches*, generación y borrado de las mismas, etc.
 TileCache_:
-  Durante mucho tiempo TileCache_ fue la implementación de referencia del estándar *de facto* TMS. El proyecto lleva ya bastante tiempo estancado sin practicamente actividad por lo que se puede considerar en periodo de *senectud* y no sería aconsejable instalarlo en nuevos proyectos.
+  Durante mucho tiempo TileCache_ fue la implementación de referencia del estándar *de facto* TMS. El proyecto lleva ya bastante tiempo estancado sin prácticamente actividad por lo que se puede considerar en periodo de *senectud* y no sería aconsejable instalarlo en nuevos proyectos.
 `52ºnorth WPS`_:
   Este servidor de procesos dispone de una sencilla interfaz y conectores para implementar geoprocesos en el lenguaje de programación `R`_, usar procesos del GIS de escritorio GRASS_, o de SEXTANTE_.
 
@@ -118,9 +112,13 @@ TileStache_:
 EOxServer_:
   Este *software* es básicamente una aplicación *web* escrita en el *framework* Django_, que permite modelar juegos de datos de observación de la Tierra, utilizando y extendiendo MapServer_ para ofrecer servicios WMS y WCS de estos datos así como una interfaz de visualización, consulta y administración en un entorno *web*. A partir de un conjunto de imágenes *raster* de diferentes áreas e instantes temporales, EOxServer además de exponerlas por WMS y WCS usando el perfil específico para datos de observación de la Tierra, ofrece servicios para generar mosaicos y previsualizaciones, mediante un entorno web (usando OpenLayers) para navegar por las diferentes fechas y regiones.
 
-TileStream_:
-  bla
+  .. _Django: https://www.django-cms.org/en/
 
+TileStream_:
+  TileStream es un servidor de teselas pensado para servir archivos MBTiles_. Es decir no genera ningún tipo de *cache* ni se conecta con servicios para solicitar las imágenes como el resto de servidores. Se trata de un *software* limitado únicamente a servir teselas almacenadas en este tipo de bases de datos. El *hosting* de teselas de Mapbox_ usa una variante de este servidor para su servicio.
+
+  .. _Mapbox: https://www.mapbox.com/
+  .. _MBTiles: https://github.com/mapbox/mbtiles-spec
 
 
 Puntos calientes
@@ -128,34 +126,178 @@ Puntos calientes
 
 Este área del |sl| geoespacial está en continua evolución, pese a que la complejidad inherente a desarrollar este tipo de productos es elevada y hace algún tiempo que no aparece ningún producto relevante. Así y todo los proyectos existentes en general gozan de buena salud y no dejan de actualizarse e innovar.
 
-En el área de los servidores de mapas la mejora del rendimiento y en especial de las capacidades de simbolización han facilitado la aplicación de estos productos en proyectos cada vez más complejos, como en el caso del uso de GeoServer_ en el Instituto Geográfico Francés [GeoServerIGN]_. La innovación de aplicar a cartografía un lenguaje de definición de simbologías análogo a las hojas de estilo de las páginas *web* va a facilitar a los especialistas diseñar y mantener los estilos de sus mapas de una forma mucho más sencilla y a la vez expresiva.
+En el área de los servidores de mapas la mejora del rendimiento y en especial de las capacidades de simbolización han facilitado la aplicación de estos productos en proyectos cada vez más complejos, como en el caso del uso de GeoServer_ en el Instituto Geográfico Francés [GeoServerIGN]_. La innovación de aplicar al área de la cartografía un lenguaje de definición de simbologías análogo a las hojas de estilo de las páginas *web* (el estándar CSS_) va a facilitar a los especialistas diseñar y mantener los estilos de sus mapas de una forma mucho más sencilla y a la vez expresiva.
+
+.. _CSS: http://www.w3.org/Style/CSS/
 
 
-En cuanto a los servidores de geoprocesamiento, la capacidad para definir procesos de análisis geográfico utilizando lenguajes de programación de alto nivel como Python o JavaScript entre otros va a facilitar la inevitable transición de este tipo de proyectos desde los clientes de escritorio a los servidores. Así, proyectos como `ZOO Project`_ o el uso de `GeoScript`_ en `GeoServer`_ ponen a disposición de los analistas un entorno de trabajo que soporta varios lenguajes con un rendimiento elevado.
+En cuanto a los servidores de geoprocesamiento, la capacidad para definir procesos de análisis geográfico utilizando lenguajes de programación de alto nivel, como Python o JavaScript entre otros, va a facilitar la inevitable transición de este tipo de procesos desde los clientes de escritorio a los servidores. Así, proyectos como `ZOO Project`_ o el uso de `GeoScript`_ en `GeoServer`_ ponen a disposición de los analistas un entorno de trabajo que soporta varios lenguajes con un rendimiento elevado y en un entorno distribuido.
 
 .. _GeoScript: http://geoscript.org/
 
-Los servidores de teselas siguen siendo de momento un *mal necesario* para ofrecer un rendimiento adecuado en proyectos con cartografía que no sufre actualizaciones frecuentes o necesitan estilos dinámicos. Esta situación en cualquier caso se percibe como transitoria ya que están empezando a aparecer productos y servicios que optimizan la presentación de cartografía sirviéndola en un formato vectorial junto con los estilos, siendo responsabilidad del cliente la renderización de la cartografía. Esta variante permite ofrecer cartografía mucho más dinámica tanto en su componente temporal como en la de la simbolización.
+Los servidores de teselas siguen siendo de momento un *mal necesario* para ofrecer un rendimiento adecuado en proyectos con cartografía que no sufre actualizaciones frecuentes, imágenes *raster* o simplemente que no necesitan estilos dinámicos. Esta situación en cualquier caso para la información vectorial se percibe como transitoria ya que están empezando a aparecer productos y servicios que optimizan la presentación de cartografía sirviéndola en un formato vectorial junto con los estilos, siendo responsabilidad del cliente la renderización de la misma. Esta variante permite ofrecer cartografía mucho más dinámica tanto en su componente temporal como en la de la simbolización.
 
-Finalmente en el área de los servicios de descubrimiento el desarrollo de GeoNetwork_, el principal servidor de metadatos libre, sigue activo y van apareciendo nuevas alternativas y variantes como el soporte del protocolo CSW por parte de GeoServer, así como la actividad del proyecto PyCSW_.
-
+Finalmente en el área de los servicios de descubrimiento el desarrollo de GeoNetwork_, el principal servidor de metadatos libre, sigue activo y van apareciendo nuevas alternativas y variantes como el soporte del protocolo CSW por parte de GeoServer, así como la aparición del proyecto PyCSW_ y su integración en otros productos.
 
 
 Curva de aprendizaje y conocimientos previos
 ------------------------------------------------
 
-.. note:: Metería otra tabla con los conocimientos previos necesarios para trabajar con y en cada software.
+Principalmente existen dos perfiles de técnicos a la hora de trabajar con este tipo de productos. Esto se debe a que la implantación de un servicio en la red en primer lugar necesita de especialistas en sistemas que se encarguen de una correcta instalación del producto, adaptación del sistema operativo y de la red a la que se conecta, otros sistemas que puedan afectar al mismo, configuración y acceso a bases de datos, etc. Por otro lado igualmente en general es necesaria la intervención de un técnico especializado en el área geoespacial para la configuración avanzada del producto, preparar la cartografía o bases de datos a ofrecer, generar metadatos, etc. Es habitual que técnicos de un único perfil hagan todo el trabajo pero como en cualquier proyecto geoespacial, es en la multidisciplinariedad de los equipos de trabajo donde mejores resultados se van a conseguir.
+
+Por lo tanto los conocimientos necesarios para este amplio conjunto de productos y desde el punto de vista tanto de la administración de sistemas como de la |IG| es elevado, aunque puede depender también del producto. Nombrando los más importantes:
+
+Desde el punto de vista de la administración de sistemas:
+  * Instalación y configuración de servidores *web* y de aplicaciones.
+  * Configuración de aplicaciones FastCGI/CGI, WSGI, NodeJS, JEE, etc. en función del producto.
+  * Creación y configuración de :ref:`bases de datos`, esquemas de datos, usuarios y roles, etc.
+  * Configurar *caches*, *proxies* inversos y reescritura de direcciones *web* para integrar varios servidores. Por ejemplo es habitual exponer un servidor de aplicaciones JEE (por ejemplo GeoNetwork_ ejecutándose en el contenedor de *servlets* Tomcat) detrás de un servidor web, e incluso éste último detrás de un acelerador web como Varnish.
+
+Desde el punto de vista del técnico en tecnologías geoespaciales:
+  * Conversión de formatos de datos geográficos (*raster* y vectorial).
+  * Manejo y carga de bases de datos espaciales.
+  * Conocer los diferentes especificaciones OGC, tanto en protocolos como en formatos (en función del producto).
+  * Comprender las principales proyecciones cartográficas y sistemas de referencia.
+  * Comprender las diferencias entre los diferentes formatos de imagen soportados por los navegadores, el concepto de *cache*, etc.
 
 
 Documentación
 ---------------
 
-.. note:: Enlace al wiki y quizás alguna sugerencia particular en alguna sección.
+A continuación se ofrecen enlaces a las principales páginas de documentación, tutoriales o ejemplos que pueden ayudar a empezar a trabajar con cada uno de los productos revisados.
+
+* **MapServer**: `documentación <http://mapserver.org/documentation.html>`_, `quickstart de OSGeo Live <http://live.osgeo.org/en/quickstart/mapserver_quickstart.html>`_.
+
+* **deegree**: `documentación <http://download.occamlabs.de/documentation/3.3.8/html/>`_, `quickstart de OSGeo Live <http://live.osgeo.org/en/quickstart/deegree_quickstart.html>`_.
+
+* **GeoServer**: `documentación <http://docs.geoserver.org/stable/en/user/>`_, `quickstart de OSGeo Live <http://live.osgeo.org/en/quickstart/geoserver_quickstart.html>`_, `taller de introducción de Boundless <http://workshops.boundlessgeo.com/geoserver-intro/>`_.
+
+* **GeoNetwork**: `documentación <http://geonetwork-opensource.org/docs.html>`_, `quickstart de OSGeo Live <http://live.osgeo.org/en/quickstart/geonetwork_quickstart.html>`_.
+
+* **52ºnorth SOS**: `documentación <https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation>`_, `quickstart de OSGeo Live <http://live.osgeo.org/en/quickstart/52nSOS_quickstart.html>`_.
+
+* **MapGuide**: `documentación <https://mapguide.osgeo.org/GettingStartedResources>`_, `quickstart de OSGeo Live <http://live.osgeo.org/en/quickstart/mapguide_quickstart.html>`_.
+
+* **PyWPS**: `documentación <http://pywps.wald.intevation.org/documentation/pywps-3.2/>`_, `tutorial <http://pywps.wald.intevation.org/documentation/course/>`_.
+
+* **GeoWebCache**: `documentación <http://geowebcache.org/docs/1.5.1/>`_, `taller de Boundless <http://workshops.boundlessgeo.com/suiteintro/geowebcache/index.html>`_.
+
+* **TileCache**: `documentación <http://tilecache.org/docs/README.html#>`_.
+
+* **52ºnorth WPS**: `tutoriales <https://wiki.52north.org/bin/view/Geoprocessing/GeoprocessingTutorials>`_, `quickstart de OSGeo Live <http://live.osgeo.org/en/quickstart/52nWPS_quickstart.html>`_.
+
+* **MapProxy**: `documentación <http://mapproxy.org/docs/latest/>`_, `quickstart de OSGeo Live <http://live.osgeo.org/en/quickstart/mapproxy_quickstart.html>`_.
+
+* **PyCSW**: `documentación <http://pycsw.org/docs/latest/>`_, `quickstart de OSGeo Live <http://live.osgeo.org/en/quickstart/pycsw_quickstart.html>`_, `taller <http://geopython.github.io/pycsw-workshop/>`_.
+
+* **QGIS Server**: `tutorial <https://hub.qgis.org/projects/quantum-gis/wiki/QGIS_Server_Tutorial>`_, `quickstart de OSGeo Live <http://live.osgeo.org/en/quickstart/qgis_mapserver_quickstart.html>`_.
+
+* **TileStache**: `documentación <http://tilestache.org/doc/>`_.
+
+* **ZOO Project**: `documentación <http://zoo-project.org/docs/>`_, `quickstart de OSGeo Live <http://live.osgeo.org/en/quickstart/zoo-project_quickstart.html>`_, `taller del FOSS4G2013 <http://zoo-project.org/ws2013n/>`_.
+
+* **EOxServer**: `documentación <https://eoxserver.org/doc/en/users/index.html>`_, `quickstart de OSGeo Live <http://live.osgeo.org/en/quickstart/eoxserver_quickstart.html>`_.
+
+* **TileStream**: `notas de instalación y uso <https://github.com/mapbox/tilestream>`_
+
+.. list-table:: Documentación de proyectos
+   :widths: 10 15 15 35
+   :header-rows: 1
+
+   * - Proyecto
+     - Documentación
+     - OSGeo Live
+     - Otros
+
+   * - **MapServer**
+     - `MapServer docs <http://mapserver.org/documentation.html>`_
+     - `MapServer quickstart <http://live.osgeo.org/en/quickstart/mapserver_quickstart.html>`_
+     -
+
+   * - **deegree**
+     - `deegree docs <http://download.occamlabs.de/documentation/3.3.8/html/>`_
+     - `deegree quickstart <http://live.osgeo.org/en/quickstart/deegree_quickstart.html>`_
+     -
+
+   * - **GeoServer**
+     - `GeoServer docs <http://docs.geoserver.org/stable/en/user/>`_
+     - `GeoServer quickstart <http://live.osgeo.org/en/quickstart/geoserver_quickstart.html>`_
+     - `taller de introducción de Boundless <http://workshops.boundlessgeo.com/geoserver-intro/>`_
+
+   * - **GeoNetwork**
+     - `GeoNetwork docs <http://geonetwork-opensource.org/docs.html>`_
+     - `GeoNetwork quickstart <http://live.osgeo.org/en/quickstart/geonetwork_quickstart.html>`_
+     -
+
+   * - **52ºnorth SOS**
+     - `52ºnorth SOS docs <https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation>`_
+     - `52ºnorth SOS quickstart <http://live.osgeo.org/en/quickstart/52nSOS_quickstart.html>`_
+     -
+
+   * - **MapGuide**
+     - `MapGuide docs <https://mapguide.osgeo.org/GettingStartedResources>`_
+     - `MapGuide quickstart <http://live.osgeo.org/en/quickstart/mapguide_quickstart.html>`_
+     -
+
+   * - **PyWPS**
+     - `PyWPS docs <http://pywps.wald.intevation.org/documentation/pywps-3.2/>`_
+     -
+     - `PyWPS tutorial <http://pywps.wald.intevation.org/documentation/course/>`_
+
+   * -  **GeoWebCache**
+     - `GeoWebCache docs <http://geowebcache.org/docs/1.5.1/>`_
+     -
+     -  `taller de Boundless <http://workshops.boundlessgeo.com/suiteintro/geowebcache/index.html>`_
+
+   * - **TileCache**
+     - `TileCache README <http://tilecache.org/docs/README.html#>`_
+     -
+     -
+
+   * - **52ºnorth WPS**
+     -
+     - `52ºnorth WPS quickstart <http://live.osgeo.org/en/quickstart/52nWPS_quickstart.html>`_
+     - `tutoriales de 52ºnorth WPS <https://wiki.52north.org/bin/view/Geoprocessing/GeoprocessingTutorials>`_
+
+   * - **MapProxy**
+     - `MapProxy docs <http://mapproxy.org/docs/latest/>`_
+     - `MapProxy quickstart <http://live.osgeo.org/en/quickstart/mapproxy_quickstart.html>`_
+     -
+
+   * - **PyCSW**
+     - `PyCSW docs <http://pycsw.org/docs/latest/>`_
+     - `PyCSW quickstart <http://live.osgeo.org/en/quickstart/pycsw_quickstart.html>`_
+     - `taller de PyCSW <http://geopython.github.io/pycsw-workshop/>`_
+
+   * - **QGIS Server**
+     -
+     - `QGIS Server quickstart <http://live.osgeo.org/en/quickstart/qgis_mapserver_quickstart.html>`_
+     - `tutorial de QGIS Server <https://hub.qgis.org/projects/quantum-gis/wiki/QGIS_Server_Tutorial>`_
+
+   * - **TileStache**
+     - `TileStache docs <http://tilestache.org/doc/>`_
+     -
+     -
+
+   * -  **ZOO Project**:
+     - `ZOO Project docs <http://zoo-project.org/docs/>`_
+     - `ZOO Project quickstart <http://live.osgeo.org/en/quickstart/zoo-project_quickstart.html>`_
+     - `taller del FOSS4G2013 <http://zoo-project.org/ws2013n/>`_
+
+   * - **EOxServer**
+     - `EOxServer docs <https://eoxserver.org/doc/en/users/index.html>`_
+     - `EOxServer quickstart <http://live.osgeo.org/en/quickstart/eoxserver_quickstart.html>`_
+     -
+
+   * - **TileStream**
+     - `notas de instalación y uso <https://github.com/mapbox/tilestream>`_
+     -
+     -
+
 
 
 Referencias
 ---------------
-
 
 .. [GeoServerIGN] `Using GeoServer at IGN (the French National Mapping Agency) to create new digital maps <http://blog.geoserver.org/2014/01/07/using-geoserver-at-ign-the-french-national-mapping-agency-to-create-new-digital-maps/>`_
 
