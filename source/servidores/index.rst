@@ -295,9 +295,9 @@ A continuación se ofrecen enlaces a las principales páginas de documentación,
      -
 
 
+.. only:: html
 
-Referencias
----------------
+   **Referencias**
 
 .. [GeoServerIGN] `Using GeoServer at IGN (the French National Mapping Agency) to create new digital maps <http://blog.geoserver.org/2014/01/07/using-geoserver-at-ign-the-french-national-mapping-agency-to-create-new-digital-maps/>`_
 
