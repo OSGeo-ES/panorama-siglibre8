@@ -201,7 +201,7 @@ A continuación se ofrecen enlaces a las principales páginas de documentación,
 * **TileStream**: `notas de instalación y uso <https://github.com/mapbox/tilestream>`_
 
 .. list-table:: Documentación de proyectos
-   :widths: 10 15 15 35
+   :widths: 10 10 10 35
    :header-rows: 1
 
    * - Proyecto
@@ -211,32 +211,32 @@ A continuación se ofrecen enlaces a las principales páginas de documentación,
 
    * - **MapServer**
      - `MapServer docs <http://mapserver.org/documentation.html>`_
-     - `MapServer quickstart <http://live.osgeo.org/en/quickstart/mapserver_quickstart.html>`_
+     - `MapServer qs <http://live.osgeo.org/en/quickstart/mapserver_quickstart.html>`_
      -
 
    * - **deegree**
      - `deegree docs <http://download.occamlabs.de/documentation/3.3.8/html/>`_
-     - `deegree quickstart <http://live.osgeo.org/en/quickstart/deegree_quickstart.html>`_
+     - `deegree qs <http://live.osgeo.org/en/quickstart/deegree_quickstart.html>`_
      -
 
    * - **GeoServer**
      - `GeoServer docs <http://docs.geoserver.org/stable/en/user/>`_
-     - `GeoServer quickstart <http://live.osgeo.org/en/quickstart/geoserver_quickstart.html>`_
-     - `taller de introducción de Boundless <http://workshops.boundlessgeo.com/geoserver-intro/>`_
+     - `GeoServer qs <http://live.osgeo.org/en/quickstart/geoserver_quickstart.html>`_
+     - `taller de introducción <http://workshops.boundlessgeo.com/geoserver-intro/>`_
 
    * - **GeoNetwork**
      - `GeoNetwork docs <http://geonetwork-opensource.org/docs.html>`_
-     - `GeoNetwork quickstart <http://live.osgeo.org/en/quickstart/geonetwork_quickstart.html>`_
+     - `GeoNetwork qs <http://live.osgeo.org/en/quickstart/geonetwork_quickstart.html>`_
      -
 
    * - **52ºnorth SOS**
      - `52ºnorth SOS docs <https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation>`_
-     - `52ºnorth SOS quickstart <http://live.osgeo.org/en/quickstart/52nSOS_quickstart.html>`_
+     - `52ºnorth SOS qs <http://live.osgeo.org/en/quickstart/52nSOS_quickstart.html>`_
      -
 
    * - **MapGuide**
      - `MapGuide docs <https://mapguide.osgeo.org/GettingStartedResources>`_
-     - `MapGuide quickstart <http://live.osgeo.org/en/quickstart/mapguide_quickstart.html>`_
+     - `MapGuide qs <http://live.osgeo.org/en/quickstart/mapguide_quickstart.html>`_
      -
 
    * - **PyWPS**
@@ -256,22 +256,22 @@ A continuación se ofrecen enlaces a las principales páginas de documentación,
 
    * - **52ºnorth WPS**
      -
-     - `52ºnorth WPS quickstart <http://live.osgeo.org/en/quickstart/52nWPS_quickstart.html>`_
+     - `52ºnorth WPS qs <http://live.osgeo.org/en/quickstart/52nWPS_quickstart.html>`_
      - `tutoriales de 52ºnorth WPS <https://wiki.52north.org/bin/view/Geoprocessing/GeoprocessingTutorials>`_
 
    * - **MapProxy**
      - `MapProxy docs <http://mapproxy.org/docs/latest/>`_
-     - `MapProxy quickstart <http://live.osgeo.org/en/quickstart/mapproxy_quickstart.html>`_
+     - `MapProxy qs <http://live.osgeo.org/en/quickstart/mapproxy_quickstart.html>`_
      -
 
    * - **PyCSW**
      - `PyCSW docs <http://pycsw.org/docs/latest/>`_
-     - `PyCSW quickstart <http://live.osgeo.org/en/quickstart/pycsw_quickstart.html>`_
+     - `PyCSW qs <http://live.osgeo.org/en/quickstart/pycsw_quickstart.html>`_
      - `taller de PyCSW <http://geopython.github.io/pycsw-workshop/>`_
 
    * - **QGIS Server**
      -
-     - `QGIS Server quickstart <http://live.osgeo.org/en/quickstart/qgis_mapserver_quickstart.html>`_
+     - `QGIS Server qs <http://live.osgeo.org/en/quickstart/qgis_mapserver_quickstart.html>`_
      - `tutorial de QGIS Server <https://hub.qgis.org/projects/quantum-gis/wiki/QGIS_Server_Tutorial>`_
 
    * - **TileStache**
@@ -281,12 +281,12 @@ A continuación se ofrecen enlaces a las principales páginas de documentación,
 
    * -  **ZOO Project**:
      - `ZOO Project docs <http://zoo-project.org/docs/>`_
-     - `ZOO Project quickstart <http://live.osgeo.org/en/quickstart/zoo-project_quickstart.html>`_
+     - `ZOO Project qs <http://live.osgeo.org/en/quickstart/zoo-project_quickstart.html>`_
      - `taller del FOSS4G2013 <http://zoo-project.org/ws2013n/>`_
 
    * - **EOxServer**
      - `EOxServer docs <https://eoxserver.org/doc/en/users/index.html>`_
-     - `EOxServer quickstart <http://live.osgeo.org/en/quickstart/eoxserver_quickstart.html>`_
+     - `EOxServer qs <http://live.osgeo.org/en/quickstart/eoxserver_quickstart.html>`_
      -
 
    * - **TileStream**
