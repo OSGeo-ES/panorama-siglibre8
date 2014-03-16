@@ -99,16 +99,25 @@ MapProxy_:
   MapProxy es un servidor de teselas que dispone de algunas características interesantes. Al igual que GeoWebCache_ permite responder a cualquier petición WMS, no solo a las correspondientes con teselas de las *caches* definidas. Además dispone de varios mecanismos de almacenamiento de teselas más allá del uso del sistema de ficheros. Además puede usarse como un servidor de mapas estándar para ficheros de configuración de la biblioteca de renderización Mapnik_. Su configuración mediante sencillos ficheros de texto y las herramientas de ayuda a configuración y despliegue de las mismas lo convierten en un producto ciertamente versátil.
 
   .. _Mapnik: http://mapnik.org/
+
 PyCSW_:
-  bla
-`QGis Server`_:
-  bla
+  Servidor de metadatos desarollado en el lenguaje Python, diseñado para ser tanto una librería como un servidor independiente, por lo que se puede integrar en otros desarrollos o desplegar como un servidor. Es un proyecto pequeño, reciente y sin interfaz de usuario. Se puede arrancar el servidor importando una carpeta de ficheros XML de metadatos y utiliza una base de datos, implementando el estándar CSW (entre otros) para acceso a los metadatos y los estándares OGC más importantes para recopilar metadatos de servicios existentes. Este servidor se ha integrado en productos más grandes como son el servidor de *Open Data* CKAN_ y el portal de datos geográficos GeoNode_.
+
+  .. _CKAN: http://ckan.org/
+  .. _GeoNode: http://geonode.org/
+
+`QGIS Server`_:
+  Este servidor nace en el contexto del proyecto QGIS como una forma sencilla de exponer proyectos de este *software* de escritorio a través de la red y mediante los estándares WMS y WFS. Técnicamente es un producto escrito en C++ que se despliega como un servidor FastCGI/CGI (como MapServer_) y que proporciona un plugin para el software de escritorio de tal forma que se facilita enormemente la publicación de datos geográficos desde este producto.
+
 TileStache_:
-  bla
+  Servidor de teselas heredero del veterano TileCache_, desarrollado para mejorar las funcionalidades de éste, aunque no ha tenido mucha actividad en los últimos meses. Sus principales características son que está orientado a renderizar mapas a partir de ficheros de configuración de Mapnik_, generar teselas vectoriales en formato GeoJSON, puede almacenar las *caches* no solo en disco sino también en memoria o en Amazon S3.
+
 `ZOO Project`_:
-  bla
+  Este proyecto consiste en un núcleo escrito en C++ que permite ejecutar los procesos en diferentes lenguajes y para cualquier propósito, un conjunto de servicios a modo de ejemplo que escritos en diferentes lenguajes de programación y utilizando librerías bien conocidas realizan diferentes procesos como el cálculo de rutas, conversión de datos, etc. Finalmente el proyecto proporciona una interfaz de programación (API) escrita en JavaScript para ejecutar procesos WMS desde el servidor. Este proyecto se integra muy bien con MapServer_ para generar servicios WMS dinámicos a partir del resultado de procesos WPS de forma que el *software* ofrece directamente un método de visualización de los resultados.
+
 EOxServer_:
-  bla
+  Este *software* es básicamente una aplicación *web* escrita en el *framework* Django_, que permite modelar juegos de datos de observación de la Tierra, utilizando y extendiendo MapServer_ para ofrecer servicios WMS y WCS de estos datos así como una interfaz de visualización, consulta y administración en un entorno *web*. A partir de un conjunto de imágenes *raster* de diferentes áreas e instantes temporales, EOxServer además de exponerlas por WMS y WCS usando el perfil específico para datos de observación de la Tierra, ofrece servicios para generar mosaicos y previsualizaciones, mediante un entorno web (usando OpenLayers) para navegar por las diferentes fechas y regiones.
+
 TileStream_:
   bla
 
@@ -165,7 +174,7 @@ Referencias
 .. _52ºnorth WPS: http://52north.org/communities/geoprocessing/wps/index.html
 .. _MapProxy: http://mapproxy.org/
 .. _PyCSW: http://pycsw.org/
-.. _QGis Server: http://docs.qgis.org/2.0/en/docs/user_manual/working_with_ogc/ogc_server_support.html
+.. _QGIS Server: http://docs.qgis.org/2.0/en/docs/user_manual/working_with_ogc/ogc_server_support.html
 .. _TileStache: http://tilestache.org/
 .. _ZOO Project: http://zoo-project.org/
 .. _EOxServer: https://github.com/EOxServer/eoxserver
