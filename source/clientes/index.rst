@@ -59,30 +59,30 @@ Software
 En esta sección se describirá brevemente cada uno de los productos evaluados en esta comparativa. 
 
 
-gvSIG_:
+gvSIG:
 
 GvSIG es un proyecto de desarrollo de Sistemas de Información Geográfica en software libre,1 que incluye principalmente las aplicaciones gvSIG Desktop y gvSIG Mobile. 
 La aplicación gvSIG Desktop fue la primera que se desarrolló dentro del proyecto gvSIG, por lo que también se conoce abreviadamente como gvSIG. 
 Este proyecto fue desarrollado por el gobierno local de la Comunidad Valenciana (Generalidad Valenciana) de España, con el objetivo inicial de realizar la gestión de datos geográficos de esa colectividad; precisamente la sigla gvSIG abrevia la denominación Generalitat Valenciana Sistema de Información Geográfica.
 
 
-QGis_:
+QGis:
 
 Es un Sistema de Información Geográfica que nació en mayo de 2002 y se estableció como proyecto en SourceForge en junio del mismo año. Fue además uno de los ocho primeros proyectos de la fundación OSGeo.
 Se trata de una aplicación de escritorio que pretende ofrecer a usuarios con necesidades básicas un entorno sencillo y agradable. 
 
 
-GRASS_:
+GRASS:
 
 Pryoecto ya muy veterano, anterior al nacimiento del FOSS ya que surgió como un proyecto del ejercito norteamericano, más concretamente del Construction Engineering Research Laboratory (CERL) que comenzó el proyecto ante la necesidad de gestionar la gran cantidad de recursos naturales a cargo del ejército en los Estados Unidos.
 Actualmente, la infraestructura principal se gestiona entre el Instituto de Cultura de Trento y el Geselleschaft für Datenanalyse und Fernerkundung (GDF) de Hannover. 
 La principal característica de GRASS es su gran número de funcionalidades, derivadas de todos los años de desarrollo y de la estructura modular del programa, que favorece que los desarrolladores aporten al proyecto contribuciones individuales. Por otro lado, el mayor problema de cara a su difusión y adopción es su complejidad y su empinada curva de aprendizaje. Aun siendo un software muy potente, carece de una interfaz amigable.
 
 
-UDig_: es un proyecto desarrollado por la empresa canadiense Refractions Research Inc. Tiene como principal objetivo ofrecer un cliente de escritorio que soporte el mayor número de fuentes de datos tanto locales como remotas, y especialmente las basadas en protocolos OGC.
+UDig: es un proyecto desarrollado por la empresa canadiense Refractions Research Inc. Tiene como principal objetivo ofrecer un cliente de escritorio que soporte el mayor número de fuentes de datos tanto locales como remotas, y especialmente las basadas en protocolos OGC.
 Aunque presenta únicamente capacidades de análisis y edición vectorial, el proyecto JGrass añade capacidades ráster adaptadas desde GRASS (con especial énfasis en las relacionadas con análisis del terreno y similares).
 
-OpenJUMP_:
+OpenJUMP:
 
 JUMP (Java Unified Mapping Platform) fue uno de los primeros proyectos de cliente GIS de escritorio en el lenguaje Java. Destaca por hacer uso de la biblioteca JTS para poder realizar algunas operaciones de análisis espacial, así como el soporte del formato GML y el protocolo WMS desde sus aparición.
 Este proyecto fue liderado por Vivid Solutions1 pero dada la política de aceptación de contribuciones externas por parte de la empresa motivó la aparición de un nuevo proyecto derivado (llamado fork  en el ámbito FOSS) conocido como The JUMP Pilot Project (JPP) que pretende coordinar de forma más democrática las contribuciones de diferentes equipos de desarrollo para evitar duplicidad de esfuerzos.
@@ -98,18 +98,18 @@ Kosmo
 En España destaca el proyecto Kosmo, desarrollado por la empresa SAGE, que pretende incorporar a la plataforma JUMP otros desarrollos de interés realizados en otros proyectos.
 
 
-SAGA GIS_:
+SAGA GIS:
 
 Esta herramienta se ha desarrollado sobre todo en Gottingen, Alemania. Se trata de un GIS de escritorio para Windows con una clara separación entre su interfaz de programación (API) y su interfaz de usuario. De hecho la primera tiene una licencia LGPL y la segunda es GPL. Esto permite realizar módulos “cerrados” sin incumplir ninguna licencia. 
 Este software destaca por su orientación a la realización de análisis de imágenes y modelos digitales del terreno especialmente.
 
 
 
-OPTICKS_:
+OPTICKS:
 
-GEODA_:
+GEODA:
 
-TILEMILL_:
+TILEMILL:
 
 
 
