@@ -3,10 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+=========================
 Panorama del SIG Libre
-==============================================
+=========================
 
-Contenidos:
+.. only:: html
+
+   Contenidos
+   =============
 
 .. toctree::
    :maxdepth: 1
@@ -22,7 +26,7 @@ Contenidos:
 
 
 Acerca de este documento
-========================
+=========================
 
 .. todo:: Escribir una introducción, explicando el contexto de las jornadas, experiencias anteriores y la motivación :issue:`11`
 
@@ -34,7 +38,7 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 Autores
-=======
+=========
 
 * |alediator|
 * |jsanz|
@@ -44,14 +48,8 @@ Autores
 * |rantolin|
 * |shiguera|
 
-Índices y cuadros
-==================
-
-* :ref:`genindex`
-* :ref:`search`
-
 Cosas pendientes
-=====================
+=========================
 
 .. todolist::
 
