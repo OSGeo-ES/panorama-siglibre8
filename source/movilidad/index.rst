@@ -31,6 +31,9 @@ La utilización de Java permite también que librerías inicialmente pensadas pa
 
    Información general sobre tecnologías
 
+
+Las principales librerías y programas disponibles en código abierto son:
+
 OpenLayers_ y LeafLet_: Han sido tratados en la sección de WebMapping 
 
 OSMDroid_: El objetivo de OSMDroid es proporcionar una librería Java-Android para visualizar mapas en dispositivos Android. Ofrece una clase MapView para sustituir a la que viene de serie en Android que permite la visualización de tiles de OpenStreetMap. Se pueden visualizar tiles en modo on-line y en modo off-line. También proporciona clases para visualizar e interactuar con overlays, marcadores y otros.
@@ -58,40 +61,40 @@ Conocidos los fundamentos de la programación en Android, es posible utilizar la
 Documentación
 -------------
 
-OpenLayers_:
+**OpenLayers:** `[OpenLayers home] <http://openlayers.org/>`_ `[OpenLayers API Documentation] <http://dev.openlayers.org/releases/OpenLayers-2.13.1/doc/apidocs/files/OpenLayers-js.html>`_ `[OpenLayers User Documentation] <http://trac.osgeo.org/openlayers/wiki/Documentation>`_ `[Openlayers OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/openlayers_quickstart.html>`_ `[Book: OpenLayers Cookbook] <http://www.packtpub.com/openlayers-create-gis-web-applications-cookbook/book>`_ `[Book: Openlayers 2.10  Beginner's guide] <https://www.packtpub.com/openlayers-2-1-javascript-web-mapping-library-beginners-guide/book>`_
+
+**LeafLet:** `[Leaflet home] <http://leafletjs.com/>`_ `[Leflet tutorials] <http://leafletjs.com/examples.html>`_ `[Leaflet API] <http://leafletjs.com/reference.html>`_ `[Leaflet repository] <https://github.com/Leaflet/Leaflet>`_ `[Leaflet OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/leaflet_quickstart.html>`_
+
+**OSMDroid:** `[OSMDroid repository] <https://github.com/osmdroid/osmdroid>`_ `[OSMDroid How to get the osmdroid library in your project] <https://code.google.com/p/osmdroid/wiki/HowToIncludeInYourProject>`_ `[Article: Gis&Chips] <http://www.gisandchips.org/2013/10/16/openstreetmap-en-android-osmdroid/>`_ `[Article: AndroCode] <http://androcode.es/tag/osmdroid/>`_
+
+**MapsForge** `[Mapsforge site] <https://code.google.com/p/mapsforge/>`_  `[Mapsforge 0.3.0 Javadoc] <http://mapsforge.googlecode.com/git-history/0.3.0/javadoc/index.html>`_  `[Taller Mapsforge Sigte 2013] <http://mercatorlab.com/geoinquietos/tallermapsforge/>`_
+
+**OsmAnd:** `[OsmAnd site] <http://osmand.net/>`_ `[OsmAnd repository] <https://code.google.com/p/osmand/>`_
+
+**Geopaparazzi:** `[Geopaparazzi site] <http://geopaparazzi.github.io/geopaparazzi/>`_
+
+**gvSIG-Mini:** `[gvSIG-Mini site] <https://confluence.prodevelop.es/display/GVMN/Home>`_ `[gvSIG-Mini Documentation] <https://confluence.prodevelop.es/display/GVMN/Documentation>`_
+
+**Graphhopper:** `[Graphhopper home] <http://geopaparazzi.github.io/geopaparazzi/>`_
+
+**OsmSharp:**
 
 .. _OpenLayers: http://docs.openlayers.org/
 
-LeafLet_:
-
 .. _LeafLet: http://leafletjs.com/index.html
 
-OSMDroid_:
+.. _OsmAnd: http://osmand.net/
+
+.. _GeoPaparazzi: http://geopaparazzi.github.io/geopaparazzi/
+
+.. _gvSIGMini: https://confluence.prodevelop.es/display/GVMN/Documentation
+
+.. _Graphhopper: http://graphhopper.com/#overview
 
 .. _OSMDroid: https://code.google.com/p/osmdroid/
 
-MapsForge_:
+.. _OsmSharp: https://github.com/xivk/OsmSharp
 
 .. _MapsForge: https://code.google.com/p/mapsforge/
 
 .. _Osmosis: http://wiki.openstreetmap.org/wiki/Osmosis
-
-OsmAnd_:
-
-.. _OsmAnd: http://osmand.net/
-
-GeoPaparazzi_:
-
-.. _GeoPaparazzi: http://geopaparazzi.github.io/geopaparazzi/
-
-gvSIGMini_:
-
-.. _gvSIGMini: https://confluence.prodevelop.es/display/GVMN/Documentation
-
-Graphhopper_:
-
-.. _Graphhopper: http://graphhopper.com/#overview
-
-OsmSharp_:
-
-.. _OsmSharp: https://github.com/xivk/OsmSharp
