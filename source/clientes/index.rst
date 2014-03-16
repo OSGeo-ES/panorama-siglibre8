@@ -59,7 +59,7 @@ Software
 En esta sección se describirá brevemente cada uno de los productos evaluados en esta comparativa. 
 
 
-gvSIG:
+**gvSIG**:
 
 GvSIG es un proyecto de desarrollo de Sistemas de Información Geográfica en software libre,1 que incluye principalmente las aplicaciones gvSIG Desktop y gvSIG Mobile. 
 La aplicación gvSIG Desktop fue la primera que se desarrolló dentro del proyecto gvSIG, por lo que también se conoce abreviadamente como gvSIG. 
