@@ -25,8 +25,20 @@ Existen por otra parte librerías específicas desarrolladas para Android, como 
 
 La utilización de Java permite también que librerías inicialmente pensadas para ser utilizadas en dispositivos móviles puedan ser reutilizadas en ordenadores de escritorio bajo entorno Java. En general la diferencia está en la parte gráfica de Java: En el caso de ordenadores de escritorio es usual utilizar el entorno Swing que no es compatible con Android. 
 
+
+
+.. figure:: img/movilidad.png
+   :align: center
+   :alt: Información general sobre las tecnologías
+
+   Información general sobre tecnologías
+
+
+
 Curva de aprendizaje y conocimientos previos
 --------------------------------------------
+
+
 
 Documentación
 -------------
