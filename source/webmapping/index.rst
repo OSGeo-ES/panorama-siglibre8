@@ -70,8 +70,6 @@ La interfaz de usuario es fácilmente configurable, y gracias a su arquitectura 
 
 Leaflet_:
 
-Leaflet es una librería moderna de software libre para el desarrollo de mapas interactivos. Está basada en Javascript y está pensada para su compatibilidad con dispositivos móviles. Está desarrollada por `Vladimir Agafonkin`_ además de un equipo de dedicados contribuidores. Sólo pesa 33 KB de ficheros javascript y tiene todas las características que más pueden usar los desarrolladores de mapas online.
-
 Leaflet está diseñado con la mente puesta en la simplicidad, el rendimiento y la facilidad de uso. Funciona de manera eficiente en las principales plataformas de escritorio y móviles, aprovechando las ventajas del HTML5 y CSS3 en los navegadores modernos, sin dejar de ser accesibles a los más antiguos. Se puede ampliar su funcionalidad con una gran cantidad de plugins, tiene una API bonita, fácil de usar y bien documentada, así como un código fuente simple y legible, que es una fácilidad para los desarrolladores que quieran contribuir.
 
 Mapstore_:

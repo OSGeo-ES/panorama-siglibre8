@@ -36,11 +36,17 @@ Las principales librerías y programas disponibles en código abierto son:
 
 OpenLayers_ y LeafLet_: Han sido tratados en la sección de WebMapping 
 
-OSMDroid_: El objetivo de OSMDroid es proporcionar una librería Java-Android para visualizar mapas en dispositivos Android. Ofrece una clase MapView para sustituir a la que viene de serie en Android que permite la visualización de tiles de OpenStreetMap. Se pueden visualizar tiles en modo on-line y en modo off-line. También proporciona clases para visualizar e interactuar con overlays, marcadores y otros.
+OSMDroid_: 
 
-MapsForge_: Se trata de una librería que permite visualizar mapas de OpenStreetMap en dispositivos Android. La visualización se realiza en modo off-line y con mapas en formato vectorial. Es necesario disponer de los mapas en un formato propio de MapsForge. Dichos mapas se pueden crear a partir de los ficheros *osm* de OpenStreetMap mediante la herramienta Osmosis_.
+El objetivo de OSMDroid es proporcionar una librería Java-Android para visualizar mapas en dispositivos Android. Ofrece una clase MapView para sustituir a la que viene de serie en Android que permite la visualización de tiles de OpenStreetMap. Se pueden visualizar tiles en modo on-line y en modo off-line. También proporciona clases para visualizar e interactuar con overlays, marcadores y otros.
 
-OsmAnd_: Es una herramienta de navegación y routing para trabajar desde dispositivos Android con cartografía procedente de OpenStreetMap.
+MapsForge_: 
+
+Mapsforge es una librería Open Source que permite gestionar la visualización de mapas de OpenStreetMap en los dispositivos Android. Es ligera, ocupa unos 300 Kb. Los mapas tienen un formato vectorial binario que los hace también ligeros. Utiliza un elemento MapView similar al del API de Google. Tiene una buena API para overlays (capas vectoriales superpuestas). Se pueden personalizar los estilos de renderización de los mapas. Tiene una herramienta para crear mapas a medida a través de Osmosis_. Algunos puntos débiles serían que no dispone de API para Bubbles y no limita la extensión del mapa.
+
+OsmAnd_: 
+
+Es una herramienta de navegación y routing para trabajar desde dispositivos Android con cartografía procedente de OpenStreetMap. Puede trabajar online y offline, previa descarga de los mapas. Proporciona instrucciones de navegación de forma visual y mediante voz sintetizada. La navegación y el routing es adaptable a vehículos automóviles, bicicletas o peatones. Permite mostrar la posición GPS del dispositivo y su orientación sobre la cartografía. Se puede mostrar el mapa orientado con el Norte arriba o en modo *head-up* o *proa-arriba*.  
 
 GeoPaparazzi_: Permite tomar fotografías y notas georeferenciadas desde dispositivos Android, para poder ser visualizadas posteriormente con otras herramientas GIS. También proporciona una herramienta de tracking durante los recorridos.
 
