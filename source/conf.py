@@ -288,7 +288,7 @@ epub_copyright = u'2014, OSGeo-es'
 
 
 rst_prolog = u"""
-.. |delawen|   replace:: María Arias `@delawen`_
+.. |delawen|   replace:: María Arias de Reyna `@delawen`_
 .. |jsanz|     replace:: Jorge Sanz `@xurxosanz`_
 .. |moiarcsan| replace:: Moisés Arcos `@moiarcsan`_
 .. |alediator| replace:: Alejandro Díaz `@alediator`_
