@@ -2,20 +2,21 @@
 Dispositivos móviles
 ********************
 
-Incluiremos en la categoría de dispositivos móviles los paquetes de software que se pueden utilizar desde *smartphones* y tabletas.  
-
 Autores
 ------------
 
 - |shiguera|
 
-Puntos calientes
-----------------
-Actualmente hay dos sistemas operativos para móviles que acaparan la mayoría de los dispositivos utilizados. Se trata del sistema iOS de Apple y el sistema Android de Google. El más '*abierto*' es el sistema operativo Android, si bien ninguno de los dos es realmente abierto.
+Introducción
+------------
 
-Es importante destacar que, cuando el dispositivo móvil utiliza un navegador web para visualizar información en la red, la distinción entre dispositivos móviles y ordenadores de escritorio se hace más difusa, pues las mismas herramientas y librerías nos sirven para visualizar información en un dispositivo móvil u otro tipo de elemento de computación. Es el caso de las librerías OpenLayers o LeafLet, que nos permiten, con pequeñas diferencias, acceder a la visualización de información cartográfica desde cualquier navegador, sea este basado en móviles o en ordenadores de escritorio.
+Incluiremos en la categoría de dispositivos móviles los paquetes de software que se pueden utilizar desde *smartphones* y tabletas.  
 
-Otro frente actual es el de los sistemas operativos que tratan de ser funcionales tanto en dispositivos móviles como en ordenadores de escritorio. En esta categoría se incuyen el sistema operativo Ubuntu móvil o el Windows 8 que permiten ser ejecutados en todo tipo de ordenadores. Es previsible que el aumento de potencia de los dispositivos móviles unido a la conveniencia de compatibilidad entre dispositivos, permita en un futuro cercano que la distinción entre sistemas operativos para dispositivos móviles y para ordenadores de escritorio se haga cada vez más difusa.
+Actualmente existen dos sistemas operativos para dispositivos móviles que abarcan la gran mayoría de los dispositivos funcionando: Android e iOS. El primero, Android, es el más abierto de los dos, y dispone de un buen número de aplicaciones y librerías que sí se ofrecen en modalidad Open Source permitiendo su utilización en desarrollos ulteriores.
+
+En ambos casos el sistema operativo subyacente es Linux. En los dispositivos iOS se utiliza una variante del lenguaje C para programarlos: el Objective C. En los dispositivos Android se utiliza una variante del lenguaje Java para programarlos.
+
+Vamos a centrar este artículo en el software y librerías disponible para dispositivos basados en Android, por ser a día de hoy el que dispone de suficientes herramientas con licencias libres para ser utilizadas en el desarrollo de aplicaciones para móviles.
 
 Software
 --------
@@ -34,7 +35,9 @@ La utilización de Java permite también que librerías inicialmente pensadas pa
 
 Las principales librerías y programas disponibles en código abierto son:
 
-OpenLayers_ y LeafLet_: Han sido tratados en la sección de WebMapping 
+OpenLayers_ y LeafLet_: 
+
+En ambos casos se trata de librerías Javascript cuyo objetivo es la visualización de información cartográfica en entornos de Web-mapping. Los dispositivos móviles disponen de navegadores que interpretan el Javascript, por lo que, en general, es posible utilizar las librerías Javascript para visualizaciones desde dispositivos móviles, sean estos Android, iOS u otros. Las páginas web basadas en OpenLayers o Leaflet permiten su visualización en dispositivos móviles a través del navegador. En el caso de OpenLayers versión 2 hay que tener algunas precauciones al programar las páginas. La futura versión 3 de OpenLayers superará estas limitaciones. El funcionamiento de estas librerías se ha tratado ampliamente
 
 OSMDroid_: 
 
@@ -54,15 +57,22 @@ gvSIGMini_: Es un cliente visualizador de cartografía para Android. Proporciona
 
 Graphhopper_: Es una herramienta de routing que trabaja con datos de OpenStreetMap. Se puede utilizar desde dispositivos Android, a través de su integración con MapsForge. También es posible utilizarlo desde páginas web como un servicio mediante llamadas HTTP desde Java o Javascript. Desde aplicaciones Java de escritorio es posible trabajar con Graphhopper en modo off-line. Se pueden calcular rutas para automóviles, bicicletas o paseos andando. También se pueden crear vehículos personalizados.
 
-OsmSharp_: Es una herramienta para trabajar con cartografía de OpenStreetMap. Permite la visualización de información vectorial y el cálculo de rutas. Se puede utilizar en Android, iOS y WindowsPhone.
+OsmSharp_: Es una herramienta para trabajar con cartografía de OpenStreetMap. Permite la visualización de información vectorial y el cálculo de rutas. Se puede utilizar en Android, iOS y WindowsPhone, así como en Linux, Windows y OSX.
 
+Puntos calientes
+----------------
+Actualmente hay dos sistemas operativos para móviles que acaparan la mayoría de los dispositivos utilizados. Se trata del sistema iOS de Apple y el sistema Android de Google. El más '*abierto*' es el sistema operativo Android, si bien ninguno de los dos es realmente abierto.
+
+Es importante destacar que, cuando el dispositivo móvil utiliza un navegador web para visualizar información en la red, la distinción entre dispositivos móviles y ordenadores de escritorio se hace más difusa, pues las mismas herramientas y librerías nos sirven para visualizar información en un dispositivo móvil u otro tipo de elemento de computación. Es el caso de las librerías OpenLayers o LeafLet, que nos permiten, con pequeñas diferencias, acceder a la visualización de información cartográfica desde cualquier navegador, sea este basado en móviles o en ordenadores de escritorio.
+
+Otro frente actual es el de los sistemas operativos que tratan de ser funcionales tanto en dispositivos móviles como en ordenadores de escritorio. En esta categoría se incuyen el sistema operativo Ubuntu móvil o el Windows 8 que permiten ser ejecutados en todo tipo de ordenadores. Es previsible que el aumento de potencia de los dispositivos móviles unido a la conveniencia de compatibilidad entre dispositivos, permita en un futuro cercano que la distinción entre sistemas operativos para dispositivos móviles y para ordenadores de escritorio se haga cada vez más difusa.
 
 Curva de aprendizaje y conocimientos previos
 --------------------------------------------
+
 La programación de los dispositivos Android se realiza a través de un lenguaje Java propio de Android. Muchas de las librerías disponibles para Java funcionan también en dispositivos Android. Es necesario conocer los fundamentos básicos de la programación Java y, además, conocer la forma de utilizar Java en Android. No es un lenguaje sencillo y además la variedad de dispositivos y de tamaños de pantallas hace un poco más complicada la programación.
 
-Conocidos los fundamentos de la programación en Android, es posible utilizar las herramientas descritas anteriormente con un pequeño esfuerzo adicional. 
-
+Conocidos los fundamentos de la programación en Android, es posible utilizar las herramientas descritas anteriormente con un pequeño esfuerzo adicional que permita conocer cada una de ellas.. 
 
 Documentación
 -------------
@@ -77,13 +87,13 @@ Documentación
 
 **OsmAnd:** `[OsmAnd site] <http://osmand.net/>`_ `[OsmAnd repository] <https://code.google.com/p/osmand/>`_
 
-**Geopaparazzi:** `[Geopaparazzi site] <http://geopaparazzi.github.io/geopaparazzi/>`_
+**Geopaparazzi:** `[Geopaparazzi site] <http://geopaparazzi.github.io/geopaparazzi/>`_ `[Geopaparazzi Documentation] <https://github.com/geopaparazzi/geopaparazzi/wiki>`_ 
 
 **gvSIG-Mini:** `[gvSIG-Mini site] <https://confluence.prodevelop.es/display/GVMN/Home>`_ `[gvSIG-Mini Documentation] <https://confluence.prodevelop.es/display/GVMN/Documentation>`_
 
-**Graphhopper:** `[Graphhopper home] <http://geopaparazzi.github.io/geopaparazzi/>`_
+**Graphhopper:** `[Graphhopper home] <http://graphhopper.com/>`_ `[Graphhopper quickstart for users] <https://github.com/graphhopper/graphhopper/wiki/QuickStart>`_ `[Graphhopper quickstart for developpers] <https://github.com/graphhopper/graphhopper/wiki/Developers>`_ 
 
-**OsmSharp:**
+**OsmSharp:** `[OsmSharp home] <http://www.osmsharp.com/>`_ `[OsmSharp documentation] <http://www.osmsharp.com/wiki/documentation>`_ 
 
 .. _OpenLayers: http://docs.openlayers.org/
 
