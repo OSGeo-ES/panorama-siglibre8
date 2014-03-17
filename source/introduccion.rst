@@ -4,15 +4,25 @@
 Introducción
 ************
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+La metodología de trabajo que se emplea para colaborar con este proyecto se centra principalmente en el uso de GitHub_. Para organizar todo el trabajo relacionado con la producción del documento, hemos compuesto un equipo de desarrollo con permisos sobre el propio repositorio, que nos permitirá realizar las modificaciones del documento. Para el correcto funcionamiento del grupo, tenemos habilitada la opción de crear "issues", de forma que la coordinación a la hora de tomar las decisiones que afecten a la producción del artículo sea más eficiente. Además de una reunión semanal mediante irc_ para evaluar el estado de cosecución de los objetivos marcados, cuyas actas se encuentran alojadas en la `wiki de OSGeo`_, que también usamos para la repartición de las distintas secciones, así como para una primera aproximación del contenido de cada una de ellas, además de la generación de las tablas del artículo.
 
-.. todo:: Explicar la metodología de trabajo
+Disponemos de un repositorio en el que se alojan todos los archivos fuentes del artículo, así como todos los recursos relacionados con la presentación.
 
+Para ello tenemos habilitadas en el repositorio dos ramas:
+
+* gh-pages: Rama para el desarrollo de la presentación
+* paper: Rama para el desarrollo del artículo
+
+La rama `gh-pages`_, que empleamos para el desarrollo de la presentación, se ha fabricado mediante RevealJS_, un framework javascript para el desarrollo de presentaciónes dinámicas basadas en HTML5 Y CSS3, publicando el contenido de la misma mediante una `GitHub Pages`_.
+
+La rama paper_, que empleamos para el desarrollo del artículo, se ha fabricado mediante Sphinx_, un generador de documentción escrito en Python, que hace que se genere la estructura por defecto de un proyecto base para la generación de un artículo, tal y como el que aquí se presenta.
+
+Empleamos además una herramienta, `Read the Docs`_, que nos facilita el publicar esta documentación en la web, haciéndola fácil de encontrar y ofreciendo opción de búsqueda.
+Esta herramienta nos permite subir la documentación generada con Sphinx_ mediante la dirección al repositorio de Git. La documentación será compilada cada vez que se realice un commit, de forma que tendremos siempre la última versión de nuestra documentación disponible en la web.
+
+Para contribuir y hacer crecer esta documentación únicamente tendremos que realizar nuestro fork del repositorio y dependiendo de lo que queramos modificar, tendremos que seleccionar una u otra rama. Para trabajar con la presentación, simplemente tendremos que modificar el fichero index.html que se encuentra en la rama `gh-pages`_. En cambio para trabajar con el artículo, rendremos que modificar el archivo "index.rst" dentro de la carpeta de la sección con la que queremos colaborar.
+
+En cuanto tengamos los cambios listos para subir, debemos realizar el correspondiente commit y sucesivo pull request. Una vez éste esté aceptado, se procederá a la actualización de la documentación alojada en la web de manera automática.
 
 .. _info-tabla:
 
@@ -45,3 +55,12 @@ En todas las secciones de este trabajo se utiliza una tabla de descripción de p
 
 
 .. _Ohloh.net: http://ohloh.net
+.. _GitHub: https://github.com/
+.. _wiki de OSGeo: http://wiki.osgeo.org/wiki/Panorama_SIG_Libre_2014
+.. _Sphinx: http://sphinx-doc.org/
+.. _Read the Docs: https://readthedocs.org/
+.. _irc: http://webchat.freenode.net/#
+.. _paper: https://github.com/moiarcsan/panorama-siglibre8/tree/paper
+.. _gh-pages: https://github.com/moiarcsan/panorama-siglibre8/tree/gh-pages
+.. _RevealJS: http://revealjs.com/
+.. _GitHub Pages: http://pages.github.com/
