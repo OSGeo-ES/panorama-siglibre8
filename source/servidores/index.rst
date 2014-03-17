@@ -166,40 +166,6 @@ Documentación
 
 A continuación se ofrecen enlaces a las principales páginas de documentación, tutoriales o ejemplos que pueden ayudar a empezar a trabajar con cada uno de los productos revisados.
 
-* **MapServer**: `documentación <http://mapserver.org/documentation.html>`_, `quickstart de OSGeo Live <http://live.osgeo.org/en/quickstart/mapserver_quickstart.html>`_.
-
-* **deegree**: `documentación <http://download.occamlabs.de/documentation/3.3.8/html/>`_, `quickstart de OSGeo Live <http://live.osgeo.org/en/quickstart/deegree_quickstart.html>`_.
-
-* **GeoServer**: `documentación <http://docs.geoserver.org/stable/en/user/>`_, `quickstart de OSGeo Live <http://live.osgeo.org/en/quickstart/geoserver_quickstart.html>`_, `taller de introducción de Boundless <http://workshops.boundlessgeo.com/geoserver-intro/>`_.
-
-* **GeoNetwork**: `documentación <http://geonetwork-opensource.org/docs.html>`_, `quickstart de OSGeo Live <http://live.osgeo.org/en/quickstart/geonetwork_quickstart.html>`_.
-
-* **52ºnorth SOS**: `documentación <https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation>`_, `quickstart de OSGeo Live <http://live.osgeo.org/en/quickstart/52nSOS_quickstart.html>`_.
-
-* **MapGuide**: `documentación <https://mapguide.osgeo.org/GettingStartedResources>`_, `quickstart de OSGeo Live <http://live.osgeo.org/en/quickstart/mapguide_quickstart.html>`_.
-
-* **PyWPS**: `documentación <http://pywps.wald.intevation.org/documentation/pywps-3.2/>`_, `tutorial <http://pywps.wald.intevation.org/documentation/course/>`_.
-
-* **GeoWebCache**: `documentación <http://geowebcache.org/docs/1.5.1/>`_, `taller de Boundless <http://workshops.boundlessgeo.com/suiteintro/geowebcache/index.html>`_.
-
-* **TileCache**: `documentación <http://tilecache.org/docs/README.html#>`_.
-
-* **52ºnorth WPS**: `tutoriales <https://wiki.52north.org/bin/view/Geoprocessing/GeoprocessingTutorials>`_, `quickstart de OSGeo Live <http://live.osgeo.org/en/quickstart/52nWPS_quickstart.html>`_.
-
-* **MapProxy**: `documentación <http://mapproxy.org/docs/latest/>`_, `quickstart de OSGeo Live <http://live.osgeo.org/en/quickstart/mapproxy_quickstart.html>`_.
-
-* **PyCSW**: `documentación <http://pycsw.org/docs/latest/>`_, `quickstart de OSGeo Live <http://live.osgeo.org/en/quickstart/pycsw_quickstart.html>`_, `taller <http://geopython.github.io/pycsw-workshop/>`_.
-
-* **QGIS Server**: `tutorial <https://hub.qgis.org/projects/quantum-gis/wiki/QGIS_Server_Tutorial>`_, `quickstart de OSGeo Live <http://live.osgeo.org/en/quickstart/qgis_mapserver_quickstart.html>`_.
-
-* **TileStache**: `documentación <http://tilestache.org/doc/>`_.
-
-* **ZOO Project**: `documentación <http://zoo-project.org/docs/>`_, `quickstart de OSGeo Live <http://live.osgeo.org/en/quickstart/zoo-project_quickstart.html>`_, `taller del FOSS4G2013 <http://zoo-project.org/ws2013n/>`_.
-
-* **EOxServer**: `documentación <https://eoxserver.org/doc/en/users/index.html>`_, `quickstart de OSGeo Live <http://live.osgeo.org/en/quickstart/eoxserver_quickstart.html>`_.
-
-* **TileStream**: `notas de instalación y uso <https://github.com/mapbox/tilestream>`_
-
 .. list-table:: Documentación de proyectos
    :widths: 10 10 10 35
    :header-rows: 1
