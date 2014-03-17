@@ -1,3 +1,5 @@
+.. _bases de datos:
+
 **************
 Bases de datos
 **************
@@ -14,19 +16,49 @@ Una base de datos espacial es una base de datos que se ha optimizado para almace
 
 Aunque a día de hoy existen bases de datos NoSQL que también empiezan a soportar funcionalidades geométricas, en este artículo vamos a centrarnos únicamente en las bases de datos clásicas, dado que son las que tienen, con mucha diferencia, la implementación más madura.
 
+En la siguiente tabla se presentan las características principales de los productos revisados en el contexto de este trabajo. Se puede consultar más información sobre la estructura de la tabla en la  :ref:`introducción <info-tabla>`.
+
+.. figure:: imgs/tabla-principal.png
+   :align: center
+   :alt: Información general sobre servidores
+
+   Información general sobre servidores
+
+.. figure:: imgs/estandares.png
+   :align: center
+   :alt: Implementación de estándares OGC
+
+   Implementación de estándares OGC
+
+
+.. important:: Se puede consultar la versión más reciente, así como los enlaces asociados y anotaciones en la sección de `Bases_de_datos`_ del wiki de OSGeo.
+
+.. _Bases_de_datos: http://wiki.osgeo.org/wiki/Panorama_SIG_Libre_2014/Bases_de_datos
+
+
 Software
 ----------
 
-//TODo esto viene copiado directamente del wiki, darle formato y traducir.
+En esta sección se describirá brevemente cada uno de los productos evaluados en esta comparativa. El orden de aparición es cronológico, empezando por los proyectos más veteranos.
 
-This database extensions are usually based on a basic geometric data type you can operate with. The only background you really need to use this geometric database extensions is the same as working with any database.
+MySQLSpatial_:
+  Siendo la extensión para la base de datos más extendida de la lista, su instalación y manejo es muy sencillo. Es una base de datos que se encuentra por defecto en la mayoría de servicios de hosting y por tanto suele ser la puerta de entrada de muchos desarrolladores. Sin embargo, su falta de compatibilidad con los estándares hace que el código no sea fácilmente portable a otras plataformas.
 
-.. note:: borrada tabla del wiki
+PostGIS_:
+  Basado en `postgres`_, esta potente base de datos multiplataforma es totalmente compatible con OGC. Aunque su uso a nivel general no está tan extendido como MySQL, dentro del sector GIS su uso es casi canónico.
 
-=== Compliance with [http://www.opengeospatial.org/standards/sfs Simple Feature Access OGC Standard] ===
+  .. _postgres: http://www.postgresql.org.es/
 
-.. note:: borrada tabla del wiki
+Spatialite_:
+  Al estar basada en `SQLite`_, es una base de datos basada en ficheros, lo que simplifica en gran medida su uso y distribución. Esta extensión es candidata para formar parte de `Geo Package`_, un nuevo formato abierto de OGC para almacenar y transferir datos geográficos.
 
+  .. _SQLite: https://sqlite.org/
+  .. _Geo Package: http://www.geopackage.org/
+
+H2GIS_:
+  `H2`_ es una base de datos Java ligera, con gran facilidad de instalación y distribución. Basada también en ficheros, se distingue de Spatialite porque contiene un servidor que permite varias conexiones concurrentes a la misma.
+
+  .. _H2: http://www.h2database.com/html/main.html
 
 Puntos calientes
 ------------------
@@ -50,15 +82,58 @@ Curva de aprendizaje y conocimientos previos
 
 Dado que la mayoría de las bases de datos con extensiones espaciales siguen un mismo estándar, la programación y uso de dichas extensiones es muy similar de una plataforma a otra.
 
-.. todo:: poner algo más
-
 Documentación
 ----------------
 
-Enlace al wiki y quizás alguna sugerencia particular en alguna sección.
+A continuación se ofrecen enlaces a las principales páginas de documentación, tutoriales o ejemplos que pueden ayudar a empezar a trabajar con cada uno de los productos revisados.
 
-.. todo:: poner bonito
+* **MySQL Spatial**: `documentación <https://dev.mysql.com/doc/refman/5.0/en/spatial-extensions.html>`_
 
-http://en.wikipedia.org/wiki/Spatial_database
+* **postGIS**:  `documentación <http://postgis.net/docs/manual-2.1/>`_, `quickstart <http://workshops.boundlessgeo.com/postgis-intro/>`_.
+
+* **H2GIS**: `documentación <http://www.h2gis.org/docs/dev/home/>`_, `quickstart <http://www.h2gis.org/docs/dev/quickstart/>`_.
+
+* **Spatialite**: `documentación <https://www.gaia-gis.it/spatialite-2.3.1/spatialite-manual-2.3.1.html>`_, `quickstart <http://www.camptocamp.com/actualite/kiss-spatialite-in-5-minutes/>`_.
 
 
+.. list-table:: Documentación de proyectos
+   :widths: 10 10 10 35
+   :header-rows: 1
+
+
+   * - Proyecto
+     - Documentación
+     - OSGeo Live
+     - Otros
+
+   * - **MySQL Spatial**
+     - `MySQL Spatial docs <https://dev.mysql.com/doc/refman/5.0/en/spatial-extensions.html>`_
+     - 
+     - `introducción a MySQL Spatial <http://howto-use-mysql-spatial-ext.blogspot.com.es/>`_
+
+   * - **postGIS**
+     - `postGIS docs <http://postgis.net/docs/manual-2.1/>`_
+     - `postGIS qs <http://live.osgeo.org/en/quickstart/postgis_quickstart.html>`_
+     - `postGIS introduction <http://workshops.boundlessgeo.com/postgis-intro/>`_
+
+   * - **H2GIS**
+     - `H2GIS docs <http://www.h2gis.org/docs/dev/home/>`_
+     - 
+     - `quickstart <http://www.h2gis.org/docs/dev/quickstart/>`_
+
+   * - **Spatialite**
+     - `Spatialite docs <https://www.gaia-gis.it/spatialite-2.3.1/spatialite-manual-2.3.1.html>`_
+     - 
+     - `KISS spatialite in 5 minutes <http://www.camptocamp.com/actualite/kiss-spatialite-in-5-minutes/>`_
+
+
+.. only:: html
+
+
+
+.. Enlaces a webs de  proyectos
+
+.. _postGIS: http://postgis.net/
+.. _H2GIS: http://www.h2gis.org/
+.. _MySQLSpatial: http://dev.mysql.com/doc/refman/5.7/en/gis-introduction.html
+.. _Spatialite: http://www.gaia-gis.it/gaia-sins/

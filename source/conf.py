@@ -171,13 +171,15 @@ htmlhelp_basename = 'PanoramaSIGLibredoc'
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
-#'papersize': 'letterpaper',
+'papersize': 'a4paper',
 
 # The font size ('10pt', '11pt' or '12pt').
-#'pointsize': '10pt',
+'pointsize': '10pt',
 
 # Additional stuff for the LaTeX preamble.
-#'preamble': '',
+'preamble': u'''
+\setcounter{tocdepth}{0}
+''',
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
@@ -286,7 +288,7 @@ epub_copyright = u'2014, OSGeo-es'
 
 
 rst_prolog = u"""
-.. |delawen|   replace:: María Arias `@delawen`_
+.. |delawen|   replace:: María Arias de Reyna `@delawen`_
 .. |jsanz|     replace:: Jorge Sanz `@xurxosanz`_
 .. |moiarcsan| replace:: Moisés Arcos `@moiarcsan`_
 .. |alediator| replace:: Alejandro Díaz `@alediator`_
