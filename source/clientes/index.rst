@@ -133,7 +133,8 @@ Metería otra tabla con los conocimientos previos necesarios para trabajar con y
 Documentación
 ----------------
 
-Enlace al wiki y quizás alguna sugerencia particular en alguna sección.
+**gvSIG:** `[gvSIG home] <http://gvsig.org/>`_ `[Manual de usuario] <http://www.gvsig.org/plone/projects/gvsig-desktop/docs/user/gvsig-desktop-2-1-manual-de-usuario/>`_ `[gvSIG OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/gvsig_quickstart.html>`_ 
+
 
 
 
