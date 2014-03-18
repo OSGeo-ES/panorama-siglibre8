@@ -95,6 +95,33 @@ Documentación
 
 **OsmSharp:** `[OsmSharp home] <http://www.osmsharp.com/>`_ `[OsmSharp documentation] <http://www.osmsharp.com/wiki/documentation>`_ 
 
+
+.. list-table:: Documentación de proyectos
+   :widths: 10 15 15 35
+   :header-rows: 1
+
+   * - Proyecto
+     - Home
+     - Documentación
+     - Otros
+
+   * - **OpenLayers**
+     - `OL Home <http://openlayers.org/>`_
+     - `Documentation <http://trac.osgeo.org/openlayers/wiki/Documentation>`_
+     - `OL OSGeoLive Quickstart <http://live.osgeo.org/en/quickstart/openlayers_quickstart.html>`_
+
+   * - **LeafLet**
+     - `Leaflet Home <http://leafletjs.com/>`_
+     - `Tutorials <http://leafletjs.com/examples.html>`_
+     - `Leaflet OSGeoLive Quickstart <http://live.osgeo.org/en/quickstart/leaflet_quickstart.html>`_
+
+   * - **OSMDroid**
+     - `Repository <https://github.com/osmdroid/osmdroid>`_
+     - `How to get... <https://code.google.com/p/osmdroid/wiki/HowToIncludeInYourProject>`_
+     - `[Article: AndroCode] <http://androcode.es/tag/osmdroid/>`_
+
+
+.. Enlaces
 .. _OpenLayers: http://docs.openlayers.org/
 
 .. _LeafLet: http://leafletjs.com/index.html
