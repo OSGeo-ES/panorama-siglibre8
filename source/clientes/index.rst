@@ -132,8 +132,15 @@ Metería otra tabla con los conocimientos previos necesarios para trabajar con y
 
 Documentación
 ----------------
+**GRASS GIS:** `[GRASS home] <grass.osgeo.org>`_ `[Manual de usuario] <http://grass.osgeo.org/grass70/manuals/index.html>`_ `[GRASS OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/grass_quickstart.html>`_ 
 
-Enlace al wiki y quizás alguna sugerencia particular en alguna sección.
+**UDig:** `[UDig home] <http://udig.refractions.net/>`_ `[Manual de usuario] <http://udig.github.io/docs/user/>`_ `[UDig OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/udig_quickstart.html>`_ 
+
+**OPTIKS:** `[gvSIG home] <http://opticks.org/confluence/display/opticks/Welcome+To+Opticks>`_ 
+
+**gvSIG:** `[gvSIG home] <http://gvsig.org/>`_ `[Manual de usuario] <http://www.gvsig.org/plone/projects/gvsig-desktop/docs/user/gvsig-desktop-2-1-manual-de-usuario/>`_ `[gvSIG OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/gvsig_quickstart.html>`_ 
+
+
 
 
 
