@@ -132,8 +132,12 @@ Metería otra tabla con los conocimientos previos necesarios para trabajar con y
 
 Documentación
 ----------------
+**GRASS GIS:** `[GRASS home] <grass.osgeo.org>`_ `[Manual de usuario] <http://grass.osgeo.org/grass70/manuals/index.html>`_ `[GRASS OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/grass_quickstart.html>`_ 
+
+
 
 **gvSIG:** `[gvSIG home] <http://gvsig.org/>`_ `[Manual de usuario] <http://www.gvsig.org/plone/projects/gvsig-desktop/docs/user/gvsig-desktop-2-1-manual-de-usuario/>`_ `[gvSIG OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/gvsig_quickstart.html>`_ 
+
 
 
 
