@@ -133,6 +133,7 @@ Metería otra tabla con los conocimientos previos necesarios para trabajar con y
 Documentación
 ----------------
 **GRASS GIS:** `[GRASS home] <grass.osgeo.org>`_ `[Manual de usuario] <http://grass.osgeo.org/grass70/manuals/index.html>`_ `[GRASS OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/grass_quickstart.html>`_ 
+
 **UDig:** `[UDig home] <http://udig.refractions.net/>`_ `[Manual de usuario] <http://udig.github.io/docs/user/>`_ `[UDig OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/udig_quickstart.html>`_ 
 
 
