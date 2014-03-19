@@ -142,8 +142,11 @@ Documentación
 
 **QGis:** `[QGis home] <http://qgis.org/>`_ `[Manual de usuario] <http://qgis.org/es/docs/user_manual/index.html>`_ `[QGis OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/qgis_quickstart.html>`_ 
 
+**GeoDa:** `[GeoDa home] <http://geodacenter.asu.edu/projects/opengeoda/>`_ `[Manual de usuario] <http://geodacenter.asu.edu/og_tutorials>`_  
 
 **gvSIG:** `[gvSIG home] <http://gvsig.org/>`_ `[Manual de usuario] <http://www.gvsig.org/plone/projects/gvsig-desktop/docs/user/gvsig-desktop-2-1-manual-de-usuario/>`_ `[gvSIG OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/gvsig_quickstart.html>`_ 
+
+**SAGA GIS:** `[gvSIG home] <http://sourceforge.net/projects/saga-gis>`_ `[Manual de usuario] <http://sourceforge.net/projects/saga-gis/files/SAGA%20-%20Documentation/SAGA%202%20User%20Guide/>`_ `[SAGA OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/saga_quickstart.html>`_ 
 
 
 
