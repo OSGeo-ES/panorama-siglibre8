@@ -119,6 +119,7 @@ Esta herramienta se ha desarrollado sobre todo en Gottingen, Alemania. Se trata 
 Este software destaca especialmente por su orientación a la realización de análisis de imágenes y modelos digitales del terreno.
 
 OPTICKS_:
+Opticks es una herramienta para el análisis de imágenes y datos de teledetección. Es muy similar en funcionalidad y propósito a las herramientas comerciales *ERDAS Imagine*, *RemoteView*, *ENVI* o *SOCET GXP*. Opticks tiene funcionalidades del tipo GIS (como la utilización de shapefiles), pero principalmente está pensado para el anánisis de imágenes y vídeo o, de manera más general, el análisis de datos raster.
 
 .. _OPTICKS: http://opticks.org/confluence/display/opticks/Welcome+To+Opticks
 
@@ -130,8 +131,12 @@ GeoDa es el principal programa desarrollado dentro de `Centro GeoDa`_. Está dis
 .. _Centro GeoDa: http://geodacenter.asu.edu/
 
 TILEMILL_:
+TileMill es una herramienta pensada para diseñar y crear mapas para su visualización via web de una manera rápida y fácil. Está construido sobre la biblioteca de renderizado, Mapnik_, la misma que utilizan tanto OpenStreetMap_ como MapQuest_. **TileMill** no pretende ser una herramienta de cartografía de uso general, sino que se centra en la racionalización y simplificación de un conjunto limitado de casos de uso.
 
 .. _TILEMILL: https://www.mapbox.com/tilemill/
+.. _Mapnik: http://mapnik.org/
+.. _OpenStreetMap: http://www.openstreetmap.org/
+.. _MapQuest: http://www.mapquest.es/
 
 Puntos calientes
 ----------------
