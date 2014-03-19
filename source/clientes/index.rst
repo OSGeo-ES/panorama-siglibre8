@@ -138,6 +138,11 @@ Documentación
 
 **OPTIKS:** `[gvSIG home] <http://opticks.org/confluence/display/opticks/Welcome+To+Opticks>`_ 
 
+**openJUMP:** `[openJump home] <http://www.openjump.org/>`_ `[Manual de usuario] <http://sourceforge.net/projects/jump-pilot/files/Documentation/OpenJUMP%201.4%20Tutorials/>`_ `[openJUMP OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/openjump_quickstart.html>`_ 
+
+**QGis:** `[QGis home] <http://qgis.org/>`_ `[Manual de usuario] <http://qgis.org/es/docs/user_manual/index.html>`_ `[QGis OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/qgis_quickstart.html>`_ 
+
+
 **gvSIG:** `[gvSIG home] <http://gvsig.org/>`_ `[Manual de usuario] <http://www.gvsig.org/plone/projects/gvsig-desktop/docs/user/gvsig-desktop-2-1-manual-de-usuario/>`_ `[gvSIG OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/gvsig_quickstart.html>`_ 
 
 
