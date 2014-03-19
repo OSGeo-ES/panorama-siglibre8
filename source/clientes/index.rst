@@ -118,7 +118,7 @@ En España destaca el proyecto Kosmo, desarrollado por la empresa SAGE, que pret
 Esta herramienta se ha desarrollado sobre todo en Gottingen, Alemania. Se trata de un GIS de escritorio para Windows con una clara separación entre su interfaz de programación (API) y su interfaz de usuario. De hecho la primera tiene una licencia LGPL y la segunda es GPL. Esto permite realizar módulos *cerrados* sin incumplir ninguna licencia. 
 Este software destaca especialmente por su orientación a la realización de análisis de imágenes y modelos digitales del terreno.
 
-**OPTICKS**:
+OPTICKS_:
 
 .. _OPTICKS: http://opticks.org/confluence/display/opticks/Welcome+To+Opticks
 
@@ -164,46 +164,46 @@ Empezar a trabajar con cualquier software siempre es un reto y, como hemos visto
 
 
    * - **GRASS GIS**
-     - `[Manual de usuario] <http://grass.osgeo.org/grass70/manuals/index.html>`_
-     - `[GRASS OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/grass_quickstart.html>`_
-     -
+     - `GRASS docs <http://grass.osgeo.org/grass70/manuals/index.html>`_
+     - `GRASS qs <http://live.osgeo.org/en/quickstart/grass_quickstart.html>`_
+     - `Tutoriales <http://grass.osgeo.org/documentation/tutorials/>`_; `Primera vez con GRASS <http://grass.osgeo.org/documentation/first-time-users/>`_
 
    * - **uDig**
      - `uDig docs <http://udig.github.io/docs/user/>`_
      - `MapServer qs <http://live.osgeo.org/en/quickstart/udig_quickstart.html>`_
-     -
+     - `Canal de vídeos en YouTube <https://www.youtube.com/user/udiggis>`_
 
    * - **OPTIKS**
-     - `Opticks docs <http://opticks.org/confluence/display/opticks/Welcome+To+Opticks>`_
+     - `Notas de instalación y uso <http://opticks.org/confluence/display/opticks/Opticks+HOWTOs>`_
      -
      -
 
    * - **openJUMP**
-     - `openJUMP docs <http://sourceforge.net/projects/jump-pilot/files/Documentation/OpenJUMP%201.4%20Tutorials/>`_
+     - `openJUMP docs <http://sourceforge.net/projects/jump-pilot/files/Documentation/OpenJUMP%201.6%20Docs/>`_
      - `openJUMP qs <http://live.osgeo.org/en/quickstart/openjump_quickstart.html>`_
      -
 
-   * - **QGis**
-     - `QGis docs <http://qgis.org/es/docs/user_manual/index.html>`_
-     - `QGis qs <http://live.osgeo.org/en/quickstart/openjump_quickstart.html>`_
-     -
+   * - **QGIS**
+     - `QGIS docs <http://qgis.org/es/docs/user_manual/index.html>`_
+     - `QGIS qs <http://live.osgeo.org/en/quickstart/openjump_quickstart.html>`_
+     - `Tutorial (español) <http://www2.pr.gov/agencias/gis/seccioneducativa/Pages/Tutorial_Quantum_GIS.aspx>`_; `Tutorial oficial (inglés) <http://www.qgis.org/en/docs/training_manual/index.html>`_
 
    * - **GeoDa**
-     - `GeoDa docs <http://geodacenter.asu.edu/og_tutorials>`_
+     - `GeoDa docs <http://geodacenter.asu.edu/software/documentation>`_
      -
-     -
+     - `Tutoriales y vídeos demostrativos <http://geodacenter.asu.edu/og_tutorials>`_
 
    * - **gvSIG**
      - `gvSIG docs <http://www.gvsig.org/plone/projects/gvsig-desktop/docs/user/gvsig-desktop-2-1-manual-de-usuario/>`_
      - `gvSIG qs <http://live.osgeo.org/en/quickstart/gvsig_quickstart.html>`_
-     -
+     - `Videotutoriales <http://edugvsig.blogspot.co.uk/p/gvsig.html>`_
 
    * - **SAGA GIS**
-     - `SAGA GIS docs <http://sourceforge.net/projects/saga-gis/files/SAGA%20-%20Documentation/SAGA%202%20User%20Guide/>``_
+     - `SAGA GIS docs <http://sourceforge.net/projects/saga-gis/files/SAGA%20-%20Documentation/SAGA%202%20User%20Guide/>`_
      - `SAGA GIS qs <http://live.osgeo.org/en/quickstart/saga_quickstart.html>`_
-     -
+     - `Tutoriales <http://sourceforge.net/apps/trac/saga-gis/wiki/Tutorials>`_
 
    * - **TileMill**
      - `TileMill docs <https://www.mapbox.com/tilemill/docs/crashcourse/introduction/>`_
      - `TileMill qs <http://live.osgeo.org/en/quickstart/tilemill_quickstart.html>`_
-     -
+     - `Guía de la interfaz <https://www.mapbox.com/tilemill/docs/manual/interface-tour/>`_
