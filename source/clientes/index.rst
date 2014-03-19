@@ -3,14 +3,14 @@ Clientes
 ********
 
 Autores
-----------
+-------
 
 - |jsitjar|
 - |rantolin|
 
 
 Introducción
----------------
+------------
 
 Entendemos por Clientes al conjunto de aplicaciones SIG de Escritorio, es decir, aplicaciones en las que se implementan herramientas para llevar a cabo las tareas básicas del trabajo con datos geográficos:
 creación o edición, manejo y análisis. Con esta filosofía fueron desarrollados los primeros programas SIG, especialmente para el tratamiento y análisis de datos geográficos, y posteriormente, para dotar a estos de mayor versatilidad, incorporando otras funciones adicionales que facilitaran el trabajo con esos mismos datos. 
@@ -32,7 +32,7 @@ Veamos con un poco más de detalle las principales funcionalidades de los SIG de
 - **Generación de cartografía**: Capacidades de creación de cartografía impresa, para generar documentos que puedan posteriormente imprimirse y emplearse como una mapa cásico. Las razones para la existencia de tales funcionalidades son muchas, pero la principal sigue siendo la necesidad que aún existe de apoyarse en este tipo de documentos cartográficos para poder incorporarlos a proyectos o estudios como parte de anexos cartográficos. 
 
 
-(Fuente: Olaya, V. 2012. Libro Libre SIG.)
+*(Fuente: Olaya, V. 2012. Libro Libre SIG.)*
 
 Los clientes de escritorio ofrecen un amplio rango de aplicaciones, desde simples visualizadores a software de creación de mapas y análisis y tecnología punta en sistemas de edición y análisis profesional. 
 
@@ -54,69 +54,87 @@ Breve descripción de la sección con retrospectiva y evolución incluyendo la t
 
 
 Software
-----------
+--------
 
 En esta sección se describirá brevemente cada uno de los productos evaluados en esta comparativa. 
 
+gvSIG_:
 
-**gvSIG**:
-
-GvSIG es un proyecto de desarrollo de Sistemas de Información Geográfica en software libre,1 que incluye principalmente las aplicaciones gvSIG Desktop y gvSIG Mobile. 
+GvSIG es un proyecto de desarrollo de Sistemas de Información Geográfica en software libre, que incluye principalmente las aplicaciones gvSIG Desktop y gvSIG Mobile. 
 La aplicación gvSIG Desktop fue la primera que se desarrolló dentro del proyecto gvSIG, por lo que también se conoce abreviadamente como gvSIG. 
 Este proyecto fue desarrollado por el gobierno local de la Comunidad Valenciana (Generalidad Valenciana) de España, con el objetivo inicial de realizar la gestión de datos geográficos de esa colectividad; precisamente la sigla gvSIG abrevia la denominación Generalitat Valenciana Sistema de Información Geográfica.
 
+.. _gvSIG: http://www.gvsig.org/web
 
-**QGis**:
+QGIS_
 
 Es un Sistema de Información Geográfica que nació en mayo de 2002 y se estableció como proyecto en SourceForge en junio del mismo año. Fue además uno de los ocho primeros proyectos de la fundación OSGeo.
 Se trata de una aplicación de escritorio que pretende ofrecer a usuarios con necesidades básicas un entorno sencillo y agradable. 
 
+.. _QGIS: http://www.qgis.org/en/site/
 
-**GRASS**:
+GRASS_
 
-Pryoecto ya muy veterano, anterior al nacimiento del FOSS ya que surgió como un proyecto del ejercito norteamericano, más concretamente del Construction Engineering Research Laboratory (CERL) que comenzó el proyecto ante la necesidad de gestionar la gran cantidad de recursos naturales a cargo del ejército en los Estados Unidos.
-Actualmente, la infraestructura principal se gestiona entre el Instituto de Cultura de Trento y el Geselleschaft für Datenanalyse und Fernerkundung (GDF) de Hannover. 
-La principal característica de GRASS es su gran número de funcionalidades, derivadas de todos los años de desarrollo y de la estructura modular del programa, que favorece que los desarrolladores aporten al proyecto contribuciones individuales. Por otro lado, el mayor problema de cara a su difusión y adopción es su complejidad y su empinada curva de aprendizaje. Aun siendo un software muy potente, carece de una interfaz amigable.
+Proyecto ya muy veterano, anterior al nacimiento del FOSS, que el **CERL** (*Construction Engineering Research Laboratory*) comenzó a desarrollar ante la necesidad de gestionar la gran cantidad de recursos naturales a cargo del ejército en los Estados Unidos.
+Actualmente, la infraestructura principal se gestiona entre el Instituto de Cultura de Trento y el *Geselleschaft für Datenanalyse und Fernerkundung* (GDF) de Hannover. 
+La principal característica de GRASS es su gran número de funcionalidades, derivadas de todos los años de desarrollo y de la estructura modular del programa, que favorece que los desarrolladores aporten al proyecto contribuciones individuales. Por otro lado, el mayor problema de cara a su difusión y adopción es su complejidad y su pronunciada curva de aprendizaje. Aun siendo un software muy potente, carece de una interfaz gráfica amigable.
 
+.. _GRASS: http://grass.osgeo.org/
 
-**UDig**: es un proyecto desarrollado por la empresa canadiense Refractions Research Inc. Tiene como principal objetivo ofrecer un cliente de escritorio que soporte el mayor número de fuentes de datos tanto locales como remotas, y especialmente las basadas en protocolos OGC.
-Aunque presenta únicamente capacidades de análisis y edición vectorial, el proyecto JGrass añade capacidades ráster adaptadas desde GRASS (con especial énfasis en las relacionadas con análisis del terreno y similares).
+UDig_
 
-**OpenJUMP**:
+Este proyecto está desarrollado por la empresa canadiense Refractions Research Inc, y tiene como principal objetivo ofrecer un cliente de escritorio que soporte el mayor número de fuentes de datos tanto locales como remotas, y especialmente las basadas en protocolos OGC.
+Aunque presenta únicamente capacidades de análisis y edición vectorial, el proyecto JGrass_ añade capacidades ráster adaptadas desde GRASS (con especial énfasis en las relacionadas con análisis del terreno y similares).
 
-JUMP (Java Unified Mapping Platform) fue uno de los primeros proyectos de cliente GIS de escritorio en el lenguaje Java. Destaca por hacer uso de la biblioteca JTS para poder realizar algunas operaciones de análisis espacial, así como el soporte del formato GML y el protocolo WMS desde sus aparición.
+.. _UDig: http://udig.refractions.net/
+.. _JGrass: https://code.google.com/p/jgrass/
+
+OpenJUMP_
+
+JUMP (*Java Unified Mapping Platform*) fue uno de los primeros proyectos de cliente GIS de escritorio en el lenguaje Java. Destaca por hacer uso de la biblioteca JTS_ para poder realizar algunas operaciones de análisis espacial, así como el soporte del formato GML_ y el protocolo WMS desde sus aparición.
 Este proyecto fue liderado por Vivid Solutions1 pero dada la política de aceptación de contribuciones externas por parte de la empresa motivó la aparición de un nuevo proyecto derivado (llamado fork  en el ámbito FOSS) conocido como The JUMP Pilot Project (JPP) que pretende coordinar de forma más democrática las contribuciones de diferentes equipos de desarrollo para evitar duplicidad de esfuerzos.
 
 Esto último es especialmente importante, ya que es destacable la cantidad de proyectos derivados que han surgido a partir de él:
-Open JUMP
-Open JUMP Viatoris
-DeeJUMP
-SkyJUMP
-PirolJUMP
-Kosmo
 
-En España destaca el proyecto Kosmo, desarrollado por la empresa SAGE, que pretende incorporar a la plataforma JUMP otros desarrollos de interés realizados en otros proyectos.
+- Open JUMP
+- Open JUMP *Viatoris*
+- DeeJUMP
+- SkyJUMP
+- PirolJUMP
+- Kosmo
 
+.. _OpenJUMP: http://www.openjump.org/
+.. _JTS: http://www.vividsolutions.com/jts/JTSHome.htm
+.. _GML: http://www.opengeospatial.org/standards/gml
 
-**SAGA GIS**:
+Kosmo_
 
-Esta herramienta se ha desarrollado sobre todo en Gottingen, Alemania. Se trata de un GIS de escritorio para Windows con una clara separación entre su interfaz de programación (API) y su interfaz de usuario. De hecho la primera tiene una licencia LGPL y la segunda es GPL. Esto permite realizar módulos “cerrados” sin incumplir ninguna licencia. 
-Este software destaca por su orientación a la realización de análisis de imágenes y modelos digitales del terreno especialmente.
+En España destaca el proyecto Kosmo, desarrollado por la empresa SAGE, que pretende incorporar a la plataforma JUMP otros desarrollos de interés realizados en otros proyectos. El cliente de escritorio Kosmo permite explorar, editar y analizar datos espaciales desde gran variedad de bases de datos, formatos vectoriales y formatos raster. Además, cumple los estándares OGC y proporciona una excelente integridad topológica. Su arquitectura de extensiones permite personalizarlo fácilmente para fines específicos.
 
+.. _Kosmo: http://www.opengis.es/
 
+`SAGA GIS <http://www.saga-gis.org/en/index.html>`_:
+
+Esta herramienta se ha desarrollado sobre todo en Gottingen, Alemania. Se trata de un GIS de escritorio para Windows con una clara separación entre su interfaz de programación (API) y su interfaz de usuario. De hecho la primera tiene una licencia LGPL y la segunda es GPL. Esto permite realizar módulos *cerrados* sin incumplir ninguna licencia. 
+Este software destaca especialmente por su orientación a la realización de análisis de imágenes y modelos digitales del terreno.
 
 **OPTICKS**:
 
-**GEODA**:
+.. _OPTICKS: http://opticks.org/confluence/display/opticks/Welcome+To+Opticks
 
-**TILEMILL**:
+GEODA_:
 
+GeoDa es el principal programa desarrollado dentro de `Centro GeoDa`_. Está diseñado para implementar técnicas para el análisis exploratorio de datos espaciales. Proporciona una interfaz gráfica amigable para  el uso de métodos de análisis de datos espaciales descriptivos, realización de estadísticas de autocorrelación espacial y regresiones espaciales básicas, análisis de datos espacio-temporales de datos, y visualización 3D.
 
+.. _GEODA: http://geodacenter.asu.edu/
+.. _Centro GeoDa: http://geodacenter.asu.edu/
 
+TILEMILL_:
 
+.. _TILEMILL: https://www.mapbox.com/tilemill/
 
 Puntos calientes
-------------------
+----------------
 
 Durante los últimos años el software SIG de escritorio ha dominado, pero se prevé que en la próxima década los servidores SIG o SIG web sean el producto dominante. 
 
@@ -126,31 +144,66 @@ Dentro de la sección, hacia donde se está moviendo la comunidad.
 
 
 Curva de aprendizaje y conocimientos previos
-------------------------------------------------
+--------------------------------------------
 
 Metería otra tabla con los conocimientos previos necesarios para trabajar con y en cada software.
 
 Documentación
-----------------
-**GRASS GIS:** `[GRASS home] <grass.osgeo.org>`_ `[Manual de usuario] <http://grass.osgeo.org/grass70/manuals/index.html>`_ `[GRASS OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/grass_quickstart.html>`_ 
+-------------
 
-**UDig:** `[UDig home] <http://udig.refractions.net/>`_ `[Manual de usuario] <http://udig.github.io/docs/user/>`_ `[UDig OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/udig_quickstart.html>`_ 
+Empezar a trabajar con cualquier software siempre es un reto y, como hemos visto, en algunas ocasiones puede resultar incluso una tarea árdua. En algunas ocasiones esto se debe porque tampoco sabemos dónde encontrar una guía de inicio amena o tan siquiera la documentación. Este apartado intenta cubrir este hueco, pretende ser un conjunto de enlaces tanto a la documentación oficial como a una serie de tutoriales y ejemplos de los distintos proyectos.
 
-**OPTIKS:** `[gvSIG home] <http://opticks.org/confluence/display/opticks/Welcome+To+Opticks>`_ 
+.. list-table:: Documentación de proyectos
+   :widths: 10 10 10 35
+   :header-rows: 1
 
-**openJUMP:** `[openJump home] <http://www.openjump.org/>`_ `[Manual de usuario] <http://sourceforge.net/projects/jump-pilot/files/Documentation/OpenJUMP%201.4%20Tutorials/>`_ `[openJUMP OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/openjump_quickstart.html>`_ 
-
-**QGis:** `[QGis home] <http://qgis.org/>`_ `[Manual de usuario] <http://qgis.org/es/docs/user_manual/index.html>`_ `[QGis OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/qgis_quickstart.html>`_ 
-
-**GeoDa:** `[GeoDa home] <http://geodacenter.asu.edu/projects/opengeoda/>`_ `[Manual de usuario] <http://geodacenter.asu.edu/og_tutorials>`_  
-
-**gvSIG:** `[gvSIG home] <http://gvsig.org/>`_ `[Manual de usuario] <http://www.gvsig.org/plone/projects/gvsig-desktop/docs/user/gvsig-desktop-2-1-manual-de-usuario/>`_ `[gvSIG OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/gvsig_quickstart.html>`_ 
-
-**SAGA GIS:** `[gvSIG home] <http://sourceforge.net/projects/saga-gis>`_ `[Manual de usuario] <http://sourceforge.net/projects/saga-gis/files/SAGA%20-%20Documentation/SAGA%202%20User%20Guide/>`_ `[SAGA OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/saga_quickstart.html>`_ 
-
-**TileMill:** `[gvSIG home] <http://tilemill.com/>`_ `[Manual de usuario] <https://www.mapbox.com/tilemill/docs/manual/interface-tour/>`_ `[SAGA OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/tilemill_quickstart.html>`_ 
+   * - Proyecto
+     - Documentación
+     - OSGeo Live
+     - Otros
 
 
+   * - **GRASS GIS**
+     - `[Manual de usuario] <http://grass.osgeo.org/grass70/manuals/index.html>`_
+     - `[GRASS OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/grass_quickstart.html>`_
+     -
 
+   * - **uDig**
+     - `uDig docs <http://udig.github.io/docs/user/>`_
+     - `MapServer qs <http://live.osgeo.org/en/quickstart/udig_quickstart.html>`_
+     -
 
+   * - **OPTIKS**
+     - `Opticks docs <http://opticks.org/confluence/display/opticks/Welcome+To+Opticks>`_
+     -
+     -
 
+   * - **openJUMP**
+     - `openJUMP docs <http://sourceforge.net/projects/jump-pilot/files/Documentation/OpenJUMP%201.4%20Tutorials/>`_
+     - `openJUMP qs <http://live.osgeo.org/en/quickstart/openjump_quickstart.html>`_
+     -
+
+   * - **QGis**
+     - `QGis docs <http://qgis.org/es/docs/user_manual/index.html>`_
+     - `QGis qs <http://live.osgeo.org/en/quickstart/openjump_quickstart.html>`_
+     -
+
+   * - **GeoDa**
+     - `GeoDa docs <http://geodacenter.asu.edu/og_tutorials>`_
+     -
+     -
+
+   * - **gvSIG**
+     - `gvSIG docs <http://www.gvsig.org/plone/projects/gvsig-desktop/docs/user/gvsig-desktop-2-1-manual-de-usuario/>`_
+     - `gvSIG qs <http://live.osgeo.org/en/quickstart/gvsig_quickstart.html>`_
+     -
+
+   * - **SAGA GIS**
+     - `SAGA GIS docs <http://sourceforge.net/projects/saga-gis/files/SAGA%20-%20Documentation/SAGA%202%20User%20Guide/>``_
+     - `SAGA GIS qs <http://live.osgeo.org/en/quickstart/saga_quickstart.html>`_
+     -
+
+   * - **TileMill**
+     - `TileMill docs <https://www.mapbox.com/tilemill/docs/crashcourse/introduction/>`_
+     - `TileMill qs <http://live.osgeo.org/en/quickstart/tilemill_quickstart.html>`_
+     -
