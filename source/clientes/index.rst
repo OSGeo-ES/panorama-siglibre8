@@ -93,7 +93,6 @@ OpenJUMP_
 
 JUMP (*Java Unified Mapping Platform*) fue uno de los primeros proyectos de cliente GIS de escritorio en el lenguaje Java. Destaca por hacer uso de la biblioteca JTS_ para poder realizar algunas operaciones de análisis espacial, así como el soporte del formato GML_ y el protocolo WMS desde sus aparición.
 Este proyecto fue liderado por Vivid Solutions1 pero dada la política de aceptación de contribuciones externas por parte de la empresa motivó la aparición de un nuevo proyecto derivado (llamado fork  en el ámbito FOSS) conocido como The JUMP Pilot Project (JPP) que pretende coordinar de forma más democrática las contribuciones de diferentes equipos de desarrollo para evitar duplicidad de esfuerzos.
-
 Esto último es especialmente importante, ya que es destacable la cantidad de proyectos derivados que han surgido a partir de él:
 
 - Open JUMP
@@ -119,7 +118,7 @@ Esta herramienta se ha desarrollado sobre todo en Gottingen, Alemania. Se trata 
 Este software destaca especialmente por su orientación a la realización de análisis de imágenes y modelos digitales del terreno.
 
 OPTICKS_:
-Opticks es una herramienta para el análisis de imágenes y datos de teledetección. Es muy similar en funcionalidad y propósito a las herramientas comerciales *ERDAS Imagine*, *RemoteView*, *ENVI* o *SOCET GXP*. Opticks tiene funcionalidades del tipo GIS (como la utilización de shapefiles), pero principalmente está pensado para el anánisis de imágenes y vídeo o, de manera más general, el análisis de datos raster.
+Opticks es una herramienta para el análisis de imágenes y datos provenientes de la teledetección. Es muy similar en funcionalidad y propósito a las herramientas comerciales *ERDAS Imagine*, *RemoteView*, *ENVI* o *SOCET GXP*. Opticks tiene funcionalidades del tipo GIS (como la utilización de shapefiles), pero principalmente está pensado para el anánisis de imágenes y vídeo o, de manera más general, el análisis de datos raster.
 
 .. _OPTICKS: http://opticks.org/confluence/display/opticks/Welcome+To+Opticks
 
@@ -151,7 +150,9 @@ Dentro de la sección, hacia donde se está moviendo la comunidad.
 Curva de aprendizaje y conocimientos previos
 --------------------------------------------
 
-Metería otra tabla con los conocimientos previos necesarios para trabajar con y en cada software.
+Al estar todos los clientes de escritorio basados en interfaces gráficas, su uso suele ser bastante sencillo. Todos poseen a rasgos generales las mismas características siendo su curva de aprendizaje muy pronunciada, esto es, se aprende muy rápido en poco tiempo. Pero como siempre, hay excepciones. La interfaz gráfica de GRASS no es muy intuitiva y no es fácil dónde buscar los diferentes módulos de análisis. La situación se agrava cuando se trabaja a través de la consola, aunque realmente aquí es donde radica su potencial debido a su versatilidad.
+
+Los conocimientos previos necesarios para trabajar con este tipo de software coinciden con los conocimientos en tecnologías geoespaciales. Esto incluye compresión de los distintos formatos *raster* y vectorial, y el modo de conversión entre ellos, conocimiento de distintos algorítmos de análisis y gestión de datos geoespaciales, manejo de bases de datos, compresión de proyecciones cartográficas y sistemas de referencia. Además, existen conocimientos específicos para distintos paquetes. Así, es necesario cierta competencia en CSS si se quiere trabajar con Tilemill, o experiencia en lenguajes del tipo *scripting* como **shell** o **Python** si se quiere profundizar en la utilización de GRASS o QGIS, respectivamente. 
 
 Documentación
 -------------
