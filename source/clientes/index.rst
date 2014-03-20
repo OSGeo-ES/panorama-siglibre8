@@ -140,17 +140,25 @@ TileMill es una herramienta pensada para diseñar y crear mapas para su visualiz
 Puntos calientes
 ----------------
 
-Durante los últimos años el software SIG de escritorio ha dominado, pero se prevé que en la próxima década los servidores SIG o SIG web sean el producto dominante. 
+Una de las limitaciones existentes en los SIG de escritorio actuales es la capacidad para la gestión y visualización de datos en 3D. Algunos paquetes contienen estructuras híbridas para la visualización en 2.5D, en las que se representan los datos como una falsa tridimensionalidad mediante proyecciones gráficas en 2D. Sin embargo, se requiere funcionalidades más avanzadas para el manejo de estos datos más complejos con más de dos dimensiones. Este paradigma se repite con los datos temporales. Añadir la tercera componente espacial, es decir tener puntos (X,Y,Z), más una componente tiempo asociada, se asemejaría más a la realidad, pudiendo además, analizar procesos dinámicos de los elementos representados.
 
+Un ejemplo de datos en los que es necesario una visualización 3D son los datos LiDAR_. El uso de datos LiDAR se está extendiendo cada vez más dentro de los usuarios de herramientas SIG. Ya existen librerías capaces de no sólo leer y escribir sino también de analizar y procesar datos láser en formato LAS_ :ref:`librerias`. Hasta la fecha, ninguno de los paquetes presetados son capaces de trabajar con datos laser de forma nativa. Sólo GRASS es capaz de importar datos en formato LAS, pero la forma en que gestiona y almacena los mismos no es óptima. 
 
-Dentro de la sección, hacia donde se está moviendo la comunidad.
+.. _LiDAR: http://es.wikipedia.org/wiki/LIDAR
+.. _LAS: http://www.asprs.org/Committee-General/LASer-LAS-File-Format-Exchange-Activities.html
 
+En los últimos años, todos los SIG de escritorio están trabajando para incorporar la posibilidad de *scripting* dentro de sus funcionalidades. La principal ventaja que representa esto es la automatización de procesos, que de otra manera se tendrían que ejecutar una a una de manera manual, permitiendo la gestión de grandes volúmenes de datos con la menor interacción del usuario. En la mayoría de los casos, el lenguaje utilizado para ello es Python_ (o alguno de sus derivados como Jython_ en el caso de gvSIG)
+
+..  _Python: https://www.python.org/
+..  _Jython: http://www.jython.org/
+
+Durante los últimos años el software SIG de escritorio ha dominado pero se prevé que, debido a la continua mejora de las conexiones a internet, los servidores SIG sean el producto dominante en la próxima década. La razón de ser de los clientes de escritorio en el mundo GIS se apoya en la necesidad de realizar complejos y pesados análisis espaciales, sin embargo, es tendencia que los servidores SIG incorporen capacidades de procesado de datos. Es más, el volumen de captura de datos espaciales está yendo en aumento debido al abaratamiento de los sensores y su accesibilidad, lo que provoca una necesidad de equipos cada vez más potentes. Actualmente, los servidores web ofrezen la posibilidad de utilizar grandes *clústers* de procesadores están siendo la respuesta del mercado en ese sentido, y la tendencia es la de recurrir a estos servidores para gestión y procesado de tanta información. Sin embargo, hasta que el uso de los servidores web no se estabilice y tenga un abanico mucho más extenso de herramientas de análisis, el uso de clientes de escritorio seguirá siendo necesario.
 
 
 Curva de aprendizaje y conocimientos previos
 --------------------------------------------
 
-Al estar todos los clientes de escritorio basados en interfaces gráficas, su uso suele ser bastante sencillo. Todos poseen a rasgos generales las mismas características siendo su curva de aprendizaje muy pronunciada, esto es, se aprende muy rápido en poco tiempo. Pero como siempre, hay excepciones. La interfaz gráfica de GRASS no es muy intuitiva y no es fácil dónde buscar los diferentes módulos de análisis. La situación se agrava cuando se trabaja a través de la consola, aunque realmente aquí es donde radica su potencial debido a su versatilidad.
+Al estar todos los clientes de escritorio basados en interfaces gráficas, su uso suele ser bastante sencillo. Todos poseen a rasgos generales las mismas características siendo su curva de aprendizaje muy pronunciada, esto es, se aprende muy rápido en poco tiempo. Pero como siempre, hay excepciones. La interfaz gráfica de GRASS no es muy intuitiva y no es fácil dónde buscar los diferentes módulos de análisis. La situación se agrava cuando se trabaja a través de la consola, aunque realmente aquí es donde radica su potencial debido a su versatilidad. Por tanto, es recomendable utilizar GRASS sólo si se tiene alguna experiencia previa en SIG y con línea de comando. Por el contrario, paquetes como QGIS, uDig, gvSIG u openJUMP, podrían estar especialmente recomendados para principiantes.
 
 Los conocimientos previos necesarios para trabajar con este tipo de software coinciden con los conocimientos en tecnologías geoespaciales. Esto incluye compresión de los distintos formatos *raster* y vectorial, y el modo de conversión entre ellos, conocimiento de distintos algorítmos de análisis y gestión de datos geoespaciales, manejo de bases de datos, compresión de proyecciones cartográficas y sistemas de referencia. Además, existen conocimientos específicos para distintos paquetes. Así, es necesario cierta competencia en CSS si se quiere trabajar con Tilemill, o experiencia en lenguajes del tipo *scripting* como **shell** o **Python** si se quiere profundizar en la utilización de GRASS o QGIS, respectivamente. 
 
