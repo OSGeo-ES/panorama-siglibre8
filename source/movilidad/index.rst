@@ -51,13 +51,21 @@ OsmAnd_:
 
 Es una herramienta de navegación y routing para trabajar desde dispositivos Android con cartografía procedente de OpenStreetMap. Puede trabajar online y offline, previa descarga de los mapas. Proporciona instrucciones de navegación de forma visual y mediante voz sintetizada. La navegación y el routing es adaptable a vehículos automóviles, bicicletas o peatones. Permite mostrar la posición GPS del dispositivo y su orientación sobre la cartografía. Se puede mostrar el mapa orientado con el Norte arriba o en modo *head-up* o *proa-arriba*.  
 
-GeoPaparazzi_: Permite tomar fotografías y notas georeferenciadas desde dispositivos Android, para poder ser visualizadas posteriormente con otras herramientas GIS. También proporciona una herramienta de tracking durante los recorridos.
+GeoPaparazzi_: 
 
-gvSIGMini_: Es un cliente visualizador de cartografía para Android. Proporciona clientes WMS y WMS-C. Permite la búsqueda de direcciones y el cálculo de rutas. Trabaja en modo on-line y off-line. Se pueden superponer varias capas. Proporciona funciones de navegación GPS y posicionamiento por GPS o por red telefónica. Se puede compartir la posición a través de las redes sociales (Twitter, Facebook)  o por SMS y eMail. Permite la integración de *Street View*.
+Permite tomar fotografías y notas georeferenciadas desde dispositivos Android, para poder ser visualizadas posteriormente con otras herramientas GIS. También proporciona una herramienta de tracking durante los recorridos.
 
-Graphhopper_: Es una herramienta de routing que trabaja con datos de OpenStreetMap. Se puede utilizar desde dispositivos Android, a través de su integración con MapsForge. También es posible utilizarlo desde páginas web como un servicio mediante llamadas HTTP desde Java o Javascript. Desde aplicaciones Java de escritorio es posible trabajar con Graphhopper en modo off-line. Se pueden calcular rutas para automóviles, bicicletas o paseos andando. También se pueden crear vehículos personalizados.
+gvSIGMini_: 
 
-OsmSharp_: Es una herramienta para trabajar con cartografía de OpenStreetMap. Permite la visualización de información vectorial y el cálculo de rutas. Se puede utilizar en Android, iOS y WindowsPhone, así como en Linux, Windows y OSX.
+Es un cliente visualizador de cartografía para Android. Proporciona clientes WMS y WMS-C. Permite la búsqueda de direcciones y el cálculo de rutas. Trabaja en modo on-line y off-line. Se pueden superponer varias capas. Proporciona funciones de navegación GPS y posicionamiento por GPS o por red telefónica. Se puede compartir la posición a través de las redes sociales (Twitter, Facebook)  o por SMS y eMail. Permite la integración de *Street View*.
+
+Graphhopper_: 
+
+Es una herramienta de routing que trabaja con datos de OpenStreetMap. Se puede utilizar desde dispositivos Android, a través de su integración con MapsForge. También es posible utilizarlo desde páginas web como un servicio mediante llamadas HTTP desde Java o Javascript. Desde aplicaciones Java de escritorio es posible trabajar con Graphhopper en modo off-line. Se pueden calcular rutas para automóviles, bicicletas o paseos andando. También se pueden crear vehículos personalizados.
+
+OsmSharp_: 
+
+Es una herramienta para trabajar con cartografía de OpenStreetMap. Permite la visualización de información vectorial y el cálculo de rutas. Se puede utilizar en Android, iOS y WindowsPhone, así como en Linux, Windows y OSX.
 
 Puntos calientes
 ----------------
@@ -77,27 +85,8 @@ Conocidos los fundamentos de la programación en Android, es posible utilizar la
 Documentación
 -------------
 
-**OpenLayers:** `[OpenLayers home] <http://openlayers.org/>`_ `[OpenLayers API Documentation] <http://dev.openlayers.org/releases/OpenLayers-2.13.1/doc/apidocs/files/OpenLayers-js.html>`_ `[OpenLayers User Documentation] <http://trac.osgeo.org/openlayers/wiki/Documentation>`_ `[Openlayers OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/openlayers_quickstart.html>`_ `[Book: OpenLayers Cookbook] <http://www.packtpub.com/openlayers-create-gis-web-applications-cookbook/book>`_ `[Book: Openlayers 2.10  Beginner's guide] <https://www.packtpub.com/openlayers-2-1-javascript-web-mapping-library-beginners-guide/book>`_
-
-**LeafLet:** `[Leaflet home] <http://leafletjs.com/>`_ `[Leflet tutorials] <http://leafletjs.com/examples.html>`_ `[Leaflet API] <http://leafletjs.com/reference.html>`_ `[Leaflet repository] <https://github.com/Leaflet/Leaflet>`_ `[Leaflet OSGeoLive Quickstart] <http://live.osgeo.org/en/quickstart/leaflet_quickstart.html>`_
-
-**OSMDroid:** `[OSMDroid repository] <https://github.com/osmdroid/osmdroid>`_ `[OSMDroid How to get the osmdroid library in your project] <https://code.google.com/p/osmdroid/wiki/HowToIncludeInYourProject>`_ `[Article: Gis&Chips] <http://www.gisandchips.org/2013/10/16/openstreetmap-en-android-osmdroid/>`_ `[Article: AndroCode] <http://androcode.es/tag/osmdroid/>`_
-
-**MapsForge** `[Mapsforge site] <https://code.google.com/p/mapsforge/>`_  `[Mapsforge 0.3.0 Javadoc] <http://mapsforge.googlecode.com/git-history/0.3.0/javadoc/index.html>`_  `[Taller Mapsforge Sigte 2013] <http://mercatorlab.com/geoinquietos/tallermapsforge/>`_
-
-**OsmAnd:** `[OsmAnd site] <http://osmand.net/>`_ `[OsmAnd repository] <https://code.google.com/p/osmand/>`_
-
-**Geopaparazzi:** `[Geopaparazzi site] <http://geopaparazzi.github.io/geopaparazzi/>`_ `[Geopaparazzi Documentation] <https://github.com/geopaparazzi/geopaparazzi/wiki>`_ 
-
-**gvSIG-Mini:** `[gvSIG-Mini site] <https://confluence.prodevelop.es/display/GVMN/Home>`_ `[gvSIG-Mini Documentation] <https://confluence.prodevelop.es/display/GVMN/Documentation>`_
-
-**Graphhopper:** `[Graphhopper home] <http://graphhopper.com/>`_ `[Graphhopper quickstart for users] <https://github.com/graphhopper/graphhopper/wiki/QuickStart>`_ `[Graphhopper quickstart for developpers] <https://github.com/graphhopper/graphhopper/wiki/Developers>`_ 
-
-**OsmSharp:** `[OsmSharp home] <http://www.osmsharp.com/>`_ `[OsmSharp documentation] <http://www.osmsharp.com/wiki/documentation>`_ 
-
-
 .. list-table:: Documentación de proyectos
-   :widths: 10 15 15 35
+   :widths: 15 15 15 35
    :header-rows: 1
 
    * - Proyecto
@@ -106,20 +95,51 @@ Documentación
      - Otros
 
    * - **OpenLayers**
-     - `OL Home <http://openlayers.org/>`_
+     - `OpenLayers Home <http://openlayers.org/>`_
      - `Documentation <http://trac.osgeo.org/openlayers/wiki/Documentation>`_
      - `OL OSGeoLive Quickstart <http://live.osgeo.org/en/quickstart/openlayers_quickstart.html>`_
 
    * - **LeafLet**
      - `Leaflet Home <http://leafletjs.com/>`_
      - `Tutorials <http://leafletjs.com/examples.html>`_
-     - `Leaflet OSGeoLive Quickstart <http://live.osgeo.org/en/quickstart/leaflet_quickstart.html>`_
+     - `OSGeoLive Quickstart <http://live.osgeo.org/en/quickstart/leaflet_quickstart.html>`_
 
    * - **OSMDroid**
      - `Repository <https://github.com/osmdroid/osmdroid>`_
      - `How to get... <https://code.google.com/p/osmdroid/wiki/HowToIncludeInYourProject>`_
      - `[Article: AndroCode] <http://androcode.es/tag/osmdroid/>`_
 
+   * - **MapsForge**
+     - `Mapsforge Home <https://code.google.com/p/mapsforge/>`_
+     - `Mapsforge 0.3.0 Javadoc <http://mapsforge.googlecode.com/git-history/0.3.0/javadoc/index.html>`_
+     - `Taller Mapsforge Sigte 2013 <http://mercatorlab.com/geoinquietos/tallermapsforge/>`_
+
+   * - **OsmAnd**
+     - `OsmAnd Home <http://osmand.net/>`_
+     - `OsmAnd repository <https://code.google.com/p/osmand/>`_
+     - ...
+
+   * - **Geopaparazzi**
+     - `Geopaparazzi Home <http://geopaparazzi.github.io/geopaparazzi/>`_
+     - `Geopaparazzi Documentation <https://github.com/geopaparazzi/geopaparazzi/wiki>`_ 
+     - ...
+
+   * - **gvSIG-Mini**
+     - `gvSIG-Mini Home <https://confluence.prodevelop.es/display/GVMN/Home>`_
+     - `gvSIG-Mini Documentation <https://confluence.prodevelop.es/display/GVMN/Documentation>`_ 
+     - ...
+
+   * - **Graphhopper**
+     - `Graphhopper Home <http://graphhopper.com/>`_
+     - `Quickstart users <https://github.com/graphhopper/graphhopper/wiki/QuickStart>`_ 
+     - `Quickstart developpers <https://github.com/graphhopper/graphhopper/wiki/Developers>`_
+
+   * - **OsmSharp**
+     - `OsmSharp Home <http://www.osmsharp.com/>`_
+     - `OsmSharp documentation <http://www.osmsharp.com/wiki/documentation>`_ 
+     - ...
+
+   
 
 .. Enlaces
 .. _OpenLayers: http://docs.openlayers.org/
