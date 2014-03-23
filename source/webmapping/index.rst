@@ -112,33 +112,49 @@ Documentación
 
 Toda la documentación necesaria para comenzar a usar cualquiera de las tecnologías que aquí se encuentran, la puedes encontrar en las guías de inicio rápido que se adjuntan:
 
-Mapbender_: 
+.. list-table:: Documentación de proyectos
+   :widths: 10 10 10 35
+   :header-rows: 1
 
-http://live.osgeo.org/es/quickstart/mapbender_quickstart.html
+   * - Proyecto
+     - Documentación
+     - OSGeo Live
+     - Otros
 
-OpenLayers_: 
+   * -  **Mapbender**
+     - `Mapbender user doc <http://www.mapbender.org/User_Documentation>`_
+     - `Mapbender qs <http://live.osgeo.org/es/quickstart/mapbender_quickstart.html>`_
+     - `MapBender tutorials <http://www.mapbender.org/Tutorials>`_
 
-http://live.osgeo.org/es/quickstart/openlayers_quickstart.html
+   * -  **OpenLayers**
+     - `OpenLayers library doc <http://docs.openlayers.org/library/>`_
+     - `OpenLayers qs <http://live.osgeo.org/es/quickstart/openlayers_quickstart.html>`_
+     - `OpenLayers API doc <http://dev.openlayers.org/docs/files/OpenLayers-js.html>`_, `OpenLayers Examples <http://openlayers.org/dev/examples/>`_
 
-`GeoExt GXP`_: 
+   * -  **GeoExt GXP**
+     - `GeoExt doc <http://geoext.org/docs.html>`_, `GXP doc <http://gxp.opengeo.org/master/doc/>`_
+     - 
+     - `GeoExt qs <http://geoext.org/tutorials/quickstart.html>`_, `OpenGeo Suite ws <http://workshops.boundlessgeo.com/suiteintro/>`_
 
-http://geoext.org/tutorials/quickstart.html
+   * -  **GeoMoose**
+     - `GeoMoose doc <http://www.geomoose.org/>`_
+     - `GeoMoose qs <http://live.osgeo.org/es/quickstart/geomoose_quickstart.html>`_
+     - 
 
-GeoMoose_: 
+   * -  **Leaflet**
+     - `Leaflet reference <http://leafletjs.com/reference.html>`_
+     - 
+     - `Leaflet qs <http://leafletjs.com/examples/quick-start.html>`_
 
-http://live.osgeo.org/es/quickstart/geomoose_quickstart.html
+   * -  **MapStore**
+     - `MapStore docs <https://github.com/geosolutions-it/MapStore/wiki>`_
+     - 
+     - `MapStore qs <https://github.com/geosolutions-it/mapstore/wiki/Quick-Start-Guide>`_, `MapStore training docs <http://demo.geo-solutions.it/share/github/mapstore/downloads/training/windows/doc/en/index.html>`_, `MapStore demo <http://mapstore.geo-solutions.it/mapstore/#pianisupporto>`_
 
-Leaflet_: 
-
-http://leafletjs.com/examples/quick-start.html
-
-Mapstore_: 
-
-https://github.com/geosolutions-it/mapstore/wiki/Quick-Start-Guide
-
-Cartaro_: 
-
-http://live.osgeo.org/es/quickstart/cartaro_quickstart.html
+   * -  **Cartaro**
+     - `Cartaro docs <http://cartaro.org/documentation>`_
+     - `Cartaro qs <http://live.osgeo.org/es/quickstart/cartaro_quickstart.html>`_
+     - 
 
 Referencias
 ---------------

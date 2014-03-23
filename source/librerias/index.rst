@@ -38,9 +38,6 @@ La siguiente tabla muestra las principales características las librerías trata
 Software
 --------
 
-.. note:: Aquí explicaría en qué campos se suele mover cada elemento sofware. Por ejemplo, Geoserver permite CSW, pero generalmente su uso es más WMS/WFS...
-.. todo:: Queda hablar routing
-
 Cualquier librería LiDAR presentada en este documento se puede utilizar para la transformación de formatos láser, pero quizás la más adecuada para ello es PDAL, ya que está pensada especialmente para ello. Es más, PDAL trata de mejorar la librería libLAS cuyo desarrollo lleva parado algún tiempo. A su vez, libLAS se generó a partir de una versión anterior de LASlib, aunque estas últimas han seguido evolucionando hacia una potente herramienta de procesado. Cabe notar, para evitar equívocos, que la librería LASlib es completamente libre, mientras que las herramientas (LASTools) tienen el código cerrado pero su utilización está autorizada para usos no comerciales. Además de lectura y escritura de datos y la transformación entre formatos, SPDlib incorpora herramientas para procesar y analizar datos y para generar modelos digitales de elevación. Por último, LASzip es la única librería capaz de leer y escribir datos LiDAR en formato LAZ. Éste es un tipo de formato comprimido pero con las mismas especificaciones que el formato LAS.
 
 El procesamiento de datos es, en general, *la recogida y manipulación de elementos de datos para producir información significativa*. Así pues, a través del **geoprocesamiento**, se manipulan los datos espaciales con el objetivo de presentarlos en un contexto específico. En cuanto al procesamiento de datos vectoriales aparecen dos tendencias claras: una serie de librerías orientadas a la generación de scriptlets de forma intuitiva y sencilla (GeoScript/Shapely); y librerías clásicas de geoprocesamiento a nivel servidor (GEOS/JTS/GeoTools). Además, GDAL se suele utilizar para la preparación de imágenes ráster de forma que mejoren el rendimiento al ser servidas.
@@ -49,10 +46,11 @@ El procesamiento de datos es, en general, *la recogida y manipulación de elemen
 
 **Mapnik** es una herramienta para el renderizado de mapas atractivos, con bordes de geometrías limpios y suaves, provisto de un sistema gráfico con anti-aliasing de calidad, posicionamiento inteligente de etiquetas, y simbolización SVG escalable. La mayor fama de mapnik viene por ser utilizado como render de la capa principal de Open Street Map.
 
+Otra problemática tratada en esta sección es el routing o cálculo de rutas. Pertenecen a este grupo las librerías **pgRouting**, **OSRM** y **OpenTripPlanner**. **pgRouting** es un complemento de PostGIS que añade una serie de funciones SQL  que permiten el cálculo de rutas a través de los distintos algoritmos. **OSRM** ofrece una API HTTP para él cálculo de rutas basadas en los datos de OSM. **OpenTripPlanner** ofrece una API REST que permite el cálculo de rutas basadas el distintos métodos de transporte (incluyendo parámetros como el alquiler de bicicletas o el transporte público).
+
 Puntos calientes
 ----------------
 
-.. note:: Dentro de la sección, hacia donde se está moviendo la comunidad.
 .. todo:: Queda hablar de routing
 
 Últimamente, la tecnología LiDAR está en auje y cada vez aparecen más librerías que ofrecen la posibilidad de trabajar con datos LiDAR en el formato LAS_. Algunas también incorporan conjuntos herramientas para el procesado y análisis de datos. Estas herramientas suelen aparecer como comandos de consola para favorecer el desarrollos de *scripts*. Con el objetivo de favorecer la creación de sencillos programas, los esfuerzos se están centrando en incorporan *bindings* en python. Para permitir un uso más sencillo y cómodo la comunidad está haciendo esfuerzos en la creación interfaces gráficas y en la incorporación de forma nativa de lectura y escritura de datos láser en clientes de escritorio como QGIS o GRASS. 
@@ -78,7 +76,11 @@ En cuanto al **geoprocesamiento**, los conocimientos necesarios son distintos se
 Documentación
 -------------
 
+<<<<<<< HEAD
 En esta sección se ofrecen enlaces a las principales páginas de documentación, tutoriales o ejemplos.
+=======
+A continuación se enumeran una serie de enlaces a páginas de documentación, tutoriales o ejemplos que pueden ser de ayuda para trabajar con estas librerías:
+>>>>>>> 2f041425dd96794f62bf0a371db02de5058f181a
 
 .. list-table:: Documentación de proyectos
    :widths: 10 10 10 35
@@ -168,4 +170,4 @@ En esta sección se ofrecen enlaces a las principales páginas de documentación
      - `Mapnik docs <http://mapnik.org/docs/>`_
      - `Mapnik qs <http://live.osgeo.org/es/quickstart/mapnik_quickstart.html>`_
      - `Tutoriales <https://github.com/mapnik/mapnik/wiki/MapnikTutorials>`_
-
+ 
