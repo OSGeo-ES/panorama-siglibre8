@@ -74,9 +74,3 @@ se halla bajo licencia `Creative Commons Reconocimiento Compartir Igual
 .. [Panorama07] `Panorama actual del ecosistema de software libre para SIG <http://www.sigte.udg.edu/jornadassiglibre2007/comun/1pdf/12.pdf>`_.
 .. [Panorama08] `Panorama actual del ecosistema de software libre para SIG (2a edición) <http://www.sigte.udg.edu/jornadassiglibre2008/uploads/file/Ponencias/A5.odt>`_
 
-
-Cosas pendientes
-==================
-
-.. todolist::
-
