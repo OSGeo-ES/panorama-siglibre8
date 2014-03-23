@@ -76,11 +76,7 @@ En cuanto al **geoprocesamiento**, los conocimientos necesarios son distintos se
 Documentación
 -------------
 
-<<<<<<< HEAD
-En esta sección se ofrecen enlaces a las principales páginas de documentación, tutoriales o ejemplos.
-=======
 A continuación se enumeran una serie de enlaces a páginas de documentación, tutoriales o ejemplos que pueden ser de ayuda para trabajar con estas librerías:
->>>>>>> 2f041425dd96794f62bf0a371db02de5058f181a
 
 .. list-table:: Documentación de proyectos
    :widths: 10 10 10 35
