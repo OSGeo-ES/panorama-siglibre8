@@ -78,7 +78,94 @@ En cuanto al **geoprocesamiento**, los conocimientos necesarios son distintos se
 Documentación
 -------------
 
-.. note:: Enlace al wiki y quizás alguna sugerencia particular en alguna sección.
+En esta sección se ofrecen enlaces a las principales páginas de documentación, tutoriales o ejemplos.
 
+.. list-table:: Documentación de proyectos
+   :widths: 10 10 10 35
+   :header-rows: 1
 
+   * - Proyecto
+     - Documentación
+     - OSGeo Live
+     - Otros
+
+   * - **GDAL/OGR**
+     - `GDAL docs <http://www.gdal.org/gdal_utilities.html>`_; `OGR docs <http://www.gdal.org/ogr2ogr.html>`_
+     - `GDAL qs <http://live.osgeo.org/es/quickstart/gdal_quickstart.html>`_
+     - `GDAL wiki <http://trac.osgeo.org/gdal/>`_
+
+   * - **JTS Topology Suite**
+     - `JTS Topology Suite docs <http://www.vividsolutions.com/jts/JTSHome.htm>`_
+     -
+     -
+
+   * - **GEOS**
+     - `GEOS API docs <http://geos.osgeo.org/doxygen/>`_
+     -
+     - `Tutorial de la documentación de Django <https://docs.djangoproject.com/en/dev/ref/contrib/gis/geos/#tutorial>`_
+
+   * - **GeoTools**
+     - `GeoTools docs <http://docs.geotools.org/>`_
+     -
+     - `Soporte y comunidad <http://docs.geotools.org/latest/userguide/welcome/support.html>`_
+
+   * - **Shapely**
+     - `Shapely docs <http://toblerity.org/shapely/manual.html>`_
+     -
+     -
+
+   * - *GeoScript **
+     - `GeoScript docs <http://geoscript.org/learning/index.html>`_
+     -
+     - `Tutoriales oficiales <http://geoscript.org/tutorials/index.html>>`_
+
+   * - **libLAS**
+     - `libLAS docs <http://www.liblas.org/docs.html>`_
+     - `libLAS qs <http://live.osgeo.org/es/overview/overview.html>`_
+     -
+
+   * - **LASlib/LASzip**
+     - `Tutoriales <http://rapidlasso.com/category/tutorials/>`_; `Artículo sobre LASzip <http://lastools.org/download/laszip.pdf>`
+     -
+     - `Manual de *Minnesota Department of Natural Resources* <https://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CC0QFjAA&url=ftp%3A%2F%2Flidar.dnr.state.mn.us%2Fdocumentation%2FLAS_File_Processing_Using_LASTOOLS.pdf&ei=TRcvU9ioAabH7AampYGYBg&usg=AFQjCNFd7hF1fTN4KmIPe7qgmpxN4V5sLg&sig2=3w6WI9lYF35VJpMvV6aXcA&bvm=bv.62922401,d.ZGU&cad=rja>`_
+
+   * - **PDAL**
+     - `PDAL docs <http://www.pdal.io/docs.html>`_
+     -
+     -
+
+   * - **SPDlib**
+     - `SPDlib docs <https://bitbucket.org/petebunting/spdlib-documentation>`_
+     -
+     - `Tutoriales <http://www.spdlib.org/doku.php?id=spdlib:users:tutorials:tutorials>`_
+
+   * - **Laspy**
+     -LASpy docs ` <http://laspy.readthedocs.org/en/latest/>`_
+     -
+     -
+
+   * - **OSRM**
+     - `General OSRM instructions <https://github.com/DennisOSRM/Project-OSRM/wiki/Running-OSRM>`_
+     - ` <>`_
+     - `OSRM Server API <https://github.com/DennisOSRM/Project-OSRM/wiki/Server-api>`_
+
+   * - **pgRouting**
+     - `pgRouting docs <http://docs.pgrouting.org/2.0/es/doc/index.html>`_
+     - `pgRouting qs <http://live.osgeo.org/es/quickstart/pgrouting_quickstart.html>`_
+     - `Guía para principiantes <http://anitagraser.com/2011/02/07/a-beginners-guide-to-pgrouting/>`_
+
+   * - **OpenTripPlanner**
+     - `OpenTripPlanner docs <https://github.com/opentripplanner/OpenTripPlanner/wiki/Tutorials>`_
+     -
+     - `Guía de desarrollador <https://github.com/opentripplanner/OpenTripPlanner/wiki/DevelopersGuide>`_; 
+
+   * - **GeoBatch**
+     - `GeoBatch docs <http://geobatch.geo-solutions.it/download/latest/doc/>`_
+     - 
+     -
+
+   * - **Mapnik**
+     - `Mapnik docs <http://mapnik.org/docs/>`_
+     - `Mapnik qs <http://live.osgeo.org/es/quickstart/mapnik_quickstart.html>`_
+     - `Tutoriales <https://github.com/mapnik/mapnik/wiki/MapnikTutorials>`_
 
