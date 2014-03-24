@@ -193,7 +193,7 @@ A continuación se ofrecen enlaces a las principales páginas de documentación,
    * - **GeoNetwork**
      - `GeoNetwork docs <http://geonetwork-opensource.org/docs.html>`_
      - `GeoNetwork qs <http://live.osgeo.org/en/quickstart/geonetwork_quickstart.html>`_
-     -
+     - `Geonetwork workshop <https://www.geocat.net/download/geoNetwork/geonetwork.pdf>`_
 
    * - **52ºnorth SOS**
      - `52ºnorth SOS docs <https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation>`_
