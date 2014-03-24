@@ -15,7 +15,7 @@ Introducción
 
 En esta sección se va a abordar el amplio conjunto de proyectos correspondientes a la capa intermedia de cualquier sistema de información, también conocida como *middleware*. En esta sección se cubre por tanto cualquier aplicación que se ejecuta en un servidor y que tiene como objetivo proporcionar uno o más servicios que serán consumidos por clientes, independientemente de si estos son otras aplicaciones de servidor, clientes *web*, clientes de escritorio o dispositivos móviles.
 
-¿Qué tipos de servicios actualmente se ofrecen relacionados con la |IG|? Una agrupación funcional podría agruparlos en las siguientes categorías:
+¿Qué tipos de servicios actualmente se ofrecen relacionados con la |IG|? Una agrupación funcional podría ofrecernos las siguientes categorías:
 
 - **Servidores de mapas**: Encargados de renderizar datos tanto vectoriales como *raster* en diferentes estilos y proyecciones cartográficas, en general cumpliendo el estándar `WMS de OGC`_
 - **Servidores de teselas**: Una variante del anterior es aquellos servidores que ofrecen la cartografía renderizada únicamente en juegos de teselas con un número limitado de resoluciones, casi siempre además empleando sistemas de almacenamiento intermedio (*caches*). En este caso hay dos estándares en el sector, el estándar `TMS`_ y el `WMTS de OGC`_
@@ -34,7 +34,7 @@ En esta sección se va a abordar el amplio conjunto de proyectos correspondiente
 
 Es habitual que un producto de |sl| cubra más de una funcionalidad de las definidas en la categorización anterior, especialmente con los proyectos más veteranos. La interoperabilidad es otra de las características del |sl| geoespacial y es por ello que la mayoría de los productos suelen intentar implementar aquellos estándares que afectan a su área de interés.
 
-En la siguiente tabla se presentan las características principales de los productos revisados en el contexto de este trabajo. Se puede consultar más información sobre la estructura de la tabla en la  :ref:`introducción <info-tabla>`.
+En las siguiente tablas se presentan las características principales de los productos revisados en el contexto de este trabajo así como los principales estándares que implementan. Se puede consultar más información sobre la estructura de la primera tabla en la :ref:`introducción <info-tabla>`.
 
 .. figure:: imgs/tabla-principal.png
    :align: center
@@ -193,7 +193,7 @@ A continuación se ofrecen enlaces a las principales páginas de documentación,
    * - **GeoNetwork**
      - `GeoNetwork docs <http://geonetwork-opensource.org/docs.html>`_
      - `GeoNetwork qs <http://live.osgeo.org/en/quickstart/geonetwork_quickstart.html>`_
-     -
+     - `Geonetwork workshop <https://www.geocat.net/download/geoNetwork/geonetwork.pdf>`_
 
    * - **52ºnorth SOS**
      - `52ºnorth SOS docs <https://wiki.52north.org/bin/view/SensorWeb/SensorObservationServiceIVDocumentation>`_

@@ -140,6 +140,9 @@ TileMill es una herramienta pensada para diseñar y crear mapas para su visualiz
 Puntos calientes
 ----------------
 
+En el ámbito geoespacial, el panorama de clientes SIG opensource goza de buena salud, y a pesar que se ha alcanzado un buen nivel tanto en relación a la diversidad de productos disponibles, com en las prestaciones de estos, la mejora es continua y el desarrollo nuevas funcionalidades parece avanzar favorablemente.
+
+
 Una de las limitaciones existentes en los SIG de escritorio actuales es la capacidad para la gestión y visualización de datos en 3D. Algunos paquetes contienen estructuras híbridas para la visualización en 2.5D, en las que se representan los datos como una falsa tridimensionalidad mediante proyecciones gráficas en 2D. Sin embargo, se requiere funcionalidades más avanzadas para el manejo de estos datos más complejos con más de dos dimensiones. Este paradigma se repite con los datos temporales. Añadir la tercera componente espacial, es decir tener puntos (X,Y,Z), más una componente tiempo asociada, se asemejaría más a la realidad, pudiendo además, analizar procesos dinámicos de los elementos representados.
 
 Un ejemplo de datos en los que es necesario una visualización 3D son los datos LiDAR_. El uso de datos LiDAR se está extendiendo cada vez más dentro de los usuarios de herramientas SIG. Ya existen librerías capaces de no sólo leer y escribir sino también de analizar y procesar datos láser en formato LAS_ :ref:`librerias`. Hasta la fecha, ninguno de los paquetes presetados son capaces de trabajar con datos laser de forma nativa. Sólo GRASS es capaz de importar datos en formato LAS, pero la forma en que gestiona y almacena los mismos no es óptima. 
@@ -151,6 +154,12 @@ En los últimos años, todos los SIG de escritorio están trabajando para incorp
 
 ..  _Python: https://www.python.org/
 ..  _Jython: http://www.jython.org/
+
+El análisis y procesado de datos, tanto raster como vectorial, ha sido uno de los puntos fuertes de los clientes SIG de código abierto. Sin embargo, muchos de los nuevos paquetes de software incluyen cada vez más mejoras en las herramientas disponibles para la edición de datos, su visualización y representación. También en cuanto al entorno para el diseño de los mapas, aunque este aspecto resulta cada vez menos relevante al publicarse frecuentemente los datos analizados en entornos web o móviles. 
+
+La integración de bibliotecas de contrastado prestigio en los clientes SIG (ej, GDAL, JTS, Geotools... )  es también uno de los aspectos a destacar. Ello dota de robustez y versatilidad a muchos de estos proyectos, y permite a los usuarios tener garantías en los procesos ejecutados. Asimismo, la arquitectura modular de muchos clientes SIG permite incorporar multitud de complementos que los dotan de más funcionalidades.
+
+Actualmente la interrelación de librerías, complementos, algoritmos… entre diversos clientes, facilita la labor del usuario, que puede disponer de todo este ecosistema en un mismo entorno de trabajo -sea cual sea-. Por ejemplo, podemos trabajar con SEXTANTE desde gvSIG, QGIS, Kosmo…, o utilizar GRASS como plugin desde QGIS, por citar algunos ejemplos. 
 
 Durante los últimos años el software SIG de escritorio ha dominado pero se prevé que, debido a la continua mejora de las conexiones a internet, los servidores SIG sean el producto dominante en la próxima década. La razón de ser de los clientes de escritorio en el mundo GIS se apoya en la necesidad de realizar complejos y pesados análisis espaciales, sin embargo, es tendencia que los servidores SIG incorporen capacidades de procesado de datos. Es más, el volumen de captura de datos espaciales está yendo en aumento debido al abaratamiento de los sensores y su accesibilidad, lo que provoca una necesidad de equipos cada vez más potentes. Actualmente, los servidores web ofrezen la posibilidad de utilizar grandes *clústers* de procesadores están siendo la respuesta del mercado en ese sentido, y la tendencia es la de recurrir a estos servidores para gestión y procesado de tanta información. Sin embargo, hasta que el uso de los servidores web no se estabilice y tenga un abanico mucho más extenso de herramientas de análisis, el uso de clientes de escritorio seguirá siendo necesario.
 

@@ -87,14 +87,6 @@ Documentación
 
 A continuación se ofrecen enlaces a las principales páginas de documentación, tutoriales o ejemplos que pueden ayudar a empezar a trabajar con cada uno de los productos revisados.
 
-* **MySQL Spatial**: `documentación <https://dev.mysql.com/doc/refman/5.0/en/spatial-extensions.html>`_
-
-* **postGIS**:  `documentación <http://postgis.net/docs/manual-2.1/>`_, `quickstart <http://workshops.boundlessgeo.com/postgis-intro/>`_.
-
-* **H2GIS**: `documentación <http://www.h2gis.org/docs/dev/home/>`_, `quickstart <http://www.h2gis.org/docs/dev/quickstart/>`_.
-
-* **Spatialite**: `documentación <https://www.gaia-gis.it/spatialite-2.3.1/spatialite-manual-2.3.1.html>`_, `quickstart <http://www.camptocamp.com/actualite/kiss-spatialite-in-5-minutes/>`_.
-
 
 .. list-table:: Documentación de proyectos
    :widths: 10 10 10 35

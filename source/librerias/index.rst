@@ -4,14 +4,13 @@
 Librerías
 *********
 
-.. todo:: Sección por completar. Discusión del contenido en la :issue:`9`
-
 Autores
 -------
 
 - |alediator|
 - |rantolin|
 - |shiguera|
+- |delawen|
 
 Introducción
 ------------
@@ -77,7 +76,7 @@ El procesamiento de datos es, en general, *la recogida y manipulación de elemen
 
 En relación con el routing o cálculo de rutas, mencionamos en este grupo las librerías **pgRouting**, **OSRM** y **OpenTripPlanner**. 
 
-`pgRouting`_ es una extensión de la base de datos espacial Potgres-PostGIS que añade funcionalidades de routing, esto es, de cálculo de rutas y caminos mínimos a través de los distintos algoritmos. 
+`pgRouting`_ es una extensión de la base de datos espacial Potgres-PostGIS que añade funcionalidades de routing, esto es, de cálculo de rutas y caminos mínimos a través de los distintos algoritmos. Trabaja con los datos en crudo, sin necesidad de pre-procesamiento.
 
 .. _pgRouting: http://pgrouting.org/
 
@@ -93,11 +92,11 @@ En relación con el routing o cálculo de rutas, mencionamos en este grupo las l
 Puntos calientes
 ----------------
 
-.. todo:: Queda hablar de routing
-
 Últimamente, la tecnología LiDAR está en auje y cada vez aparecen más librerías que ofrecen la posibilidad de trabajar con datos LiDAR en el formato LAS_. Algunas también incorporan conjuntos herramientas para el procesado y análisis de datos. Estas herramientas suelen aparecer como comandos de consola para favorecer el desarrollos de *scripts*. Con el objetivo de favorecer la creación de sencillos programas, los esfuerzos se están centrando en incorporan *bindings* en python. Para permitir un uso más sencillo y cómodo la comunidad está haciendo esfuerzos en la creación interfaces gráficas y en la incorporación de forma nativa de lectura y escritura de datos láser en clientes de escritorio como QGIS o GRASS. 
 
 .. _LAS: http://www.asprs.org/Committee-General/LASer-LAS-File-Format-Exchange-Activities.html
+
+En relación al **cálculo de rutas**, existe una clara diferenciación entre las librerías que se basan en datos pre-procesados y las librerías que pueden trabajar sin pre-procesar los datos. Mientras que las librerías con datos procesados hoy en día devuelven respuestas instantáneas a rutas complejas, las librerías con datos en crudo permiten una mayor flexibilidad a la hora de incorporar datos en tiempo real, como puede ser el tráfico o el clima. También es relevante mencionar que OpenTripPlanner permite el cálculo de rutas multimodal; esto es, cálculo de rutas combinando diferentes medios de transporte.
 
 Respecto al **geoprocesamiento**, probablemente, los avances más significativos se están realizando en la abstración de las librerías clásicas con el objetivo de facilitar su uso de cara a los desarrolladores. Dentro de este grupo se enmcuentran GeoScript, Shapely o  GeoBatch. 
 
@@ -106,10 +105,9 @@ Mapnik se suele embeber típicamente en aplicaciones python que publican mapas e
 Curva de aprendizaje y conocimientos previos
 --------------------------------------------
 
-.. note:: Metería otra tabla con los conocimientos previos necesarios para trabajar con y en cada software.
-.. todo:: Queda hablar del los otros grupos de librerías
-
 Para trabajar con las librerías LiDAR es conveniente tener conocimientos de C++, ya que es el lenguaje común a todas ellas. Aunque existen ya interfaces gráficas para trabajar con estas herramientas, el módo más rápido y versátil es la línea de comando y la utilización de *scripts* o incluso la programación en Python. Por tanto, tener experiencia en estos campos facilitaría su utilización. Escribir en la consola nunca es agradable para cualquier persona que empieza, pero la mayor ventajan que presentan es que todas las herramientas tienen las mismas funcionalidades y es muy intuitivo aprender el lenguaje utilizado en cualquiera de ellas si se adquieren conocmientos previos en alguna otra librería. 
+
+A la hora de trabajar con cálculo de rutas, es conveniente entender la terminología básica de la teoría de grafos, como qué es un nodo y cómo se interconectan los nodos. Una vez comprendida la teoría básica de grafos, lo que va a marcar qué algoritmo elegimos y cómo vamos a usarla será nuestra fuente de datos y nuestras necesidades o no de tener rutas multimodales en tiempo real.
 
 En cuanto al **geoprocesamiento**, los conocimientos necesarios son distintos según la(s) librería(s) que quieras usar. Para todas necesitarás conocimentos acerca del modelo `SFA`_. A no ser que necesites una funcionalidad específica de una de las librerías, podrás elegir aquella que se adecúe más a tus conocimientos. Los programadores en C++ pueden utilizar GEOS, mientras que los programadores Java encontrarán en JTS y Geotools las herramientas de geoprocesamiento necesario. Python dispone de GeoScript, Shapely como herramientas específicas del lenguaje.
 
@@ -180,13 +178,13 @@ A continuación se enumeran una serie de enlaces a páginas de documentación, t
      - `Tutoriales <http://www.spdlib.org/doku.php?id=spdlib:users:tutorials:tutorials>`_
 
    * - **Laspy**
-     -LASpy docs ` <http://laspy.readthedocs.org/en/latest/>`_
+     - LASpy docs ` <http://laspy.readthedocs.org/en/latest/>`_
      -
      -
 
    * - **OSRM**
      - `General OSRM instructions <https://github.com/DennisOSRM/Project-OSRM/wiki/Running-OSRM>`_
-     - ` <>`_
+     - 
      - `OSRM Server API <https://github.com/DennisOSRM/Project-OSRM/wiki/Server-api>`_
 
    * - **pgRouting**

@@ -58,12 +58,12 @@ Los autores
 Autores
 --------------
 
-* |alediator|
-* |jsanz|
-* |jsitjar|
-* |delawen|
-* |moiarcsan|
-* |rantolin|
+* |alediator| · Ingeniero de Software en `GeoSolutions S.A.S <http://www.geo-solutions.it/>`_ · http://about.me/alediator
+* |jsanz| ·  Analista en el equipo de tecnologías espaciales de `Prodevelop S.L. <http://www.prodevelop.es>`_ · http://jorgesanz.net
+* |jsitjar| · Técnico en SIG en el `SIGTE <http://www.sigte.udg.edu>`_ y profesor del máster `UNIGIS <http://www.unigis.es>`_
+* |delawen|· Ingeniera especialista en Spatial IT de `GeoCat <http://www.geocat.net/>`_ · http://delawen.com
+* |moiarcsan| · Ingeniero Técnico Informático · Desarrollador GIS en `Emergya <http://www.emergya.es/>`_ · http://moisesarcos.wordpress.com/
+* |rantolin| · Investigador y desarrollador de aplicaciones LiDAR en `Forestry Commission <http://www.forestry.gov.uk/>`_
 * |shiguera|
 
 

@@ -17,33 +17,34 @@ A la hora de abordar este proyecto lo primero que nos planteamos es cómo lo que
 ¿Cómo lo hacemos?
 =================
 
-Tras esto la forma en la que empezamos a montar toda esta vorágine, fue mediante la lista de correo y la `wiki de OSGeo`_.  La lista fue el punto de partida, fue el sitio donde nos compretimos a colaborar y a realizar esta presentación.
+Tras esto la forma en la que empezamos a montar toda esta vorágine, fue mediante la `lista de correo`_ y la `wiki de OSGeo`_.  La lista fue el punto de partida, fue el sitio donde nos comprometimos a colaborar y a realizar esta presentación.
 
 ¿Cómo nos organizamos?
 ======================
 
-A partir de aquí surgió la forma en la que nos debíamos organizar, mediante una reunión semanal a través de irc_, para evaluar el estado de cosecución de los objetivos marcados.
-Teniendo en cuenta que cada una de estas reuniones tienen su acta en la `wiki de OSGeo`_, además del log correspondiente para aquél que no haya podido asistir.
+A partir de aquí surgió la forma en la que nos debíamos organizar, mediante una reunión semanal a través de irc_, para evaluar el estado de consecución de los objetivos marcados.
+Teniendo en cuenta que cada una de estas reuniones tienen su acta en la `wiki de OSGeo`_, además del *log* correspondiente para aquél que no haya podido asistir.
 
-Todas las discusiones relacionadas con el contenido de cada sección las llevamos a cabo mediante la generación de tickets (issues) en GitHub, de forma que se creasen hilos de conversación en paralelo sobre los principales temas a discutir y no enviáramos ruido a la lista. Aunque a pesar de tener estos hilos, en la lista se seguían notificando las cosas más importante.
+Todas las discusiones relacionadas con el contenido de cada sección las llevamos a cabo mediante la generación de tickets_ (issues) en GitHub, de forma que se creasen hilos de conversación en paralelo sobre los principales temas a discutir y no enviáramos ruido a la lista. Aunque a pesar de tener estos hilos, en la lista se seguían notificando las cosas más importantes.
 
 ¿Cómo contribuimos los contenidos?
 ==================================
 
-Disponemos de un repositorio en el que se alojan todos los archivos fuentes del artículo, así como todos los recursos relacionados con la presentación.
+Disponemos de un repositorio_ en el que se alojan todos los archivos fuentes del artículo, así como todos los recursos relacionados con la presentación.
 
+.. _repositorio: https://github.com/OSGeo-ES/panorama-siglibre8
 Para ello tenemos habilitadas en el repositorio dos ramas:
 
-* gh-pages: Rama para el desarrollo de la presentación
-* paper: Rama para el desarrollo del artículo
+* ``gh-pages``: Rama para el desarrollo de la presentación
+* ``paper``: Rama para el desarrollo del artículo
 
-La rama `gh-pages`_, que empleamos para el desarrollo de la presentación, se ha fabricado mediante RevealJS_, un framework javascript para el desarrollo de presentaciónes dinámicas basadas en HTML5 Y CSS3.
+La rama `gh-pages`_, que empleamos para el desarrollo de la presentación, se ha fabricado mediante RevealJS_, un framework javascript para el desarrollo de presentaciones dinámicas basadas en HTML5 Y CSS3.
 
-La rama paper_, que empleamos para el desarrollo del artículo, se ha fabricado mediante Sphinx_, un generador de documentción escrito en Python, que hace que se genere la estructura por defecto de un proyecto base para la generación de un artículo, tal y como el que aquí se presenta.
+La rama paper_, que empleamos para el desarrollo del artículo, se ha fabricado mediante Sphinx_, un generador de documentación escrito en Python, que hace que se genere la estructura por defecto de un proyecto base para la generación de un artículo, tal y como el que aquí se presenta.
 
-Para contribuir y hacer crecer esta documentación únicamente tendremos que realizar nuestro fork del repositorio y dependiendo de lo que queramos modificar, tendremos que seleccionar una u otra rama. Para trabajar con la presentación, simplemente tendremos que modificar el fichero index.html que se encuentra en la rama `gh-pages`_. En cambio para trabajar con el artículo, rendremos que modificar el archivo "index.rst" dentro de la carpeta de la sección con la que queremos colaborar.
+Para contribuir y hacer crecer esta documentación únicamente tendremos que realizar nuestro *fork* del repositorio y dependiendo de lo que queramos modificar, tendremos que seleccionar una u otra rama. Para trabajar con la presentación, simplemente tendremos que modificar el fichero :file:`index.html` que se encuentra en la rama `gh-pages`_. En cambio para trabajar con el artículo, tendremos que modificar el archivo :file:`index.rst` dentro de la carpeta de la sección con la que queremos colaborar.
 
-En cuanto tengamos los cambios listos para subir, debemos realizar el correspondiente commit y sucesivo pull request. Una vez éste esté aceptado, se procederá a la actualización de la documentación alojada en la web de manera automática.
+En cuanto tengamos los cambios listos para subir, debemos realizar el correspondiente *commit* y sucesivo *pull request*. Una vez éste esté aceptado, se procederá a la actualización automática de la documentación alojada en la *web*.
 
 ¿Cómo publicamos los contenidos?
 ================================
@@ -93,3 +94,5 @@ En todas las secciones de este trabajo se utiliza una tabla de descripción de p
 .. _gh-pages: https://github.com/moiarcsan/panorama-siglibre8/tree/gh-pages
 .. _RevealJS: http://revealjs.com/
 .. _GitHub Pages: http://pages.github.com/
+.. _lista de correo: http://lists.osgeo.org/mailman/listinfo/spanish
+.. _tickets: https://github.com/OSGeo-ES/panorama-siglibre8/issues/27#issuecomment-38474599
