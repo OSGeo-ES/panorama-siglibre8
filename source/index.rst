@@ -28,7 +28,20 @@ Panorama del SIG Libre
 Acerca de este documento
 =========================
 
-En 2007, durante las primeras Jornadas de SIG Libre, Miguel Montesinos y Jorge Sanz presentaron una comunicación titulada *Panorama actual del ecosistema de software libre para SIG* [Panorama07]. En esta presentación se hacía una rápida revisión a los principales proyectos además de presentar la fundación OSGeo, la distribución geográfica de los principales grupos de desarrollo y unas fichas que resumían los datos más relevantes de los proyectos evaluados. Un año más tarde esta misma comunicación se volvió a realizar (actualizada) como sesión plenaria [Panorama08]. El trabajó siguió actualizándose durante un tiempo en forma de artículo que se publicó en un par de revistas y como una web en el `wiki de Prodevelop <https://confluence.prodevelop.es/display/pan/Panorama+FOSS4G>`_. Han pasado algunos años y el panorama ha cambiado, hay nuevos proyectos, otros han ido desapareciendo y la mayoría se han ido actualizando y madurando. Es momento por tanto de retomar aquel trabajo y darle un enfoque un poco más colaborativo, pasando de un esfuerzo de dos personas que trabajan en la misma organización a un grupo más amplio, con perfiles más variados y por tanto, ofreciendo diferentes visiones y sensibiliades.
+En 2007, durante las primeras Jornadas de SIG Libre, Miguel Montesinos y Jorge Sanz presentaron 
+una comunicación titulada *Panorama actual del ecosistema de software libre para SIG* [Panorama07]. 
+En esta presentación se hacía una rápida revisión a los principales proyectos además de presentar 
+la fundación OSGeo, la distribución geográfica de los principales grupos de desarrollo y unas
+ichas que resumían los datos más relevantes de los proyectos evaluados. Un año más tarde esta 
+misma comunicación se volvió a realizar (actualizada) como sesión plenaria [Panorama08]. 
+El trabajó siguió actualizándose durante un tiempo en forma de artículo que se publicó en un 
+par de revistas (como [Novatica09]) y como una web en el 
+`wiki de Prodevelop <https://confluence.prodevelop.es/display/pan/Panorama+FOSS4G>`_. Han pasado 
+algunos años y el panorama ha cambiado, hay nuevos proyectos, otros han ido desapareciendo y la 
+mayoría se han ido actualizando y madurando. Es momento por tanto de retomar aquel trabajo y 
+darle un enfoque un poco más colaborativo, pasando de un esfuerzo de dos personas que trabajan
+n la misma organización a un grupo más amplio, con perfiles más variados y por tanto, ofreciendo 
+diferentes visiones y sensibiliades.
 
 Este trabajo se enmarca en las octavas Jornadas de SIG Libre, yendo más allá de la presentación de un artículo y una charla durante el evento para intentar tener un mayor recorrido, intentando ser un verdadero proyecto de documentación, abierto a cualuier aportación y utilizando prácticas habituales en proyectos de |sl|.
 
@@ -73,10 +86,4 @@ se halla bajo licencia `Creative Commons Reconocimiento Compartir Igual
 
 .. [Panorama07] `Panorama actual del ecosistema de software libre para SIG <http://www.sigte.udg.edu/jornadassiglibre2007/comun/1pdf/12.pdf>`_.
 .. [Panorama08] `Panorama actual del ecosistema de software libre para SIG (2a edición) <http://www.sigte.udg.edu/jornadassiglibre2008/uploads/file/Ponencias/A5.odt>`_
-
-
-Cosas pendientes
-==================
-
-.. todolist::
-
+.. [Novatica09] `Geographic Information Systems <http://www.cepis.org/upgrade/index.jsp?p=0&n=2134&a=3043>`_ Cepis UPGRADE - Volume 2009 - Issue II

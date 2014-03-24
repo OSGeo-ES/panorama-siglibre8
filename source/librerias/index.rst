@@ -1,3 +1,5 @@
+.. _librerias:
+
 *********
 Librerías
 *********
@@ -36,9 +38,6 @@ La siguiente tabla muestra las principales características las librerías trata
 Software
 --------
 
-.. note:: Aquí explicaría en qué campos se suele mover cada elemento sofware. Por ejemplo, Geoserver permite CSW, pero generalmente su uso es más WMS/WFS...
-.. todo:: Queda hablar routing
-
 Cualquier librería LiDAR presentada en este documento se puede utilizar para la transformación de formatos láser, pero quizás la más adecuada para ello es PDAL, ya que está pensada especialmente para ello. Es más, PDAL trata de mejorar la librería libLAS cuyo desarrollo lleva parado algún tiempo. A su vez, libLAS se generó a partir de una versión anterior de LASlib, aunque estas últimas han seguido evolucionando hacia una potente herramienta de procesado. Cabe notar, para evitar equívocos, que la librería LASlib es completamente libre, mientras que las herramientas (LASTools) tienen el código cerrado pero su utilización está autorizada para usos no comerciales. Además de lectura y escritura de datos y la transformación entre formatos, SPDlib incorpora herramientas para procesar y analizar datos y para generar modelos digitales de elevación. Por último, LASzip es la única librería capaz de leer y escribir datos LiDAR en formato LAZ. Éste es un tipo de formato comprimido pero con las mismas especificaciones que el formato LAS.
 
 El procesamiento de datos es, en general, *la recogida y manipulación de elementos de datos para producir información significativa*. Así pues, a través del **geoprocesamiento**, se manipulan los datos espaciales con el objetivo de presentarlos en un contexto específico. En cuanto al procesamiento de datos vectoriales aparecen dos tendencias claras: una serie de librerías orientadas a la generación de scriptlets de forma intuitiva y sencilla (GeoScript/Shapely); y librerías clásicas de geoprocesamiento a nivel servidor (GEOS/JTS/GeoTools). 
@@ -59,13 +58,16 @@ Además, GDAL se suele utilizar para la preparación de imágenes ráster de for
 
 **Mapnik** es una herramienta para el renderizado de mapas atractivos, con bordes de geometrías limpios y suaves, provisto de un sistema gráfico con anti-aliasing de calidad, posicionamiento inteligente de etiquetas, y simbolización SVG escalable. La mayor fama de mapnik viene por ser utilizado como render de la capa principal de Open Street Map.
 
+Otra problemática tratada en esta sección es el routing o cálculo de rutas. Pertenecen a este grupo las librerías **pgRouting**, **OSRM** y **OpenTripPlanner**. **pgRouting** es un complemento de PostGIS que añade una serie de funciones SQL  que permiten el cálculo de rutas a través de los distintos algoritmos. **OSRM** ofrece una API HTTP para él cálculo de rutas basadas en los datos de OSM. **OpenTripPlanner** ofrece una API REST que permite el cálculo de rutas basadas el distintos métodos de transporte (incluyendo parámetros como el alquiler de bicicletas o el transporte público).
+
 Puntos calientes
 ----------------
 
-.. note:: Dentro de la sección, hacia donde se está moviendo la comunidad.
 .. todo:: Queda hablar de routing
 
-Últimamente, la tecnología LiDAR está en auje y cada vez aparecen más librerías que ofrecen la posibilidad de trabajar con datos LiDAR en el formato LAS. Algunas también incorporan conjuntos herramientas para el procesado y análisis de datos. Estas herramientas suelen aparecer como comandos de consola para favorecer el desarrollos de *scripts*. Con el objetivo de favorecer la programación de sencillos programas, todas incorporan *bindings* en python. Para permitir un uso más sencillo y cómodo la comunidad está haciendo esfuerzos en la creación interfaces gráficas y en la incorporación de forma nativa de lectura y escritura de datos láser en clientes de escritorio como QGIS o GRASS. 
+Últimamente, la tecnología LiDAR está en auje y cada vez aparecen más librerías que ofrecen la posibilidad de trabajar con datos LiDAR en el formato LAS_. Algunas también incorporan conjuntos herramientas para el procesado y análisis de datos. Estas herramientas suelen aparecer como comandos de consola para favorecer el desarrollos de *scripts*. Con el objetivo de favorecer la creación de sencillos programas, los esfuerzos se están centrando en incorporan *bindings* en python. Para permitir un uso más sencillo y cómodo la comunidad está haciendo esfuerzos en la creación interfaces gráficas y en la incorporación de forma nativa de lectura y escritura de datos láser en clientes de escritorio como QGIS o GRASS. 
+
+.. _LAS: http://www.asprs.org/Committee-General/LASer-LAS-File-Format-Exchange-Activities.html
 
 Respecto al **geoprocesamiento**, probablemente, los avances más significativos se están realizando en la abstración de las librerías clásicas con el objetivo de facilitar su uso de cara a los desarrolladores. Dentro de este grupo se enmcuentran GeoScript, Shapely o  GeoBatch. 
 
@@ -86,7 +88,94 @@ En cuanto al **geoprocesamiento**, los conocimientos necesarios son distintos se
 Documentación
 -------------
 
-.. note:: Enlace al wiki y quizás alguna sugerencia particular en alguna sección.
+A continuación se enumeran una serie de enlaces a páginas de documentación, tutoriales o ejemplos que pueden ser de ayuda para trabajar con estas librerías:
 
+.. list-table:: Documentación de proyectos
+   :widths: 10 10 10 35
+   :header-rows: 1
 
+   * - Proyecto
+     - Documentación
+     - OSGeo Live
+     - Otros
 
+   * - **GDAL/OGR**
+     - `GDAL docs <http://www.gdal.org/gdal_utilities.html>`_; `OGR docs <http://www.gdal.org/ogr2ogr.html>`_
+     - `GDAL qs <http://live.osgeo.org/es/quickstart/gdal_quickstart.html>`_
+     - `GDAL wiki <http://trac.osgeo.org/gdal/>`_
+
+   * - **JTS Topology Suite**
+     - `JTS Topology Suite docs <http://www.vividsolutions.com/jts/JTSHome.htm>`_
+     -
+     -
+
+   * - **GEOS**
+     - `GEOS API docs <http://geos.osgeo.org/doxygen/>`_
+     -
+     - `Tutorial de la documentación de Django <https://docs.djangoproject.com/en/dev/ref/contrib/gis/geos/#tutorial>`_
+
+   * - **GeoTools**
+     - `GeoTools docs <http://docs.geotools.org/>`_
+     -
+     - `Soporte y comunidad <http://docs.geotools.org/latest/userguide/welcome/support.html>`_
+
+   * - **Shapely**
+     - `Shapely docs <http://toblerity.org/shapely/manual.html>`_
+     -
+     -
+
+   * - *GeoScript **
+     - `GeoScript docs <http://geoscript.org/learning/index.html>`_
+     -
+     - `Tutoriales oficiales <http://geoscript.org/tutorials/index.html>>`_
+
+   * - **libLAS**
+     - `libLAS docs <http://www.liblas.org/docs.html>`_
+     - `libLAS qs <http://live.osgeo.org/es/overview/overview.html>`_
+     -
+
+   * - **LASlib/LASzip**
+     - `Tutoriales <http://rapidlasso.com/category/tutorials/>`_; `Artículo sobre LASzip <http://lastools.org/download/laszip.pdf>`
+     -
+     - `Manual de *Minnesota Department of Natural Resources* <https://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CC0QFjAA&url=ftp%3A%2F%2Flidar.dnr.state.mn.us%2Fdocumentation%2FLAS_File_Processing_Using_LASTOOLS.pdf&ei=TRcvU9ioAabH7AampYGYBg&usg=AFQjCNFd7hF1fTN4KmIPe7qgmpxN4V5sLg&sig2=3w6WI9lYF35VJpMvV6aXcA&bvm=bv.62922401,d.ZGU&cad=rja>`_
+
+   * - **PDAL**
+     - `PDAL docs <http://www.pdal.io/docs.html>`_
+     -
+     -
+
+   * - **SPDlib**
+     - `SPDlib docs <https://bitbucket.org/petebunting/spdlib-documentation>`_
+     -
+     - `Tutoriales <http://www.spdlib.org/doku.php?id=spdlib:users:tutorials:tutorials>`_
+
+   * - **Laspy**
+     -LASpy docs ` <http://laspy.readthedocs.org/en/latest/>`_
+     -
+     -
+
+   * - **OSRM**
+     - `General OSRM instructions <https://github.com/DennisOSRM/Project-OSRM/wiki/Running-OSRM>`_
+     - ` <>`_
+     - `OSRM Server API <https://github.com/DennisOSRM/Project-OSRM/wiki/Server-api>`_
+
+   * - **pgRouting**
+     - `pgRouting docs <http://docs.pgrouting.org/2.0/es/doc/index.html>`_
+     - `pgRouting qs <http://live.osgeo.org/es/quickstart/pgrouting_quickstart.html>`_
+     - `Guía para principiantes <http://anitagraser.com/2011/02/07/a-beginners-guide-to-pgrouting/>`_
+
+   * - **OpenTripPlanner**
+     - `OpenTripPlanner docs <https://github.com/opentripplanner/OpenTripPlanner/wiki/Tutorials>`_
+     -
+     - `Guía de desarrollador <https://github.com/opentripplanner/OpenTripPlanner/wiki/DevelopersGuide>`_; 
+
+   * - **GeoBatch**
+     - `GeoBatch docs <http://geobatch.geo-solutions.it/download/latest/doc/>`_
+     - 
+     -
+
+   * - **Mapnik**
+     - `Mapnik docs <http://mapnik.org/docs/>`_
+     - `Mapnik qs <http://live.osgeo.org/es/quickstart/mapnik_quickstart.html>`_
+     - `Tutoriales <https://github.com/mapnik/mapnik/wiki/MapnikTutorials>`_
+ 
