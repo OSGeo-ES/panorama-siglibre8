@@ -42,7 +42,7 @@ Cualquier librería LiDAR presentada en este documento se puede utilizar para la
 
 El procesamiento de datos es, en general, *la recogida y manipulación de elementos de datos para producir información significativa*. Así pues, a través del **geoprocesamiento**, se manipulan los datos espaciales con el objetivo de presentarlos en un contexto específico. En cuanto al procesamiento de datos vectoriales aparecen dos tendencias claras: una serie de librerías orientadas a la generación de scriptlets de forma intuitiva y sencilla (GeoScript/Shapely); y librerías clásicas de geoprocesamiento a nivel servidor (GEOS/JTS/GeoTools). 
 
-`Shapely`_ ** es un paquete de algoritmos para procesamiento espacial 2D escrito en Python.
+`Shapely`_ es un paquete de algoritmos para procesamiento espacial 2D escrito en Python.
 
 .. _Shapely: https://github.com/sgillies/shapely
 
@@ -64,6 +64,8 @@ El procesamiento de datos es, en general, *la recogida y manipulación de elemen
 .. _GEOS: http://trac.osgeo.org/geos/
 
 `GDAL`_ se suele utilizar como complemento de todas las demás herramientas para la preparación de imágenes ráster de forma que mejoren el rendimiento al ser servidas.
+
+.. _GDAL: http://www.gdal.org/
 
 `GeoBatch`_ da un paso más allá en el geoprocesamiento, permitiendo la definición de ciertos flujos de procesamiento y permitiendo la ejecución de los mismos en background a través de distintos roles y usuarios (así como la ejecución programada de los mismos).
 
