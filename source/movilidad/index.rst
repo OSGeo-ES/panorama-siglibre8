@@ -12,6 +12,8 @@ Introducción
 
 Incluiremos en la categoría de dispositivos móviles los paquetes de software que se pueden utilizar desde *smartphones* y tabletas.  
 
+La posibilidad de disponer de GPS en los dispositivos móviles, ha convertido a estos aparatos en herramientas muy valiosas para su utilización como navegadores, plataformas de geomarketing, sensores móviles, y en general como plataforma para todo tipo de aplicaciones en los que la geolocalización sea un componente de valor.
+
 Actualmente existen dos sistemas operativos para dispositivos móviles que abarcan la gran mayoría de los dispositivos funcionando: Android e iOS. El primero, Android, es el más abierto de los dos, y dispone de un buen número de aplicaciones y librerías que sí se ofrecen en modalidad Open Source permitiendo su utilización en desarrollos ulteriores.
 
 En ambos casos el sistema operativo subyacente es Linux. En los dispositivos iOS se utiliza una variante del lenguaje C para programarlos: el Objective C. En los dispositivos Android se utiliza una variante del lenguaje Java para programarlos.
