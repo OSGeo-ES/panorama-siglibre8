@@ -41,7 +41,19 @@ Software
 
 Cualquier librería LiDAR presentada en este documento se puede utilizar para la transformación de formatos láser, pero quizás la más adecuada para ello es PDAL, ya que está pensada especialmente para ello. Es más, PDAL trata de mejorar la librería libLAS cuyo desarrollo lleva parado algún tiempo. A su vez, libLAS se generó a partir de una versión anterior de LASlib, aunque estas últimas han seguido evolucionando hacia una potente herramienta de procesado. Cabe notar, para evitar equívocos, que la librería LASlib es completamente libre, mientras que las herramientas (LASTools) tienen el código cerrado pero su utilización está autorizada para usos no comerciales. Además de lectura y escritura de datos y la transformación entre formatos, SPDlib incorpora herramientas para procesar y analizar datos y para generar modelos digitales de elevación. Por último, LASzip es la única librería capaz de leer y escribir datos LiDAR en formato LAZ. Éste es un tipo de formato comprimido pero con las mismas especificaciones que el formato LAS.
 
-El procesamiento de datos es, en general, *la recogida y manipulación de elementos de datos para producir información significativa*. Así pues, a través del **geoprocesamiento**, se manipulan los datos espaciales con el objetivo de presentarlos en un contexto específico. En cuanto al procesamiento de datos vectoriales aparecen dos tendencias claras: una serie de librerías orientadas a la generación de scriptlets de forma intuitiva y sencilla (GeoScript/Shapely); y librerías clásicas de geoprocesamiento a nivel servidor (GEOS/JTS/GeoTools). Además, GDAL se suele utilizar para la preparación de imágenes ráster de forma que mejoren el rendimiento al ser servidas.
+El procesamiento de datos es, en general, *la recogida y manipulación de elementos de datos para producir información significativa*. Así pues, a través del **geoprocesamiento**, se manipulan los datos espaciales con el objetivo de presentarlos en un contexto específico. En cuanto al procesamiento de datos vectoriales aparecen dos tendencias claras: una serie de librerías orientadas a la generación de scriptlets de forma intuitiva y sencilla (GeoScript/Shapely); y librerías clásicas de geoprocesamiento a nivel servidor (GEOS/JTS/GeoTools). 
+
+**Shapely** es un paquete de algoritmos para procesamiento espacial 2D escrito en Python.
+
+**GeoScript** añade capacidades espaciales a los lenguajes dinámicos como JavaScript, Python, Scala o Groovy.
+
+**JTS Topology Suite** es una librería escrita 100% en Java que implementa la `SFA`_ y permite operar con geometrías incorporando una buena colección de algoritmos espaciales 2D. El rendimiento es elevado permitiendo la utilización de sus algoritmos en entornos de producción. 
+
+**Geotools** es una librería 100% Java con todo tipo de herramientas para procesamiento y visualización de contenidos geoespaciales. Implementa la mayoría de estándares del OGC. El procesamiento espacial lo realiza embebiendo JTS. Añade la posibilidad de trabajar con Sistemas de Referencia y acceder a bases de datos. Es parte del backend utilizado por Geoserver.
+
+**GEOS** es una versión C++ de la librería *JTS Topology Suite*
+
+Además, GDAL se suele utilizar para la preparación de imágenes ráster de forma que mejoren el rendimiento al ser servidas.
 
 **GeoBatch** da un paso más allá en el geoprocesamiento, permitiendo la definición de ciertos flujos de procesamiento y permitiendo la ejecución de los mismos en background a través de distintos roles y usuarios (así como la ejecución programada de los mismos).
 
@@ -67,7 +79,7 @@ Curva de aprendizaje y conocimientos previos
 
 Para trabajar con las librerías LiDAR es conveniente tener conocimientos de C++, ya que es el lenguaje común a todas ellas. Aunque existen ya interfaces gráficas para trabajar con estas herramientas, el módo más rápido y versátil es la línea de comando y la utilización de *scripts* o incluso la programación en Python. Por tanto, tener experiencia en estos campos facilitaría su utilización. Escribir en la consola nunca es agradable para cualquier persona que empieza, pero la mayor ventajan que presentan es que todas las herramientas tienen las mismas funcionalidades y es muy intuitivo aprender el lenguaje utilizado en cualquiera de ellas si se adquieren conocmientos previos en alguna otra librería. 
 
-En cuanto al **geoprocesamiento**, los conocimientos necesarios son distintos según la(s) librería(s) que quieras usar. Para todas necesitarás conocimentos acerca del modelo `SFA`_. A no ser que necesites una funcionalidad específica de una de las librerías, podrás elegir aquella que se adecúe más a tus conocimientos.
+En cuanto al **geoprocesamiento**, los conocimientos necesarios son distintos según la(s) librería(s) que quieras usar. Para todas necesitarás conocimentos acerca del modelo `SFA`_. A no ser que necesites una funcionalidad específica de una de las librerías, podrás elegir aquella que se adecúe más a tus conocimientos. 
 
 .. _SFA: http://www.opengeospatial.org/standards/sfa
 

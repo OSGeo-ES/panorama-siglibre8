@@ -37,7 +37,7 @@ Las principales librerías y programas disponibles en código abierto son:
 
 OpenLayers_ y LeafLet_: 
 
-En ambos casos se trata de librerías Javascript cuyo objetivo es la visualización de información cartográfica en entornos de Web-mapping. Los dispositivos móviles disponen de navegadores que interpretan el Javascript, por lo que, en general, es posible utilizar las librerías Javascript para visualizaciones desde dispositivos móviles, sean estos Android, iOS u otros. Las páginas web basadas en OpenLayers o Leaflet permiten su visualización en dispositivos móviles a través del navegador. En el caso de OpenLayers versión 2 hay que tener algunas precauciones al programar las páginas. La futura versión 3 de OpenLayers superará estas limitaciones. El funcionamiento de estas librerías se ha tratado ampliamente
+En ambos casos se trata de librerías Javascript cuyo objetivo es la visualización de información cartográfica en entornos de Web-mapping. Los dispositivos móviles disponen de navegadores que interpretan el Javascript, por lo que, en general, es posible utilizar las librerías Javascript para visualizaciones desde dispositivos móviles, sean estos Android, iOS u otros. Las páginas web basadas en OpenLayers o Leaflet permiten su visualización en dispositivos móviles a través del navegador. En el caso de OpenLayers versión 2 hay que tener algunas precauciones al programar las páginas. La futura versión 3 de OpenLayers superará estas limitaciones. El funcionamiento de estas librerías se ha tratado en la sección correspondiente a Librerías.
 
 OSMDroid_: 
 
@@ -80,13 +80,13 @@ Curva de aprendizaje y conocimientos previos
 
 La programación de los dispositivos Android se realiza a través de un lenguaje Java propio de Android. Muchas de las librerías disponibles para Java funcionan también en dispositivos Android. Es necesario conocer los fundamentos básicos de la programación Java y, además, conocer la forma de utilizar Java en Android. No es un lenguaje sencillo y además la variedad de dispositivos y de tamaños de pantallas hace un poco más complicada la programación.
 
-Conocidos los fundamentos de la programación en Android, es posible utilizar las herramientas descritas anteriormente con un pequeño esfuerzo adicional que permita conocer cada una de ellas.. 
+Conocidos los fundamentos de la programación en Android, es posible utilizar las herramientas descritas anteriormente con un pequeño esfuerzo adicional que permita conocer cada una de ellas.
 
 Documentación
 -------------
 
 .. list-table:: Documentación de proyectos
-   :widths: 15 15 15 35
+   :widths: 12 15 15 30
    :header-rows: 1
 
    * - Proyecto
