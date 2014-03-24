@@ -64,8 +64,7 @@ Autores
 * |delawen|· Ingeniera especialista en Spatial IT de `GeoCat <http://www.geocat.net/>`_ · http://delawen.com
 * |moiarcsan| · Ingeniero Técnico Informático · Desarrollador GIS en `Emergya <http://www.emergya.es/>`_ · http://moisesarcos.wordpress.com/
 * |rantolin| · Investigador y desarrollador de aplicaciones LiDAR en `Forestry Commission <http://www.forestry.gov.uk/>`_
-* |shiguera| . Ingeniero de caminos y master en Sistemas de Ingeniería Civil, CEO en 
-`MercatorLab <http://mercatorlab.com>`_
+* |shiguera| . Ingeniero de caminos y master en Sistemas de Ingeniería Civil, CEO en `MercatorLab S.L. <http://mercatorlab.com>`_
 
 
 
