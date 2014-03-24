@@ -140,6 +140,9 @@ TileMill es una herramienta pensada para diseñar y crear mapas para su visualiz
 Puntos calientes
 ----------------
 
+En el ámbito geoespacial, el panorama de clientes SIG opensource goza de buena salud, y a pesar que se ha alcanzado un buen nivel tanto en relación a la diversidad de productos disponibles, com en las prestaciones de estos, la mejora es continua y el desarrollo nuevas funcionalidades parece avanzar favorablemente.
+
+
 Una de las limitaciones existentes en los SIG de escritorio actuales es la capacidad para la gestión y visualización de datos en 3D. Algunos paquetes contienen estructuras híbridas para la visualización en 2.5D, en las que se representan los datos como una falsa tridimensionalidad mediante proyecciones gráficas en 2D. Sin embargo, se requiere funcionalidades más avanzadas para el manejo de estos datos más complejos con más de dos dimensiones. Este paradigma se repite con los datos temporales. Añadir la tercera componente espacial, es decir tener puntos (X,Y,Z), más una componente tiempo asociada, se asemejaría más a la realidad, pudiendo además, analizar procesos dinámicos de los elementos representados.
 
 Un ejemplo de datos en los que es necesario una visualización 3D son los datos LiDAR_. El uso de datos LiDAR se está extendiendo cada vez más dentro de los usuarios de herramientas SIG. Ya existen librerías capaces de no sólo leer y escribir sino también de analizar y procesar datos láser en formato LAS_ :ref:`librerias`. Hasta la fecha, ninguno de los paquetes presetados son capaces de trabajar con datos laser de forma nativa. Sólo GRASS es capaz de importar datos en formato LAS, pero la forma en que gestiona y almacena los mismos no es óptima. 
