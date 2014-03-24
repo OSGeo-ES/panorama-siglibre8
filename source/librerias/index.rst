@@ -42,23 +42,51 @@ Cualquier librería LiDAR presentada en este documento se puede utilizar para la
 
 El procesamiento de datos es, en general, *la recogida y manipulación de elementos de datos para producir información significativa*. Así pues, a través del **geoprocesamiento**, se manipulan los datos espaciales con el objetivo de presentarlos en un contexto específico. En cuanto al procesamiento de datos vectoriales aparecen dos tendencias claras: una serie de librerías orientadas a la generación de scriptlets de forma intuitiva y sencilla (GeoScript/Shapely); y librerías clásicas de geoprocesamiento a nivel servidor (GEOS/JTS/GeoTools). 
 
-**Shapely** es un paquete de algoritmos para procesamiento espacial 2D escrito en Python.
+`Shapely`_ ** es un paquete de algoritmos para procesamiento espacial 2D escrito en Python.
 
-**GeoScript** añade capacidades espaciales a los lenguajes dinámicos como JavaScript, Python, Scala o Groovy.
+.. _Shapely: https://github.com/sgillies/shapely
 
-**JTS Topology Suite** es una librería escrita 100% en Java que implementa la `SFA`_ y permite operar con geometrías incorporando una buena colección de algoritmos espaciales 2D. El rendimiento es elevado permitiendo la utilización de sus algoritmos en entornos de producción. 
+`GeoScript`_ añade capacidades espaciales a los lenguajes dinámicos como JavaScript, Python, Scala o Groovy.
 
-**Geotools** es una librería 100% Java con todo tipo de herramientas para procesamiento y visualización de contenidos geoespaciales. Implementa la mayoría de estándares del OGC. El procesamiento espacial lo realiza embebiendo JTS. Añade la posibilidad de trabajar con Sistemas de Referencia y acceder a bases de datos. Es parte del backend utilizado por Geoserver.
+.. _GeoScript: http://geoscript.org/
 
-**GEOS** es una versión C++ de la librería *JTS Topology Suite*
 
-Además, GDAL se suele utilizar para la preparación de imágenes ráster de forma que mejoren el rendimiento al ser servidas.
+`JTS`_ Topology Suite** es una librería escrita 100% en Java que implementa la `SFA`_ y permite operar con geometrías incorporando una buena colección de algoritmos espaciales 2D. El rendimiento es elevado permitiendo la utilización de sus algoritmos en entornos de producción. 
 
-**GeoBatch** da un paso más allá en el geoprocesamiento, permitiendo la definición de ciertos flujos de procesamiento y permitiendo la ejecución de los mismos en background a través de distintos roles y usuarios (así como la ejecución programada de los mismos).
+.. _JTS: http://www.vividsolutions.com/jts/JTSHome.htm
 
-**Mapnik** es una herramienta para el renderizado de mapas atractivos, con bordes de geometrías limpios y suaves, provisto de un sistema gráfico con anti-aliasing de calidad, posicionamiento inteligente de etiquetas, y simbolización SVG escalable. La mayor fama de mapnik viene por ser utilizado como render de la capa principal de Open Street Map.
+`Geotools`_ es una librería 100% Java con todo tipo de herramientas para procesamiento y visualización de contenidos geoespaciales. Implementa la mayoría de estándares del OGC. El procesamiento espacial lo realiza embebiendo JTS. Añade la posibilidad de trabajar con Sistemas de Referencia y acceder a bases de datos. Es parte del backend utilizado por Geoserver.
 
-Otra problemática tratada en esta sección es el routing o cálculo de rutas. Pertenecen a este grupo las librerías **pgRouting**, **OSRM** y **OpenTripPlanner**. **pgRouting** es un complemento de PostGIS que añade una serie de funciones SQL  que permiten el cálculo de rutas a través de los distintos algoritmos. **OSRM** ofrece una API HTTP para él cálculo de rutas basadas en los datos de OSM. **OpenTripPlanner** ofrece una API REST que permite el cálculo de rutas basadas el distintos métodos de transporte (incluyendo parámetros como el alquiler de bicicletas o el transporte público).
+.. _Geotools: http://www.geotools.org/
+
+`GEOS`_ es una versión C++ de la librería *JTS Topology Suite*
+
+.. _GEOS: http://trac.osgeo.org/geos/
+
+`GDAL`_ se suele utilizar como complemento de todas las demás herramientas para la preparación de imágenes ráster de forma que mejoren el rendimiento al ser servidas.
+
+`GeoBatch`_ da un paso más allá en el geoprocesamiento, permitiendo la definición de ciertos flujos de procesamiento y permitiendo la ejecución de los mismos en background a través de distintos roles y usuarios (así como la ejecución programada de los mismos).
+
+.. _GeoBatch: http://geobatch.geo-solutions.it/
+
+`Mapnik`_ es una herramienta para el renderizado de mapas atractivos, con bordes de geometrías limpios y suaves, provisto de un sistema gráfico con anti-aliasing de calidad, posicionamiento inteligente de etiquetas, y simbolización SVG escalable. La mayor fama de mapnik viene por ser utilizado como render de la capa principal de Open Street Map.
+
+.. _Mapnik: http://mapnik.org/
+
+En relación con el routing o cálculo de rutas, mencionamos en este grupo las librerías **pgRouting**, **OSRM** y **OpenTripPlanner**. 
+
+`pgRouting`_ es una extensión de la base de datos espacial Potgres-PostGIS que añade funcionalidades de routing, esto es, de cálculo de rutas y caminos mínimos a través de los distintos algoritmos. 
+
+.. _pgRouting: http://pgrouting.org/
+
+`OSRM`_ Es una librería escrita en C++ que proporciona algoritmos de camino mínimo y herramientas de routing utilizando la cartografía de OpenStreetMap como red de caminos. 
+
+.. _OSRM: http://project-osrm.org/
+
+`OpenTripPlanner`_ ofrece una API REST que permite el cálculo de rutas basadas el distintos métodos de transporte (incluyendo parámetros como el alquiler de bicicletas o el transporte público).
+
+.. _OpenTripPlanner: http://www.opentripplanner.org/
+
 
 Puntos calientes
 ----------------
