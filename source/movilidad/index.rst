@@ -10,7 +10,7 @@ Autores
 Introducción
 ------------
 
-Incluiremos en la categoría de dispositivos móviles los paquetes de software que se pueden utilizar desde *smartphones* y tabletas.  
+Incluiremos en la categoría de dispositivos móviles los paquetes de software que se pueden utilizar desde dispositivos móviles del tipo de los *smartphones* y tabletas.  
 
 La posibilidad de disponer de GPS en los dispositivos móviles, ha convertido a estos aparatos en herramientas muy valiosas para su utilización como navegadores, plataformas de geomarketing, sensores móviles, y en general como plataforma para todo tipo de aplicaciones en los que la geolocalización sea un componente de valor.
 
@@ -32,7 +32,7 @@ La utilización de Java permite también que librerías inicialmente pensadas pa
    :align: center
    :alt: Información general sobre las tecnologías
 
-   Información general sobre tecnologías
+.. important:: Se puede consultar la versión más reciente, así como los enlaces asociados y anotaciones en la sección de `Moviles <http://wiki.osgeo.org/wiki/Panorama_SIG_Libre_2014/Moviles>`_ del wiki de OSGeo.
 
 
 Las principales librerías y programas disponibles en código abierto son:
@@ -69,6 +69,10 @@ OsmSharp_:
 
 Es una herramienta para trabajar con cartografía de OpenStreetMap. Permite la visualización de información vectorial y el cálculo de rutas. Se puede utilizar en Android, iOS y WindowsPhone, así como en Linux, Windows y OSX.
 
+Glob3Mobile_:
+
+En el campo de la visualización 3d destacamos aquí el proyecto Glob3 Mobile, desarrollado por IGO SOFTWARE y ULPGC con el respaldo de organismos públicos y privados españoles. Se trata de un componente para desarrollar aplicaciones 2D, 2.5D y 3D para dispositivos móviles, tanto Android como iPhone y en general en cualquier entorno HTML5.
+
 Puntos calientes
 ----------------
 Actualmente hay dos sistemas operativos para móviles que acaparan la mayoría de los dispositivos utilizados. Se trata del sistema iOS de Apple y el sistema Android de Google. El más '*abierto*' es el sistema operativo Android, si bien ninguno de los dos es realmente abierto.
@@ -76,6 +80,9 @@ Actualmente hay dos sistemas operativos para móviles que acaparan la mayoría d
 Es importante destacar que, cuando el dispositivo móvil utiliza un navegador web para visualizar información en la red, la distinción entre dispositivos móviles y ordenadores de escritorio se hace más difusa, pues las mismas herramientas y librerías nos sirven para visualizar información en un dispositivo móvil u otro tipo de elemento de computación. Es el caso de las librerías OpenLayers o LeafLet, que nos permiten, con pequeñas diferencias, acceder a la visualización de información cartográfica desde cualquier navegador, sea este basado en móviles o en ordenadores de escritorio.
 
 Otro frente actual es el de los sistemas operativos que tratan de ser funcionales tanto en dispositivos móviles como en ordenadores de escritorio. En esta categoría se incuyen el sistema operativo Ubuntu móvil o el Windows 8 que permiten ser ejecutados en todo tipo de ordenadores. Es previsible que el aumento de potencia de los dispositivos móviles unido a la conveniencia de compatibilidad entre dispositivos, permita en un futuro cercano que la distinción entre sistemas operativos para dispositivos móviles y para ordenadores de escritorio se haga cada vez más difusa.
+
+Es previsible que la visualización 3D vaya ganando protagonismo en los próximos años.
+
 
 Curva de aprendizaje y conocimientos previos
 --------------------------------------------
@@ -141,6 +148,11 @@ Documentación
      - `OsmSharp documentation <http://www.osmsharp.com/wiki/documentation>`_ 
      - ...
 
+   * - **Glob3 Mobile**
+     - `Glob3 Home <http://www.glob3mobile.com/>`_
+     - `Glob3 documentation <https://github.com/glob3mobile/g3m>`_ 
+     - `About <http://www.glob3mobile.com/coding/>`_
+
    
 
 .. Enlaces
@@ -163,3 +175,6 @@ Documentación
 .. _MapsForge: https://code.google.com/p/mapsforge/
 
 .. _Osmosis: http://wiki.openstreetmap.org/wiki/Osmosis
+
+.. _Glob3Mobile: http://www.glob3mobile.com/
+
