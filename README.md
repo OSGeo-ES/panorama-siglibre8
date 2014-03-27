@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Panorama-SIGLibre 8
 =====================
 
@@ -10,3 +11,9 @@ Más información y coordinación en
 
 http://wiki.osgeo.org/wiki/Comparativa_de_SIG_Libre_2014
 
+=======
+panorama-siglibre8
+==================
+
+Repositorio para trabajar en la revisión del Panorama FOSS4G para las jornadas de SIG Libre 2014
+>>>>>>> origin/paper
