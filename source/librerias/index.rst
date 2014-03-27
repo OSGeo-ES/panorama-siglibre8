@@ -50,7 +50,7 @@ El procesamiento de datos es, en general, *la recogida y manipulación de elemen
 .. _GeoScript: http://geoscript.org/
 
 
-`JTS`_ Topology Suite** es una librería escrita 100% en Java que implementa la `SFA`_ y permite operar con geometrías incorporando una buena colección de algoritmos espaciales 2D. El rendimiento es elevado permitiendo la utilización de sus algoritmos en entornos de producción. 
+`JTS`_ Topology Suite es una librería escrita 100% en Java que implementa la `SFA`_ y permite operar con geometrías incorporando una buena colección de algoritmos espaciales 2D. El rendimiento es elevado permitiendo la utilización de sus algoritmos en entornos de producción. 
 
 .. _JTS: http://www.vividsolutions.com/jts/JTSHome.htm
 
@@ -163,7 +163,7 @@ A continuación se enumeran una serie de enlaces a páginas de documentación, t
      -
 
    * - **LASlib/LASzip**
-     - `Tutoriales <http://rapidlasso.com/category/tutorials/>`_; `Artículo sobre LASzip <http://lastools.org/download/laszip.pdf>`
+     - `Tutoriales <http://rapidlasso.com/category/tutorials/>`_; `Artículo sobre LASzip <http://lastools.org/download/laszip.pdf>`_
      -
      - `Manual de *Minnesota Department of Natural Resources* <https://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CC0QFjAA&url=ftp%3A%2F%2Flidar.dnr.state.mn.us%2Fdocumentation%2FLAS_File_Processing_Using_LASTOOLS.pdf&ei=TRcvU9ioAabH7AampYGYBg&usg=AFQjCNFd7hF1fTN4KmIPe7qgmpxN4V5sLg&sig2=3w6WI9lYF35VJpMvV6aXcA&bvm=bv.62922401,d.ZGU&cad=rja>`_
 
@@ -178,7 +178,7 @@ A continuación se enumeran una serie de enlaces a páginas de documentación, t
      - `Tutoriales <http://www.spdlib.org/doku.php?id=spdlib:users:tutorials:tutorials>`_
 
    * - **Laspy**
-     - LASpy docs ` <http://laspy.readthedocs.org/en/latest/>`_
+     - `LASpy docs <http://laspy.readthedocs.org/en/latest/>`_
      -
      -
 
