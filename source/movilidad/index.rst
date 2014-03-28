@@ -71,7 +71,7 @@ Es una herramienta para trabajar con cartografía de OpenStreetMap. Permite la v
 
 Glob3Mobile_:
 
-En el campo de la visualización 3d destacamos aquí el proyecto Glob3 Mobile, desarrollado por IGO SOFTWARE y ULPGC con el respaldo de organismos públicos y privados españoles. Se trata de un componente para desarrollar aplicaciones 2D, 2.5D y 3D para dispositivos móviles, tanto Android como iPhone y en general en cualquier entorno HTML5.
+El proyecto Glob3 Mobile, desarrollado por IGO SOFTWARE y ULPGC con el respaldo de organismos públicos y privados españoles. Se trata de un componente para desarrollar mapas en dispositivos móviles, nativo y multiplataforma; permite aplicaciones 2D, 2.5D y 3D, tanto Android como iPhone y en general en cualquier entorno HTML5.
 
 Puntos calientes
 ----------------
