@@ -9,4 +9,3 @@ http://osgeo-es.github.io/panorama-siglibre8
 Más información y coordinación en
 
 http://wiki.osgeo.org/wiki/Comparativa_de_SIG_Libre_2014
-
