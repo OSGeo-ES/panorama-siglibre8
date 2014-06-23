@@ -52,12 +52,12 @@
  *********************************************/
 body {
   background: #ffffff;
-  background: -moz-radial-gradient(center, circle cover, #ffffff 0%, #f0e686 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #f0e686), color-stop(100%, #ffffff));
-  background: -webkit-radial-gradient(center, circle cover, #ffffff 0%, #f0e686 100%);
-  background: -o-radial-gradient(center, circle cover, #ffffff 0%, #f0e686 100%);
-  background: -ms-radial-gradient(center, circle cover, #ffffff 0%, #f0e686 100%);
-  background: radial-gradient(center, circle cover, #ffffff 0%, #f0e686 100%);
+  background: -moz-radial-gradient(center, circle cover, #ffffff 0%, #9fcf67 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #9fcf67), color-stop(100%, #ffffff));
+  background: -webkit-radial-gradient(center, circle cover, #ffffff 0%, #9fcf67 100%);
+  background: -o-radial-gradient(center, circle cover, #ffffff 0%, #9fcf67 100%);
+  background: -ms-radial-gradient(center, circle cover, #ffffff 0%, #9fcf67 100%);
+  background: radial-gradient(center, circle cover, #ffffff 0%, #9fcf67 100%);
   background-color: white; }
 
 .reveal {
@@ -98,8 +98,7 @@ body {
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  /*color: #3b759e;*/
-  color: #2f4f4f;
+  color: #3b759e;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
